@@ -6,7 +6,8 @@
 - TowerDefense
 
 ## first main points of interest
-- good main layout
+- get internship -> git gud
+- good main layout -> use layout from past project
 - 
 
 
