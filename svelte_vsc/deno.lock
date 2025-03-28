@@ -692,6 +692,8 @@
         "npm:prettier-plugin-tailwindcss@~0.6.11",
         "npm:prettier@^3.4.2",
         "npm:svelte-check@4",
+        "npm:svelte-i18n@4",
+        "npm:svelte-inview@^4.0.2",
         "npm:svelte@5",
         "npm:tailwindcss@4",
         "npm:typescript@5",
