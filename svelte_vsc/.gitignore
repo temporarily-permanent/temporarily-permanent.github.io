@@ -1,5 +1,8 @@
 node_modules
 
+# Editor
+.idea
+
 # Output
 .output
 .vercel
