@@ -1,18 +1,1 @@
-@import 'tailwindcss';
-
-/* Custom styles */
-@utility
-  html {
-      box-sizing: border-box;
-  }
-    body {
-        font-family: 'Arial, sans-serif';
-        color: #007dff;
-      background-color: #550404;
-    }
-
-@layer components {
-  .btn {
-    @apply px-4 py-2 bg-blue-500 text-white rounded-md;
-  }
-}
+* {background-color: #012547; color: #550404; font-family: Arial, sans-serif;}
