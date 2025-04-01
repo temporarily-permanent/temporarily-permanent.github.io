@@ -1,2 +1,5 @@
+node_modules
+.idea
+.svelte-kit
 ## git ignore shortcut folder
 *.lnk
