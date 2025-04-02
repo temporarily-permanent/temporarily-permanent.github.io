@@ -1,15 +1,21 @@
 <script>
+	import CustomSelect from '$lib/components/CustomSelect.svelte';
+
 	let data = [
-		{ ref: 'AboutMe', text: 'About Me' },
-		{ ref: 'ColorPalette', text: 'Color Palette' },
+		{ type : 0, ref: 'AboutMe', text: 'About Me' },
+		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 	];
 </script>
 
 <header>
 	{#each data as item}
-		<a href={item.ref}>
-			{item.text}
-		</a>
+		{#if item.type === 0}
+			<a href={item.ref}>
+				{item.text}
+			</a>
+		{:else if item.type === 1}
+			<CustomSelect/>
+		{/if}
 	{/each}
 </header>
 
