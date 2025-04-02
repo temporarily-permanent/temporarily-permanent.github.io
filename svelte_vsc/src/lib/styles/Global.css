@@ -25,6 +25,11 @@
     background-color: #012547; color: var(--dark-red-7); font-family: Arial, sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+
+}
+
 .outline{
     color: var(--gray);
     background-color: transparent;

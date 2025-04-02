@@ -1,26 +1,29 @@
 <script>
-
-	//let data = ["":"About Me", "Color Palette"];
+	let data = [
+		{ ref: 'AboutMe', text: 'About Me' },
+		{ ref: 'ColorPalette', text: 'Color Palette' },
+	];
 </script>
 
 <header>
-	<a href="AboutMe">
-		About Me
-	</a>
-	<a href="ColorPalette">
-		color palette
+	{#each data as item}
+		<a href={item.ref}>
+			{item.text}
 		</a>
-	<h1>just some text<br>aaa</h1>
+	{/each}
 </header>
 
 <style>
     header{
 				position: fixed;
-        bottom: 0px;
+				min-height: 60px;
+				height: 15%;
+        bottom: 0;
         left: 50%;
         transform: translate(-50%, -5%);
         outline: 2px solid black;
 				display: flex;
 				flex-direction: row;
+				justify-content: space-around;
 		}
 </style>
