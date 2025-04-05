@@ -4,17 +4,23 @@
 	let data = [
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
 		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
+		{ type : 0, ref: 'Projects', text: 'Projects' },
+		{ type : 1, ref: '', text: '' }, // CustomSelect
+		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
 	];
 </script>
 
 <header>
 	{#each data as item}
+
 		{#if item.type === 0}
-			<a href={item.ref}>
+			<a class="item" href={item.ref}>
 				{item.text}
 			</a>
+
 		{:else if item.type === 1}
-			<CustomSelect/>
+			<!--<CustomSelect class="item"/>-->
+
 		{/if}
 	{/each}
 </header>
@@ -22,14 +28,54 @@
 <style>
     header{
 				position: fixed;
-				min-height: 60px;
-				height: 15%;
-        bottom: 0;
+				padding: 0 2rem;
+				/*min-height: 60px;*/
+				min-height: 15%;
+				max-width: 500px;
+        bottom: 1vh;
         left: 50%;
         transform: translate(-50%, -5%);
+				border-radius: 5vh;
+				/*border-radius: 110px 110px 1% 0;*/
         outline: 2px solid black;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+				gap: 25px;
 		}
+
+
+
+		.item{
+        text-align-last: center;
+				max-height: 80px;
+				margin: auto;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+		}
+
+		.item:not(:last-child) {
+				border-right: 2px solid var(--dark-red-14);
+		}
+		.item:hover{
+				color: var(--dark-red-14);
+				text-decoration: underline;
+				text-decoration-color: var(--dark-red-14);
+				text-decoration-thickness: 2px;
+				text-underline-offset: 0.2rem;
+		}
+    /*not(:last-child) {
+			border-bottom: 2px solid black;
+			padding-bottom: 10px; /* Adjust the spacing as needed
+				margin-bottom: 10px; /* Adjust the spacing as needed
+
+						box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+								 transition: all 0.3s ease-in-out;
+				}*/
+		/*
+				padding: 0.5rem 1rem;
+				border-radius: 0.5rem;
+				transition: all 0.3s ease-in-out;*/
 </style>
