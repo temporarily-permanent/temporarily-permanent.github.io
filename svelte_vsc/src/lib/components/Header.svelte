@@ -1,5 +1,5 @@
 <script>
-	import CustomSelect from '$lib/components/CustomSelect.svelte';
+	//import CustomSelect from '$lib/components/CustomSelect.svelte';
 
 	let data = [
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
@@ -11,7 +11,7 @@
 </script>
 
 <header>
-	{#each data as item}
+	{#each data as item,i}
 
 		{#if item.type === 0}
 			<a class="item" href={item.ref}>
@@ -22,6 +22,9 @@
 			<!--<CustomSelect class="item"/>-->
 
 		{/if}
+		<!--{#if i !== data.length - 1}
+			<div class="divider">a</div>
+		{/if}-->
 	{/each}
 </header>
 
@@ -31,12 +34,12 @@
 				padding: 0 2rem;
 				/*min-height: 60px;*/
 				min-height: 15%;
-				max-width: 500px;
+				max-width: 600px;
         bottom: 1vh;
         left: 50%;
         transform: translate(-50%, -5%);
 				border-radius: 5vh;
-				/*border-radius: 110px 110px 1% 0;*/
+				/*border-radius: 110px 110px 0 0;*/
         outline: 2px solid black;
         display: flex;
         justify-content: space-around;
@@ -56,9 +59,9 @@
         font-weight: 600;
 		}
 
-		.item:not(:last-child) {
+		/*.item:not(:last-child) {
 				border-right: 2px solid var(--dark-red-14);
-		}
+		}*/
 		.item:hover{
 				color: var(--dark-red-14);
 				text-decoration: underline;
@@ -66,6 +69,14 @@
 				text-decoration-thickness: 2px;
 				text-underline-offset: 0.2rem;
 		}
+
+    .divider{
+        width: 2px;
+        height: 80%;
+        background-color: black;
+        color: white;
+    }
+
     /*not(:last-child) {
 			border-bottom: 2px solid black;
 			padding-bottom: 10px; /* Adjust the spacing as needed

@@ -30,6 +30,10 @@ a:link {
 
 }
 
+.divider{
+    border: 5px solid var(--dark-red-3);
+    margin: 0.5rem 0;
+}
 .outline{
     color: var(--gray);
     background-color: transparent;
