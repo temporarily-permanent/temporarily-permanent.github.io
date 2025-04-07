@@ -5,7 +5,6 @@
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
 		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 		{ type : 0, ref: 'Projects', text: 'Projects' },
-		{ type : 1, ref: '', text: '' }, // CustomSelect
 		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
 	];
 </script>
@@ -23,7 +22,7 @@
 
 		{/if}
 		<!--{#if i !== data.length - 1}
-			<div class="divider">a</div>
+			<div class="divider"></div>
 		{/if}-->
 	{/each}
 </header>
@@ -44,8 +43,9 @@
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
-        align-items: stretch;
-				gap: 25px;
+        align-items: center;
+				gap: 15px;
+				font-size: 1vh;
 		}
 
 
@@ -55,7 +55,8 @@
 				max-height: 80px;
 				margin: auto;
         text-decoration: none;
-        font-size: 1.5rem;
+        /*font-size: 1.5rem;*/
+				font-size: 5vh;
         font-weight: 600;
 		}
 
@@ -72,7 +73,7 @@
 
     .divider{
         width: 2px;
-        height: 80%;
+        height: 10vh;
         background-color: black;
         color: white;
     }
