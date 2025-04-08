@@ -30,7 +30,7 @@
 <style>
     header{
 				position: fixed;
-				padding: 0 2rem;
+				padding: 5px 1rem;
 				/*min-height: 60px;*/
 				min-height: 15%;
 				max-width: 600px;
@@ -56,7 +56,7 @@
 				margin: auto;
         text-decoration: none;
         /*font-size: 1.5rem;*/
-				font-size: 5vh;
+				font-size: calc(1vw + 2vh - 5px);
         font-weight: 600;
 		}
 
