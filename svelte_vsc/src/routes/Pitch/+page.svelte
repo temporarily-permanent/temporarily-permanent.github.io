@@ -47,10 +47,17 @@
 			which was the first i had a leader role<br>
 		</p>
 
-		<div style="display: inline;">
+		<div style="display: inline; vertical-align: top">
 			<img src="HollowKnight.png" alt="aaaa">
 			<img src="GithubPullRequests.png" alt="aaaa">
-			</div>
+		</div>
+		<h3>
+			contacts
+		</h3>
+		<p>
+			e-mail: jannesveuger@xs4all.nl <br>
+		</p>
+		<a href="https://www.linkedin.com/in/jannes-veuger-4b2918312/">Linkedin</a>
 	</div>
 
 
