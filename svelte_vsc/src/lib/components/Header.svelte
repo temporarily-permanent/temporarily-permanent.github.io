@@ -5,6 +5,7 @@
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
 		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 		{ type : 0, ref: 'Projects', text: 'Projects' },
+		{ type : 0, ref: 'Pitch',text: 'pitch'},
 		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
 	];
 </script>
@@ -30,6 +31,7 @@
 <style>
     header{
 				position: fixed;
+				z-index: 5;
 				padding: 5px 1rem;
 				/*min-height: 60px;*/
 				min-height: 15%;

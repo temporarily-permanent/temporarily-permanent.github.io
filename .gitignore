@@ -3,3 +3,5 @@ node_modules
 .svelte-kit
 ## git ignore shortcut folder
 *.lnk
+*.zip
+*.mp4

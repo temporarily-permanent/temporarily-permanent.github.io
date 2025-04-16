@@ -78,3 +78,9 @@
 		{ type : 0, ref: 'Champs Sports', text: 'Champs Sports' },
 		{ type : 0, ref: 'Finish Line', text: 'Finish Line' },
 	];
+
+md
+
+# observaties
+-
+    - er is betere uitleg nodig voor
