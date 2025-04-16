@@ -84,3 +84,13 @@ md
 # observaties
 -
     - er is betere uitleg nodig voor
+
+<p>
+			a game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+		</p>
+
+		<img src="GameSclice.png"><p>game sclice</p><img src="GameSclice.png" alt="aaaa">
