@@ -1,13 +1,15 @@
+<script src="../json/content_fuck_name.js"></script>
 <script>
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
-
-	let data = [
+	import socials from '$lib/json/content_fuck_name.js';
+		let data = [
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
 		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 		{ type : 0, ref: 'Projects', text: 'Projects' },
 		{ type : 0, ref: 'Pitch',text: 'pitch'},
 		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
 	];
+
 </script>
 
 <header>
