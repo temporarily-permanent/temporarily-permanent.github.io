@@ -1,7 +1,7 @@
-<script src="../json/content_fuck_name.js"></script>
+<script src="../json/content_options.js"></script>
 <script>
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
-	import socials from '$lib/json/content_fuck_name.js';
+	import socials from '$lib/json/content_options.js';
 		let data = [
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
 		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
