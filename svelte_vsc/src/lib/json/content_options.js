@@ -1,11 +1,46 @@
-
-
-
 // portfolio
-const ;
+// content type - 0 means headerText, 1 means normalText, 2 means image, (one day rider, 2 means video, 3 means audio)
+const portfolioData = {
+	projects: [{
+		title: 'game sclice - hollow knight',
+		description: 'This is the first project.',
+		url: 'https://example.com/project-one',
+		image: '/images/project-one.jpg',
+		content: [
+			{ type: 0, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' }]
+	}, {
+		title: 'Project Two',
+		description: 'This is the second project.',
+		url: 'https://example.com/project-two',
+		image: '/images/project-two.jpg',
+		content: [
+			{ type: 0, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' }]
+	}]
+};
 
+// about me
+const aboutMeData = {
+	name: 'Temporarily Permanent',
+	description: 'A passionate developer with a love for creating innovative solutions.',
+	avatar: '/images/avatar.jpg',
+	location: 'Somewhere, Earth',
+	interests: ['Coding', 'Gaming', 'Traveling'],
+	skills: ['JavaScript', 'Svelte', 'Node.js']
+};
+// socials
+const socialsData = {
+	github: { text: 'Github', url: 'https://github.com/temporarily-permanent' },
+	linkedin: { text: 'Linkedin', url: 'https://linkedin.com/in/temporarily-permanent' }
 
-const socials = {
-	github: { text:'aqaqaaaaazaza' }
-}
-export {socials}
+};
+export {
+	socialsData,
+	portfolioData,
+	aboutMeData
+};
