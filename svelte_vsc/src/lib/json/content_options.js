@@ -10,7 +10,8 @@ const portfolioData = {
 			{ type: 0, content: '' },
 			{ type: 1, content: '' },
 			{ type: 1, content: '' },
-			{ type: 1, content: '' }]
+			{ type: 1, content: '' }
+		]
 	}, {
 		title: 'Project Two',
 		description: 'This is the second project.',
@@ -20,19 +21,30 @@ const portfolioData = {
 			{ type: 0, content: '' },
 			{ type: 1, content: '' },
 			{ type: 1, content: '' },
-			{ type: 1, content: '' }]
+			{ type: 1, content: '' }
+		]
 	}]
 };
 
 // about me
 const aboutMeData = {
-	name: 'Temporarily Permanent',
-	description: 'A passionate developer with a love for creating innovative solutions.',
-	avatar: '/images/avatar.jpg',
-	location: 'Somewhere, Earth',
-	interests: ['Coding', 'Gaming', 'Traveling'],
+	name: "Jannes Veuger",
+	psudo_name:"Temporarily Permanent",
+	description:"i'm JV, a 21 year old software developer and interested in the computationally low-level and the technically complex",
+	avatar:,
+	location:,
+	interests:,
 	skills: ['JavaScript', 'Svelte', 'Node.js']
-};
+}
+
+//{
+//	name: 'Temporarily Permanent',
+//	description: 'A passionate developer with a love for creating innovative solutions.',
+//	avatar: '/images/avatar.jpg',
+//	location: 'Somewhere, Earth',
+//	interests: ['Coding', 'Gaming', 'Traveling'],
+//	skills: ['JavaScript', 'Svelte', 'Node.js']
+//};
 // socials
 const socialsData = {
 	github: { text: 'Github', url: 'https://github.com/temporarily-permanent' },

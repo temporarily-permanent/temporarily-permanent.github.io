@@ -94,3 +94,13 @@ md
 		</p>
 
 		<img src="GameSclice.png"><p>game sclice</p><img src="GameSclice.png" alt="aaaa">
+
+
+//{
+//	name: 'Temporarily Permanent',
+//	description: 'A passionate developer with a love for creating innovative solutions.',
+//	avatar: '/images/avatar.jpg',
+//	location: 'Somewhere, Earth',
+//	interests: ['Coding', 'Gaming', 'Traveling'],
+//	skills: ['JavaScript', 'Svelte', 'Node.js']
+//};
