@@ -3,15 +3,20 @@
 	// import bootstrap
 	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
-	import {portfolioData} from '$lib/json/content_options.js'
 	// find list of all projects
+	import {portfolioData} from '$lib/json/content_options.js'
+
+	import Article from '$lib/components/Article.svelte'
+
 </script>
 
 <!--use bootstrap to loop through list of projects-->
 <Container>
 	<Row>
-		{#each portfolioData.projects as projectItem}
+		{#each portfolioData.projects as projectItem, i}
 			<Col>
+				<
+				<Article  title={projectItem.title} content={projectItem.image} />
 				<p>{projectItem.title}</p>
 			</Col>
 		{/each}
