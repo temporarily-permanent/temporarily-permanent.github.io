@@ -22,7 +22,7 @@
 					title 			= {projectItem.title}
 					description = {projectItem.description}
 					image 			=	{projectItem.image}
-					path 				=	{page.url.toString()}
+					path 				=	{page.url.toString() + "/" + i}
 				/>
 <!--				<Article  title={projectItem.title} content={projectItem.image} />-->
 <!--				<p>{projectItem.title}</p>-->
