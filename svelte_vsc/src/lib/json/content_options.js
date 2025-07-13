@@ -31,9 +31,9 @@ const aboutMeData = {
 	name: "Jannes Veuger",
 	psudo_name:"Temporarily Permanent",
 	description:"i'm JV, a 21 year old software developer and interested in the computationally low-level and the technically complex",
-	avatar:,
-	location:,
-	interests:,
+	avatar: undefined,
+	location: undefined,
+	interests: undefined,
 	skills: ['JavaScript', 'Svelte', 'Node.js']
 }
 
@@ -51,7 +51,7 @@ const socialsData = {
 	linkedin: { text: 'Linkedin', url: 'https://linkedin.com/in/temporarily-permanent' }
 
 };
-export {
+export default {
 	socialsData,
 	portfolioData,
 	aboutMeData

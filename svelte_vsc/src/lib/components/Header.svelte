@@ -1,5 +1,4 @@
-<script src="../json/content_options.js"></script>
-<script>
+<script src="../json/content_options.js">
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
 	import socials from '$lib/json/content_options.js';
 		let data = [
