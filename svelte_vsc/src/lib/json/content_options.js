@@ -1,3 +1,13 @@
+//header meta data
+const headerMetaData = [
+	{ type : 0, ref: 'AboutMe', text: 'About Me' },
+	{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
+	{ type : 0, ref: 'Projects', text: 'Projects' },
+	{ type : 0, ref: 'Pitch',text: 'pitch'},
+	{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
+];
+
+
 // portfolio
 // content type - 0 means headerText, 1 means normalText, 2 means image, (one day rider, 2 means video, 3 means audio)
 const portfolioData = {
@@ -51,8 +61,9 @@ const socialsData = {
 	linkedin: { text: 'Linkedin', url: 'https://linkedin.com/in/temporarily-permanent' }
 
 };
-export default {
+export {
 	socialsData,
 	portfolioData,
-	aboutMeData
+	aboutMeData,
+	headerMetaData
 };

@@ -3,15 +3,14 @@
 	// import bootstrap
 	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
-	import portfolioData from '$lib/json/content_options.js'
-	portfolioData.portfolioData
+	import {portfolioData} from '$lib/json/content_options.js'
 	// find list of all projects
 </script>
 
 <!--use bootstrap to loop through list of projects-->
 <Container>
 	<Row>
-		{#each portfolioData.portfolioData.projects as projectItem}
+		{#each portfolioData.projects as projectItem}
 			<Col>
 				<p>{projectItem.title}</p>
 			</Col>

@@ -1,18 +1,11 @@
 <script src="../json/content_options.js">
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
-	import socials from '$lib/json/content_options.js';
-		let data = [
-		{ type : 0, ref: 'AboutMe', text: 'About Me' },
-		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
-		{ type : 0, ref: 'Projects', text: 'Projects' },
-		{ type : 0, ref: 'Pitch',text: 'pitch'},
-		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
-	];
+	import {headerMetaData} from '$lib/json/content_options.js';
 
 </script>
 
 <header>
-	{#each data as item,i}
+	{#each headerMetaData as item}
 
 		{#if item.type === 0}
 			<a class="item" href={item.ref}>
