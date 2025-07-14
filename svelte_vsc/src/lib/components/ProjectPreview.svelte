@@ -6,6 +6,8 @@
 	export let image = "";
 	export let path = "";
 </script>
+
+
 <div class="container">
 	<a class="test" href={path}>link test</a>
 	<img src={image} alt="">
