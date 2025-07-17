@@ -16,6 +16,7 @@ const portfolioData = {
 		image: '/images/project-one.jpg',
 		content: [
 			{ type: 0, content: '' },
+			//leader role, recreation of hk
 			{ type: 1, content: '' },
 			{ type: 1, content: '' },
 			{ type: 1, content: '' }
