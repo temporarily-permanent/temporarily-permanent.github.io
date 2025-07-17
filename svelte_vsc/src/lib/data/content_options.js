@@ -53,12 +53,14 @@ const aboutMeData = {
 //	interests: ['Coding', 'Gaming', 'Traveling'],
 //	skills: ['JavaScript', 'Svelte', 'Node.js']
 //};
+
 // socials
 const socialsData = {
 	github: { text: 'Github', url: 'https://github.com/temporarily-permanent' },
 	linkedin: { text: 'Linkedin', url: 'https://linkedin.com/in/temporarily-permanent' }
 
 };
+
 export {
 	socialsData,
 	portfolioData,
