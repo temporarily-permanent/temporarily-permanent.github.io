@@ -1,4 +1,4 @@
-<script src="../data/content_options.js">
+<script>
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
 	import {headerMetaData} from '$lib/data/content_options.js';
 </script>
