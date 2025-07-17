@@ -1,4 +1,23 @@
 
+<script>
+	import { portfolioData } from '$lib/data/content_options.js';
+	import { page } from '$app/state';
+	import { error } from '@sveltejs/kit';
+	console.log(page.data)
+	let index = $state(page.url.pathname.split('/').at(-1));
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+	// check whether given path matches with a project in portfolioData
+	let currentItem ;
+	try {
+		 currentItem = portfolioData.projects[Number(index)]}
+	catch (err) {
+		throw error(404, "Invalid Route");
+	}
+</script>
+
+{#each currentItem.content as contentItem}
+
+{/each}
+
+<style>
+</style>

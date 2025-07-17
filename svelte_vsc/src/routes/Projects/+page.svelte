@@ -1,31 +1,26 @@
 <script>
 	import {page} from '$app/state';
-	import projects from '$lib/json/projects.json'
+	import projects from '$lib/data/projects.json'
 	// import bootstrap
 	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
 	// find list of all projects
-	import {portfolioData} from '$lib/json/content_options.js'
-
-	import Article from '$lib/components/Article.svelte'
+	import {portfolioData} from '$lib/data/content_options.js'
 	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
-
 </script>
 
 <!--use bootstrap to loop through list of projects-->
 <Container>
+	<h2>Projects</h2>
 	<Row>
 		{#each portfolioData.projects as projectItem, i}
 			<Col>
-<!--				asdhsdghbjksdfjksdfbnkmasdfn-->
 				<ProjectPreview
 					title 			= {projectItem.title}
 					description = {projectItem.description}
 					image 			=	{projectItem.image}
 					path 				=	{page.url.toString() + "/" + i}
 				/>
-<!--				<Article  title={projectItem.title} content={projectItem.image} />-->
-<!--				<p>{projectItem.title}</p>-->
 			</Col>
 		{/each}
 	</Row>

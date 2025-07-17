@@ -1,24 +1,17 @@
-<script src="../json/content_options.js">
+<script src="../data/content_options.js">
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
-	import {headerMetaData} from '$lib/json/content_options.js';
-
+	import {headerMetaData} from '$lib/data/content_options.js';
 </script>
 
 <header>
 	{#each headerMetaData as item}
-
 		{#if item.type === 0}
 			<a class="item" href={item.ref}>
 				{item.text}
 			</a>
-
 		{:else if item.type === 1}
 			<!--<CustomSelect class="item"/>-->
-
 		{/if}
-		<!--{#if i !== data.length - 1}
-			<div class="divider"></div>
-		{/if}-->
 	{/each}
 </header>
 
@@ -44,8 +37,6 @@
 				font-size: 1vh;
 		}
 
-
-
 		.item{
         text-align-last: center;
 				max-height: 80px;
@@ -56,9 +47,6 @@
         font-weight: 600;
 		}
 
-		/*.item:not(:last-child) {
-				border-right: 2px solid var(--dark-red-14);
-		}*/
 		.item:hover{
 				color: var(--dark-red-14);
 				text-decoration: underline;
