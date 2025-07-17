@@ -3,7 +3,8 @@ const headerMetaData = [
 	{ type : 0, ref: 'AboutMe', text: 'About Me' },
 	{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 	{ type : 0, ref: 'Projects', text: 'Projects' },
-	{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
+	// add contact me route if needed, later
+	 { type : 0, ref: 'ContactMe', text: 'Contact Me' },
 ];
 
 // portfolio

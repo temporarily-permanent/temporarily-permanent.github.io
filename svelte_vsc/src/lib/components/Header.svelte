@@ -1,12 +1,23 @@
-<script>
+<script lang="js">
 	//import CustomSelect from '$lib/components/CustomSelect.svelte';
 	import {headerMetaData} from '$lib/data/content_options.js';
+	import { base } from '$app/paths';
+	console.log(base)
+
+	let origin = "";
+
+	if (typeof window !== 'undefined') {
+		origin = window.location.origin;
+	}
+
+	console.log(origin);
 </script>
 
 <header>
 	{#each headerMetaData as item}
 		{#if item.type === 0}
-			<a class="item" href={item.ref}>
+			<a class="item" href={origin + "/" +item.ref}>
+				<!--{@debug origin}-->
 				{item.text}
 			</a>
 		{:else if item.type === 1}
