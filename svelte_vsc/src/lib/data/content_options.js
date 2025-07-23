@@ -1,10 +1,10 @@
 //header meta data
 const headerMetaData = [
+	{ type : 0, ref: '', text: 'Home' },
 	{ type : 0, ref: 'AboutMe', text: 'About Me' },
-	{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
 	{ type : 0, ref: 'Projects', text: 'Projects' },
 	// add contact me route if needed, later
-	 { type : 0, ref: 'ContactMe', text: 'Contact Me' },
+	//{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
 ];
 
 // portfolio
@@ -34,6 +34,11 @@ const portfolioData = {
 			{ type: 1, content: '' }
 		]
 	}]
+};
+
+const archiveMetaData = {
+	"color palette": "ColorPalette",
+	"pitch":"Pitch",
 };
 
 // about me
@@ -67,5 +72,6 @@ export {
 	socialsData,
 	portfolioData,
 	aboutMeData,
-	headerMetaData
+	headerMetaData,
+	archiveMetaData
 };

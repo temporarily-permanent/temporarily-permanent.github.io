@@ -5,4 +5,7 @@
 </script>
 
 <Header />
+<!--set sizing of page here-->
+<div class="page-content">
 {@render children()}
+</div>

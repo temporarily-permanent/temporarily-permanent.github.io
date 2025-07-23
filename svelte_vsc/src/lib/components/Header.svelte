@@ -44,7 +44,7 @@
         justify-content: space-around;
         flex-flow: row wrap;
         align-items: center;
-				gap: 15px;
+				gap: 25px;
 				font-size: 1vh;
 		}
 
