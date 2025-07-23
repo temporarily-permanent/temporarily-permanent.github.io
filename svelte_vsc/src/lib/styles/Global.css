@@ -32,8 +32,7 @@
 .page-content {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
-    outline: var(--dev-pink) solid 50px;
+    margin: 0 auto 12% auto;
 }
 
 a:link {

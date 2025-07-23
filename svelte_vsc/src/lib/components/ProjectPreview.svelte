@@ -9,8 +9,9 @@
 
 
 <div class="container">
-	<a class="test" href={path}>link test</a>
-	<img src={image} alt="">
+	<a class="test" href={path}>link test
+		<img src={image} alt="">
+	</a>
 	<h2 class="title">{title}</h2>
 	<p class="show-on-hover">{description}</p>
 

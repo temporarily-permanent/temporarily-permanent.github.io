@@ -14,7 +14,7 @@ const portfolioData = {
 		title: 'game sclice - hollow knight',
 		description: 'This is the first project.',
 		url: 'https://example.com/project-one',
-		image: '/images/project-one.jpg',
+		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
 			{ type: 0, content: '' },
 			//leader role, recreation of hk
