@@ -44,4 +44,7 @@
 {/each}
 
 <style>
+	.preview{
+
+	}
 </style>

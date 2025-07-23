@@ -7,18 +7,41 @@
 	export let path = "";
 </script>
 
-
-<div class="container">
-	<a class="test" href={path}>link test
+<a class="test" href={path}>
+	<div class="container">
 		<img src={image} alt="">
-	</a>
-	<h2 class="title">{title}</h2>
-	<p class="show-on-hover">{description}</p>
-
-</div>
+		<h2 class="title">{title}</h2>
+		<p class="show-on-hover">{description}</p>
+	</div>
+</a>
 
 <style>
-	.test {
-			color: darkgreen;
+	img{
+			height: 100px;
+			width: auto;
 	}
+
+	.test {
+			--size-assdfsdfdfs: 60px;
+			transition: var(--size-assdfsdfdfs) 1s;
+	}
+
+	.container {
+			outline: var(--dark-red-3) solid 5px;
+			margin: 5px;
+			display: flex;
+			flex-direction: row-reverse ;
+	}
+	.container:hover {
+			--size-assdfsdfdfs: 100;
+	}
+
+	.show-on-hover {
+			height: var(--size-assdfsdfdfs);
+	}
+
+	.show-on-hover:hover {
+			height: 30px;
+	}
+
 </style>
