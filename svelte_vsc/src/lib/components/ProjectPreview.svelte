@@ -22,8 +22,6 @@
 	}
 
 	.test {
-			--size-assdfsdfdfs: 60px;
-			transition: var(--size-assdfsdfdfs) 1s;
 	}
 
 	.container {
@@ -32,9 +30,15 @@
 			display: flex;
 			flex-direction: row-reverse ;
 	}
-	.container:hover {
-			--size-assdfsdfdfs: 100;
-	}
+
+
+  .container .show-on-hover {
+			height: 0px;
+			transition: height 0.5s;
+  }
+  .container:hover .show-on-hover {
+			height: 200px;
+  }
 
 	.show-on-hover {
 			height: var(--size-assdfsdfdfs);
