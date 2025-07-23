@@ -1,4 +1,7 @@
 * {
+    /*dev colors*/
+    --dev-pink: #dd1dff;
+    /*"final" color template*/
     --dark-red: #550404;
     --dark-red-lighter: #730606;
     --dark-red-3: #981010;
@@ -23,6 +26,14 @@
 
     --dark-blue: #012547;
     background-color: #012547; color: var(--dark-red-7); font-family: Arial, sans-serif;
+}
+
+/*this class should only apply to a wrapper for all rendered content, living in routes/+layout.svelte*/
+.page-content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    outline: var(--dev-pink) solid 50px;
 }
 
 a:link {
