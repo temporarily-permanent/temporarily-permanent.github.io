@@ -5,12 +5,21 @@
 		document.title = 'About Me';
 	});
 
-	let data = [
-		{ ref: 'AboutMe', text: 'About Me' },
-		{ ref: 'ColorPalette', text: 'Color Palette' },
-	];
+	//thanks webstorm
+	/*onkeydown(event) {
+		if (event.key === 'Escape') {
+			window.history.back();
+		}
+	}*/
 </script>
 
+<div class="container">
+	<!-- introduction -->
+	<!-- skills -->
+	<!-- interests -->
+	<!-- work experience -->
+
+</div>
 
 
 <h1>skills</h1>

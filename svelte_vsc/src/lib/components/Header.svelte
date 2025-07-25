@@ -17,7 +17,6 @@
 	{#each headerMetaData as item}
 		{#if item.type === 0}
 			<a class="item" href={origin + "/" +item.ref}>
-				<!--{@debug origin}-->
 				{item.text}
 			</a>
 		{:else if item.type === 1}
