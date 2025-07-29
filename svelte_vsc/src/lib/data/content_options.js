@@ -1,3 +1,20 @@
+// all non-specific data (means it's needed by all pages on the site)
+const genericMetaData = {
+	name: "Jannes Veuger",
+	psudo_name:"Temporarily Permanent",
+
+}
+
+// about me
+const aboutMeData = {
+	introduction_naming: "my name is Jannes Veuger",
+	introduction:"i'm JV, a 22 year old software developer and interested in the computationally low-level and the technically complex",
+	avatar: undefined,
+	location: undefined,
+	interests: undefined,
+	skills: ['JavaScript', 'Svelte', 'Node.js']
+}
+
 //header meta data
 const headerMetaData = [
 	{ type : 0, ref: '', text: 'Home' },
@@ -41,16 +58,6 @@ const archiveMetaData = {
 	"pitch":"Pitch",
 };
 
-// about me
-const aboutMeData = {
-	name: "Jannes Veuger",
-	psudo_name:"Temporarily Permanent",
-	description:"i'm JV, a 21 year old software developer and interested in the computationally low-level and the technically complex",
-	avatar: undefined,
-	location: undefined,
-	interests: undefined,
-	skills: ['JavaScript', 'Svelte', 'Node.js']
-}
 
 //{
 //	name: 'Temporarily Permanent',
@@ -73,5 +80,6 @@ export {
 	portfolioData,
 	aboutMeData,
 	headerMetaData,
-	archiveMetaData
+	archiveMetaData,
+	genericMetaData
 };
