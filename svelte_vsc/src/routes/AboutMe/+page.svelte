@@ -20,10 +20,9 @@
 
 	<!-- introduction -->
 	<div
-		class="base"
+		class="base {hoverOverSub ? 'hidden' : ''}"
 		style="height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
-		hjhujlgulfgtguk
 		<h2>{aboutMeData.introduction_naming}</h2>
 		<p>{aboutMeData.introduction}</p>
 	</div>
@@ -33,7 +32,7 @@
 		on:mouseenter={hoverOverSub = true}
 		on:mouseleave={hoverOverSub = false}
 	>
-
+		<h2>skills</h2>
 	</div>
 
 
@@ -45,15 +44,19 @@
 
 <style>
     .container {
+				margin: auto;
+				width: 66%;
+				background: var(--dark-gray);
+
 				--normal-size: 400px;
-				--hidden-size: 100px;
+				--hidden-size: auto;
     }
 
 		.container * {
-				background: var(--dark-gray);
+				margin: 0;
 		}
 
-    .sub {
+    .sub{
         height: var(--hidden-size);
         color: var(--dark-red-8);
 				transition: height 2s ease;
@@ -70,10 +73,10 @@
         transition: height 2s;
     }
 
-		.base *{
-        color: var(--dark-red-4);
+		/*.base *{
+        color: var(--dark-red-5);
 
-		}
+		}*/
 
 
 </style>

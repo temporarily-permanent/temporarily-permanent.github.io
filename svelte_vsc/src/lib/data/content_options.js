@@ -8,7 +8,7 @@ const genericMetaData = {
 // about me
 const aboutMeData = {
 	introduction_naming: "my name is Jannes Veuger",
-	introduction:"i'm JV, a 22 year old software developer and interested in the computationally low-level and the technically complex",
+	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex",
 	avatar: undefined,
 	location: undefined,
 	interests: undefined,

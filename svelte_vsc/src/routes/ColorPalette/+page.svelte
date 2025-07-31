@@ -14,7 +14,7 @@
 
 <h1>the color palette i use for now<br>DarkRed 5-9 and grey for text, Dark blue 1-3 for background</h1>
 <h2 style="color: #550404;">--dark-red: #550404;</h2>
-<h2 style="color: #730606;">--dark-red-lighter: #730606;</h2>
+<h2 style="color: #730606;">--dark-red-2: #730606;</h2>
 <h2 style="color: #981010;">--dark-red-3: #981010;</h2>
 <h2 style="color: #b61c1c;">--dark-red-4: #b61c1c;</h2>
 <h2 style="color: #d62a2a;">--dark-red-5: #d62a2a;</h2>
