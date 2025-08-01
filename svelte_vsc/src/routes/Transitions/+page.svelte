@@ -11,7 +11,7 @@
 				const eased = elasticOut(t);
 
 				return `
-					transform: scale(${eased}) rotate(${eased * 10800}deg);
+					transform: scale(${eased}) rotate(${eased * 3 * 1080}deg);
 					color: hsl(
 						${Math.trunc(t * 360)},
 						${Math.min(100, 1000 * u)}%,
@@ -49,5 +49,6 @@
         position: absolute;
         transform: translate(-50%, -50%);
         font-size: 4em;
+				color: unset;
     }
 </style>
