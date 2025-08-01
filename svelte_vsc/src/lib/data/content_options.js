@@ -56,6 +56,7 @@ const portfolioData = {
 const archiveMetaData = {
 	"color palette": "ColorPalette",
 	"pitch":"Pitch",
+	"transitions!":"Transitions",
 };
 
 
