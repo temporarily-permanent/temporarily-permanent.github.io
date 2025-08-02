@@ -73,6 +73,7 @@
     .sub{
         height: var(--hidden-size);
         color: var(--dark-red-8);
+        border: 30px var(--dark-red-2) solid;
 				transition: height 2s ease;
     }
 
