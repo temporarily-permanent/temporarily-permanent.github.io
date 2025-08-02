@@ -27,18 +27,32 @@
 		<p>{aboutMeData.introduction}</p>
 	</div>
 	<!-- skills -->
-	<div
+	<article
 		class="sub"
-		on:mouseenter={hoverOverSub = true}
-		on:mouseleave={hoverOverSub = false}
+		on:mouseenter={() => hoverOverSub = true}
+		on:mouseleave={() => hoverOverSub = false}
 	>
 		<h2>skills</h2>
-	</div>
+	</article>
 
 
 	<!-- interests -->
-	<!-- work experience -->
+	<article
+		class="sub"
+		on:mouseenter={() => hoverOverSub = true}
+		on:mouseleave={() => hoverOverSub = false}
+	>
+		<h2>interests</h2>
+	</article>
 
+	<!-- work experience -->
+	<article
+		class="sub"
+		on:mouseenter={() => hoverOverSub = true}
+		on:mouseleave={() => hoverOverSub = false}
+	>
+		<h2>work Experience</h2>
+	</article>
 </div>
 
 
