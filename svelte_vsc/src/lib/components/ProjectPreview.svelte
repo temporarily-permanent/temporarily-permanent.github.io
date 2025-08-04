@@ -10,8 +10,10 @@
 <a class="test" href={path}>
 	<div class="container">
 		<img src={image} alt="">
-		<h2 class="title">{title}</h2>
-		<p class="show-on-hover">{description}</p>
+		<div class="text">
+			<h2 class="title">{title}</h2>
+			<p class="show-on-hover">{description}</p>
+		</div>
 	</div>
 </a>
 
@@ -21,12 +23,9 @@
 			width: auto;
 	}
 
-	.test {
-	}
-
 	.container {
 			outline: var(--dark-red-3) solid 5px;
-			margin: 5px;
+			margin: auto;
 			display: flex;
 			flex-direction: row-reverse ;
 	}
@@ -34,18 +33,14 @@
 
   .container .show-on-hover {
 			height: 0px;
+      opacity: 0;
 			transition: height 0.5s;
+			transition: opacity 0.5s;
+			background-color: var(--dev-pink) ;
   }
   .container:hover .show-on-hover {
 			height: 200px;
+      opacity: 1;
   }
-
-	.show-on-hover {
-			height: var(--size-assdfsdfdfs);
-	}
-
-	.show-on-hover:hover {
-			height: 30px;
-	}
 
 </style>

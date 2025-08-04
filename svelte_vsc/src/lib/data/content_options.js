@@ -29,13 +29,13 @@ const headerMetaData = [
 const portfolioData = {
 	projects: [{
 		title: 'game sclice - hollow knight',
-		description: 'This is the first project.',
+		description: 'recreation of a 10 sec clip from a game, in my case Hollow Knight.',
 		url: 'https://example.com/project-one',
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
 			{ type: 0, content: 'Game Sclice' },
 			//leader role, recreation of hk
-			{ type: 1, content: '' },
+			{ type: 1, content: 'recreation of a 10 sec clip from a game, in my case Hollow Knight' },
 			{ type: 1, content: '' },
 			{ type: 1, content: '' }
 		]
