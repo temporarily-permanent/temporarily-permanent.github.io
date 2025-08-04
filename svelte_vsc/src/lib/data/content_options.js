@@ -25,7 +25,7 @@ const headerMetaData = [
 ];
 
 // portfolio
-// content type - 0 means headerText, 1 means normalText, 2 means image, (one day rider, 2 means video, 3 means audio)
+// content type - 0 means headerText, 1 means normalText, 2 means image, 3 means  (one day rider, 2 means video, 3 means audio)
 const portfolioData = {
 	projects: [{
 		title: 'game sclice - hollow knight',
@@ -33,14 +33,14 @@ const portfolioData = {
 		url: 'https://example.com/project-one',
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
-			{ type: 0, content: '' },
+			{ type: 0, content: 'Game Sclice' },
 			//leader role, recreation of hk
 			{ type: 1, content: '' },
 			{ type: 1, content: '' },
 			{ type: 1, content: '' }
 		]
 	}, {
-		title: 'Project Two',
+		title: 'textBasedAdventureGameFramework',
 		description: 'This is the second project.',
 		url: 'https://example.com/project-two',
 		image: '/images/project-two.jpg',

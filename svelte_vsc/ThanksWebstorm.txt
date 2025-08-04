@@ -104,3 +104,12 @@ md
 //	interests: ['Coding', 'Gaming', 'Traveling'],
 //	skills: ['JavaScript', 'Svelte', 'Node.js']
 //};
+
+
+
+
+			<h2>{contentItem.content.title}</h2>
+			<p>{contentItem.content.description}</p>
+			{#if contentItem.content.link}
+				<a href="{contentItem.content.link}" target="_blank">Link</a>
+			{/if}
