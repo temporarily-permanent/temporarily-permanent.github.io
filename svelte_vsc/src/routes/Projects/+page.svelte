@@ -2,7 +2,7 @@
 	import {page} from '$app/state';
 	import projects from '$lib/data/projects.json'
 	// import bootstrap
-	import { Col, Container, Row , Accordion} from '@sveltestrap/sveltestrap';
+	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
 	// find list of all projects
 	import {portfolioData, archiveMetaData} from '$lib/data/content_options.js'

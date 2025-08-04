@@ -11,7 +11,7 @@
 	<div class="container">
 		<img src={image} alt="">
 		<div class="text">
-			<h2 class="title">{title}</h2>
+			<h2 class="title hide-on-hover">{title}</h2>
 			<p class="show-on-hover">{description}</p>
 		</div>
 	</div>
@@ -32,15 +32,25 @@
 
 
   .container .show-on-hover {
-			height: 0px;
+			height: 0;
       opacity: 0;
 			transition: height 0.5s;
 			transition: opacity 0.5s;
-			background-color: var(--dev-pink) ;
   }
   .container:hover .show-on-hover {
 			height: 200px;
       opacity: 1;
   }
+
+	.container .hide-on-hover {
+			font-size: 1.5rem;
+			transition: font-size 0.5s;
+			color: var(--dark-red-14);
+			margin: auto;
+			text-align: center;
+	}
+	.container:hover .hide-on-hover {
+			font-size: 1rem;
+	}
 
 </style>
