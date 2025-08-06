@@ -16,28 +16,25 @@
 	}
 </script>
 
-{#if Object.hasOwn(currentItem, "url")}
-	<a href="{currentItem.url}" target="_blank">
-		<img src="img/ExternalSite.png" alt="aaaaa" />
-	</a>
-{/if}
-
 {#each currentItem.content as contentItem}
 	<!--0 - header text-->
 	{#if contentItem.type === 0}
 		<h2 class="headerText">{contentItem.content}</h2>
+
 	<!--1 - normal text-->
 	{:else if contentItem.type === 1}
 		<p>{contentItem.content}</p>
+
 	<!--2 - image-->
 	{:else if contentItem.type === 2}
 		{#if Object.hasOwn(currentItem, "url")}
 			<a href="{currentItem.url}" target="_blank">
-		{/if}
-			<img src="{contentItem.content}">
-		{#if Object.hasOwn(currentItem, "url")}
+				<img src="{contentItem.content}" alt="aaaaa" />
 			</a>
+		{:else }
+			<img src="{contentItem.content}" alt="aaaaa" />
 		{/if}
+
 	<!--intro card-->
 	{:else if contentItem.type === 3}
 		<div class="introCard">
