@@ -31,7 +31,13 @@
 		<p>{contentItem.content}</p>
 	<!--2 - image-->
 	{:else if contentItem.type === 2}
-		<img src="{contentItem.content}">
+		{#if Object.hasOwn(currentItem, "url")}
+			<a href="{currentItem.url}" target="_blank">
+		{/if}
+			<img src="{contentItem.content}">
+		{#if Object.hasOwn(currentItem, "url")}
+			</a>
+		{/if}
 	<!--intro card-->
 	{:else if contentItem.type === 3}
 		<div class="introCard">
