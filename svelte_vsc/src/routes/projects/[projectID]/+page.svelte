@@ -16,6 +16,12 @@
 	}
 </script>
 
+{#if Object.hasOwn(currentItem, "url")}
+	<a href="{currentItem.url}" target="_blank">
+		<img src="img/ExternalSite.png" alt="aaaaa" />
+	</a>
+{/if}
+
 {#each currentItem.content as contentItem}
 	<!--0 - header text-->
 	{#if contentItem.type === 0}

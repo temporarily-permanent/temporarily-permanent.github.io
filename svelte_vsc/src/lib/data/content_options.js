@@ -53,7 +53,7 @@ const portfolioData = {
 	}, {
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
-		url: 'https://example.com/project-two',
+		url: 'https://github.com/temporarily-permanent/portfolio',
 		image: '/images/project-two.jpg',
 		content: [
 			{ type: 0, content: '' },
