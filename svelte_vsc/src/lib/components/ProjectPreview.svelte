@@ -1,10 +1,10 @@
 ﻿<script>
-	import { Image } from '@sveltestrap/sveltestrap';
-
 	export let title = "";
 	export let description = "";
 	export let image = "";
 	export let path = "";
+	//export let url = "";
+	//Object.hasOwn()
 </script>
 
 <a class="test" href={path}>
@@ -14,6 +14,11 @@
 			<h2 class="title hide-on-hover">{title}</h2>
 			<p class="show-on-hover">{description}</p>
 		</div>
+		<!--{#if url !== ""}
+			<a href = {url} target="_blank">
+			  <img src="ExternalSite.png" alt="external link" class="show-on-hover">
+			</a>
+		{/if}-->
 	</div>
 </a>
 

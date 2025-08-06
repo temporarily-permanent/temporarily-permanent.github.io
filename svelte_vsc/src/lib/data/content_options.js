@@ -50,6 +50,17 @@ const portfolioData = {
 			{ type: 1, content: '' },
 			{ type: 1, content: '' }
 		]
+	}, {
+		title: 'portfolio',
+		description: '`the public repo for this website`.',
+		url: 'https://example.com/project-two',
+		image: '/images/project-two.jpg',
+		content: [
+			{ type: 0, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' },
+			{ type: 1, content: '' }
+		]
 	}]
 };
 
