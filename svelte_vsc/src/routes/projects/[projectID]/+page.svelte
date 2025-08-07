@@ -5,10 +5,10 @@
 	import { error } from '@sveltejs/kit';
 
 	// get selected path from pathname
-	let index = $state(page.url.pathname.split('/').at(-1));
+	let index = page.url.pathname.split('/').at(-1);
 
 	// check whether given path matches with a project in portfolioData
-	let currentItem = $state();
+	let currentItem;
 	try {
 		 currentItem = portfolioData.projects[Number(index)]}
 	catch {
@@ -33,7 +33,6 @@
 				<img src={contentItem.content} alt="link to external site" />
 			</a>
 		{:else }
-			<img src="static/{contentItem.content}" alt="something went wrong" />
 			<img src={contentItem.content} alt="something went wrong" />
 		{/if}
 
@@ -42,7 +41,9 @@
 		<div class="introCard">
 		</div>
 	{/if}
+
 {/each}
+
 
 <style>
 </style>
