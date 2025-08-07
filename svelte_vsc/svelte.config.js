@@ -16,6 +16,9 @@ const config = {
 			precompress: false,
 			strict: true,
 		}),
+		prerender: {
+			entries: ['*'] // or list specific pages
+		}
 	},
 };
 
