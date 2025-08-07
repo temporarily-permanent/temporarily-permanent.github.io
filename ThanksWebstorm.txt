@@ -1,0 +1,115 @@
+
+	let data = [
+		{ type : 0, ref: 'AboutMe', text: 'About Me' },
+		{ type : 0, ref: 'ColorPalette', text: 'Color Palette' },
+		{ type : 0, ref: 'Skills', text: 'Skills' },
+		{ type : 0, ref: 'Experience', text: 'Experience' },
+		{ type : 0, ref: 'Education', text: 'Education' },
+		{ type : 0, ref: 'Certifications', text: 'Certifications' },
+		{ type : 0, ref: 'Awards', text: 'Awards' },
+		{ type : 0, ref: 'Hobbies', text: 'Hobbies' },
+		{ type : 0, ref: 'Interests', text: 'Interests' },
+		{ type : 0, ref: 'Languages', text: 'Languages' },
+		{ type : 0, ref: 'Projects', text: 'Projects' },
+		{ type : 0, ref: 'Portfolio', text: 'Portfolio' },
+		{ type : 0, ref: 'GitHub', text: 'GitHub' },
+		{ type : 0, ref: 'LinkedIn', text: 'LinkedIn' },
+		{ type : 0, ref: 'Twitter', text: 'Twitter' },
+		{ type : 0, ref: 'Instagram', text: 'Instagram' },
+		{ type : 0, ref: 'Facebook', text: 'Facebook' },
+		{ type : 0, ref: 'Twitch', text: 'Twitch' },
+		{ type : 0, ref: 'Discord', text: 'Discord' },
+		{ type : 0, ref: 'Reddit', text: 'Reddit' },
+		{ type : 0, ref: 'Snapchat', text: 'Snapchat' },
+		{ type : 0, ref: 'TikTok', text: 'TikTok' },
+		{ type : 0, ref: 'Pinterest', text: 'Pinterest' },
+		{ type : 0, ref: 'YouTube', text: 'YouTube' },
+		{ type : 0, ref: 'Tumblr', text: 'Tumblr' },
+		{ type : 0, ref: 'Flickr', text: 'Flickr' },
+		{ type : 0, ref: 'Vimeo', text: 'Vimeo' },
+		{ type : 0, ref: 'Quora', text: 'Quora' },
+		{ type : 0, ref: 'Medium', text: 'Medium' },
+		{ type : 0, ref: 'Projects', text: 'Projects' },
+		{ type : 1, ref: '', text: '' }, // CustomSelect
+		{ type : 0, ref: 'ContactMe', text: 'Contact Me' },
+		{ type : 0, ref: 'Resume', text: 'Resume' },
+		{ type : 0, ref: 'Socials', text: 'Socials' },
+		{ type : 0, ref: 'Github', text: 'Github' },
+		{ type : 0, ref: 'LinkedIn', text: 'LinkedIn' },
+		{ type : 0, ref: 'Twitter', text: 'Twitter' },
+		{ type : 0, ref: 'Instagram', text: 'Instagram' },
+		{ type : 0, ref: 'Facebook', text: 'Facebook' },
+		{ type : 0, ref: 'Twitch', text: 'Twitch' },
+		{ type : 0, ref: 'Discord', text: 'Discord' },
+		{ type : 0, ref: 'Reddit', text: 'Reddit' },
+		{ type : 0, ref: 'Snapchat', text: 'Snapchat' },
+		{ type : 0, ref: 'TikTok', text: 'TikTok' },
+		{ type : 0, ref: 'Pinterest', text: 'Pinterest' },
+		{ type : 0, ref: 'YouTube', text: 'YouTube' },
+		{ type : 0, ref: 'Tumblr', text: 'Tumblr' },
+		{ type : 0, ref: 'Flickr', text: 'Flickr' },
+		{ type : 0, ref: 'Vimeo', text: 'Vimeo' },
+		{ type : 0, ref: 'Quora', text: 'Quora' },
+		{ type : 0, ref: 'Medium', text: 'Medium' },
+		{ type : 0, ref: 'WordPress', text: 'WordPress' },
+		{ type : 0, ref: 'Blogger', text: 'Blogger' },
+		{ type : 0, ref: 'Weebly', text: 'Weebly' },
+		{ type : 0, ref: 'Wix', text: 'Wix' },
+		{ type : 0, ref: 'Squarespace', text: 'Squarespace' },
+		{ type : 0, ref: 'Shopify', text: 'Shopify' },
+		{ type : 0, ref: 'Etsy', text: 'Etsy' },
+		{ type : 0, ref: 'Amazon', text: 'Amazon' },
+		{ type : 0, ref: 'eBay', text: 'eBay' },
+		{ type : 0, ref: 'Craigslist', text: 'Craigslist' },
+		{ type : 0, ref: 'Facebook Marketplace', text: 'Facebook Marketplace' },
+		{ type : 0, ref: 'OfferUp', text: 'OfferUp' },
+		{ type : 0, ref: 'Letgo', text: 'Letgo' },
+		{ type : 0, ref: 'Mercari', text: 'Mercari' },
+		{ type : 0, ref: 'Poshmark', text: 'Poshmark' },
+		{ type : 0, ref: 'Depop', text: 'Depop' },
+		{ type : 0, ref: 'Grailed', text: 'Grailed' },
+		{ type : 0, ref: 'StockX', text: 'StockX' },
+		{ type : 0, ref: 'GOAT', text: 'GOAT' },
+		{ type : 0, ref: 'Flight Club', text: 'Flight Club' },
+		{ type : 0, ref: 'Stadium Goods', text: 'Stadium Goods' },
+		{ type : 0, ref: 'KicksCrew', text: 'KicksCrew' },
+		{ type : 0, ref: 'Shoe Palace', text: 'Shoe Palace' },
+		{ type : 0, ref: 'Foot Locker', text: 'Foot Locker' },
+		{ type : 0, ref: 'Champs Sports', text: 'Champs Sports' },
+		{ type : 0, ref: 'Finish Line', text: 'Finish Line' },
+	];
+
+md
+
+# observaties
+-
+    - er is betere uitleg nodig voor
+
+<p>
+			a game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+			it is a 2d game engine that allows you to create games in a simple way<br>
+		</p>
+
+		<img src="GameSclice.png"><p>game sclice</p><img src="GameSclice.png" alt="aaaa">
+
+
+//{
+//	name: 'Temporarily Permanent',
+//	description: 'A passionate developer with a love for creating innovative solutions.',
+//	avatar: '/images/avatar.jpg',
+//	location: 'Somewhere, Earth',
+//	interests: ['Coding', 'Gaming', 'Traveling'],
+//	skills: ['JavaScript', 'Svelte', 'Node.js']
+//};
+
+
+
+
+			<h2>{contentItem.content.title}</h2>
+			<p>{contentItem.content.description}</p>
+			{#if contentItem.content.link}
+				<a href="{contentItem.content.link}" target="_blank">Link</a>
+			{/if}
