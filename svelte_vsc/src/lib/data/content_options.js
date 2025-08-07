@@ -35,9 +35,12 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'Game Sclice' },
 			//leader role, recreation of hk
-			{ type: 1, content: 'recreation of a 10 sec clip from a game, in my case Hollow Knight' },
-			{ type: 1, content: '' },
-			{ type: 1, content: '' }
+			{ type: 1, content: 'group assignment for school where we got a 10 sec clip of hollow knight\n' +
+					'and had recreate as much as possible in about 8-9 weeks' },
+			{ type: 1, content: 'in this project i was assigned to the product owner role\n' +
+					'which was the first i had a leader role' },
+			{ type: 2, content: 'HollowKnight.png' },
+			{ type: 2, content: 'GithubPullRequests.png' }
 		]
 	}, {
 		title: 'textBasedAdventureGameFramework',
