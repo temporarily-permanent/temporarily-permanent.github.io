@@ -19,6 +19,7 @@ const config = {
 			precompress: false,
 			strict: false,
 		}),
+		prerender: {default : false},
 		paths: {
 			base: dev ? '' : '/portfolio'
 		}
