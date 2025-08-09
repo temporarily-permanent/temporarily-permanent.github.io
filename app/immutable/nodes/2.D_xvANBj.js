@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/D9fjBGPa.js";import{f as p,b as t}from"../chunks/C2IQmEIh.js";var a=p("<h2>temporarily-permanent</h2>");function i(o){var r=a();t(o,r)}export{i as component};
