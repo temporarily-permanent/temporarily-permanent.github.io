@@ -30,10 +30,10 @@
 	{:else if contentItem.type === 2}
 		{#if Object.hasOwn(contentItem, "url")}
 			<a href="{contentItem.url}" target="_blank">
-				<img src={contentItem.content} alt="link to external site" />
+				<img src={'/' + contentItem.content} alt="link to external site" />
 			</a>
 		{:else }
-			<img src={contentItem.content} alt="something went wrong" />
+			<img src={'/' + contentItem.content} alt="something went wrong" />
 		{/if}
 
 	<!--intro card-->
