@@ -16,6 +16,10 @@
 	}*/
 </script>
 
+<svelte:head>
+	<title>About Me - Jannes Veuger</title>
+</svelte:head>
+
 <div class="container">
 
 	<!-- introduction -->

@@ -12,6 +12,11 @@
 <!--make accordion style showcase-->
 <!--make details uncover on hover-->
 
+<svelte:head>
+	<title>overview - temporarily permanent</title>
+</svelte:head>
+
+
 <!--use bootstrap to loop through list of projects-->
 <Container>
 	<h2>Projects</h2>

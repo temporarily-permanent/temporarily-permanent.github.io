@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>backstage - temporarily permanent</title>
+</svelte:head>
+
 <div class="baseContainer">
 	<p>Pitch</p>
 

@@ -11,6 +11,9 @@
 	}
 </script>
 
+<svelte:head>
+    <title>backstage - temporarily permanent</title>
+</svelte:head>
 
 <h1>the color palette i use for now<br>DarkRed 5-9 and grey for text, Dark blue 1-3 for background</h1>
 <h2 style="color: #550404;">--dark-red: #550404;</h2>

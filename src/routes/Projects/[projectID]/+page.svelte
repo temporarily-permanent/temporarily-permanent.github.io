@@ -16,6 +16,9 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{currentItem.title}</title>
+</svelte:head>
 
 {#each currentItem.content as contentItem}
 	<!--0 - header text-->
