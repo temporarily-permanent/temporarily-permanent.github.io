@@ -22,9 +22,11 @@ const config = {
 			precompress: false,
 			strict: false,
 		}),
-		paths: {
+		/*paths: {
 			base: dev ? '' : '/portfolio'
-		}
+		}*//*paths: {
+			base: dev ? '' : '/portfolio'
+		}*/
 	}
 };
 
