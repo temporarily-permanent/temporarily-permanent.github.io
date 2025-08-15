@@ -1,7 +1,7 @@
 // all non-specific data (means it's needed by all pages on the site)
 const genericMetaData = {
 	name: "Jannes Veuger",
-	psudo_name:"Temporarily Permanent",
+	psudo_name:"temporarily \npermanent",
 
 }
 

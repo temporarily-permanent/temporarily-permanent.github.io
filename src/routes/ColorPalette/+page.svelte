@@ -2,9 +2,9 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	onMount(() => {
+	/*onMount(() => {
 		document.title = 'Color Palette';
-	});
+	});*/
 
 	$: {
 		console.log('Page:', $page);
