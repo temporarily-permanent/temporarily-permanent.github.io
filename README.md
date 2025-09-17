@@ -3,7 +3,7 @@
 - textBasedAdventureGame
 - vertical sclice(hollow knight)
 - HLO (UE5.5 Boss fight)
-- TowerDefense
+- ~~TowerDefense~~ Conway's Game of Life
 
 ## personal projects?
 - youtube music to spotify converter
@@ -12,11 +12,10 @@
 
 ## first main points of interest
 - get internship -> git gud
-- good main layout -> use layout from past project
-- 
+- good main layout -> ~~use layout from past project~~ diy
+- automation of information -> svelte
 
-
-- automation of information
-
-
-- a change
+## checklists
+### GameSclice
+- [ ] comparison of clip vs result
+- [ ] 
