@@ -16,7 +16,14 @@
 - automation of information -> svelte
 
 ## checklists
+### Cryptography
+- [ ] learning goals
+- [ ] retrospection of learning goals
 ### GameSclice
 - [ ] comparison of clip vs result
 - [ ] my role as a developer in the project
 - [ ] 
+### textBasedAdventureGame
+- [ ] showcase of the correct practice of keeping data and logic separate 
+### Conway's Game of Life
+- [ ]qqqqqqwa   sdzdfxdgfndgndgndgsnufbdfbhyudfvyugyadgsv
