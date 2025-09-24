@@ -18,4 +18,5 @@
 ## checklists
 ### GameSclice
 - [ ] comparison of clip vs result
+- [ ] my role as a developer in the project
 - [ ] 
