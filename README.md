@@ -26,4 +26,5 @@
 ### textBasedAdventureGame
 - [ ] showcase of the correct practice of keeping data and logic separate 
 ### Conway's Game of Life
-- [ ]qqqqqqwa   sdzdfxdgfndgndgndgsnufbdfbhyudfvyugyadgsv
+- [ ] implementation of complex systems in a short timeframe
+- [ ] 
