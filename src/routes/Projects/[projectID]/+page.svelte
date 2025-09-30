@@ -41,8 +41,11 @@
 
 	<!--intro card-->
 	{:else if contentItem.type === 3}
-		<div class="introCard">
-		</div>
+		<iframe
+			width="528" height="297" src="https://www.youtube-nocookie.com/embed/{contentItem.video_id}?autoplay=1"
+			title="YouTube video player" frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	{/if}
 
 {/each}

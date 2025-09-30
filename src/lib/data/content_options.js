@@ -38,9 +38,11 @@ const portfolioData = {
 			{ type: 1, content: 'group assignment for school where we got a 10 sec clip of hollow knight\n' +
 					'and had recreate as much as possible in about 8-9 weeks' },
 			{ type: 1, content: 'in this project i was assigned to the product owner role\n' +
-					'which was the first i had a leader role' },
-			{ type: 2, content: 'HollowKnight.png' },
-			{ type: 2, content: 'GithubPullRequests.png' }
+					'which was the first time i had a leader role' },
+			{ type: 1, content: 'being product owner meant i divided work among people' },
+			{ type: 3, video_id: 'cKpQSh_Vh0A' },
+			{ type: 3, video_id: 'vFjJT4PXc5Y' },
+
 		]
 	}, {
 		title: 'textBasedAdventureGameFramework',

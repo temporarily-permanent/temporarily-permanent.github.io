@@ -16,15 +16,20 @@
 - automation of information -> svelte
 
 ## checklists
-### Cryptography
-- [ ] learning goals
-- [ ] retrospection of learning goals
+### open toren dag
+- [ ] research process
+- [ ] social impact 
+- [ ]
 ### GameSclice
 - [ ] comparison of clip vs result
 - [ ] my role as a developer in the project
+- 
 - [ ] 
 ### textBasedAdventureGame
-- [ ] showcase of the correct practice of keeping data and logic separate 
+- [ ] showcase of the correct practice of keeping data and logic separate
+### Cryptography
+- [ ] learning goals
+- [ ] retrospection of learning goals
 ### Conway's Game of Life
 - [ ] implementation of complex systems in a short timeframe
 - [ ] 
