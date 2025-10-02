@@ -1,10 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 	import { aboutMeData } from '$lib/data/content_options.js';
-
+/*
 	onMount(() => {
 		document.title = 'About Me';
-	});
+	});*/
 
 
 	let hoverOverSub = false;
@@ -27,8 +27,8 @@
 		class="base {hoverOverSub ? 'hidden' : ''}"
 		style="height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
-		<h2>{aboutMeData.introduction_naming}</h2>
-		<p>{aboutMeData.introduction}</p>
+		<h2> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h2><!--dont look at this war crime-->
+		<p><br>{aboutMeData.introduction}</p>
 	</div>
 	<!-- skills -->
 	<article

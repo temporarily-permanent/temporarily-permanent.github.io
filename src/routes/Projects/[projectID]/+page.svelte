@@ -36,7 +36,7 @@
 				<img src={'/' + contentItem.content} alt="link to external site" />
 			</a>
 		{:else }
-			<img src={'/' + contentItem.content} alt="something went wrong" />
+			<img class="width-100" src={'/' + contentItem.content} alt="something went wrong" />
 		{/if}
 
 	<!--intro card-->
@@ -52,4 +52,7 @@
 
 
 <style>
+	width-100 {
+		width: 100%;
+	}
 </style>

@@ -113,3 +113,5 @@ md
 			{#if contentItem.content.link}
 				<a href="{contentItem.content.link}" target="_blank">Link</a>
 			{/if}
+
+currently studying applied computer science at the htw saar university of applied sciences in saarbrücken, germany.

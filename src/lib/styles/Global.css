@@ -36,6 +36,9 @@
 }
 
 /*this class should only apply to a wrapper for all rendered content, living in routes/+layout.svelte*/
+.text_centered {
+    text-align: center;
+}
 .page-content {
     width: 100%;
     max-width: 960px;
