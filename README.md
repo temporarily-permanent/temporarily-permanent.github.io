@@ -2,6 +2,8 @@
 ## TODOS
 - add more projects and finish all writing tasks (i hate writing)
 - fix padding on bottom of base page based on window sizing
+- implement autoplay option for youtube embeds
+- limit image sizing -> contentItemType 5, contained image
 
 ## Items in portfolio
 - textBasedAdventureGame

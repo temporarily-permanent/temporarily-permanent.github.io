@@ -47,9 +47,9 @@ const portfolioData = {
 			{ type: 1, content: 'during research i came across a video a hollow knight playthrough where all the textures were removed and all hitboxes were outlined' },
 			{ type: 3, autoplay: false, video_id: 'DDKoy6XTfTA' },
 			{ type: 1, content: 'in its description it contained a link to the modification '},
-			{ type: 1, content: 'one quick rabbit hole later, i figured out how to run the mod and got these screenshots'},
-			{ type: 1, content: ' '}
-
+			{ type: 1, content: 'one quick rabbit hole later, i figured out how to get these screenshots.(i figured out how to run the mod and got these screenshots)'},
+			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision_upper.png' },
+			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision.png' },
 		]
 	}, {
 		title: 'textBasedAdventureGameFramework',
