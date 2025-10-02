@@ -33,15 +33,22 @@ const portfolioData = {
 		url: 'https://example.com/project-one',
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
-			{ type: 0, content: 'Game Sclice' },
+			{ type: 0, autoplay: true, content: 'Game Sclice' },
 			//leader role, recreation of hk
 			{ type: 1, content: 'group assignment for school where we got a 10 sec clip of hollow knight\n' +
-					'and had recreate as much as possible in about 8-9 weeks' },
-			{ type: 3, video_id: 'cKpQSh_Vh0A' },
-			{ type: 3, video_id: 'vFjJT4PXc5Y' },
+					'and had to rebuilt as much as possible in about 8-9 weeks. we were with two developers and five artist at MBO-4 Media College Amsterdam' },
+			{ type: 3, autoplay: true, video_id: 'cKpQSh_Vh0A' },
+			{ type: 3, autoplay: true, video_id: 'vFjJT4PXc5Y' },
 			{ type: 1, content: 'in this project i was assigned to the product owner role\n' +
-					'which was the first time i had a leader role' },
-			{ type: 1, content: 'being product owner meant i divided work among people' },
+					'which was the first time i had a leader role in a bigger team' },
+
+			{ type: 1, content: 'being product owner meant i divided work among people, and kept an eye over their progress over time' },
+			{ type: 0, content: 'Problem - the right hitboxes' },
+			{ type: 1, content: 'during research i came across a video a hollow knight playthrough where all the textures were removed and all hitboxes were outlined' },
+			{ type: 3, autoplay: false, video_id: 'DDKoy6XTfTA' },
+			{ type: 1, content: 'in its description it contained a link to the modification '},
+			{ type: 1, content: 'one quick rabbit hole later, i figured out how to run the mod and got these screenshots'},
+			{ type: 1, content: ' '}
 
 		]
 	}, {

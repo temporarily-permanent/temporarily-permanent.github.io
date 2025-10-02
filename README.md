@@ -1,4 +1,8 @@
 # portfolio
+## TODOS
+- add more projects and finish all writing tasks (i hate writing)
+- fix padding on bottom of base page based on window sizing
+
 ## Items in portfolio
 - textBasedAdventureGame
 - vertical sclice(hollow knight)

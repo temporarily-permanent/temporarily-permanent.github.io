@@ -38,6 +38,7 @@
 
 <!--use article component to show project -->
 <h2>things i wrote down during dev process of site</h2>
+<p>This site uses youtube embed, i haven't so far been able to prevent error code 153. <br/>Any help would be appreciated</p>
 {#each Object.entries(archiveMetaData) as [key, value]}
 	<a href="{value}">{key}<br/></a>
 {/each}
