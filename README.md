@@ -5,7 +5,7 @@
 - implement autoplay option for youtube embeds
 - limit image sizing -> contentItemType 5, contained image
 - decorate homepage 
-  - transitions joke
+  - ~~transitions joke~~
   - add typewriter effect
 
 ## Items in portfolio

@@ -48,15 +48,15 @@
 	>
 		<h2>interests</h2>
 	</article>
-
-	<!-- work experience -->
+<!--
+	&lt;!&ndash; work experience &ndash;&gt;
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
 		on:mouseleave={() => hoverOverSub = false}
 	>
 		<h2>work Experience</h2>
-	</article>
+	</article>-->
 </div>
 
 
