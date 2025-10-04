@@ -28,9 +28,14 @@
 		style="height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
 		<h2> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h2><!--dont look at this war crime-->
-		<p><br>{aboutMeData.introduction}</p>
+		<p><br>{aboutMeData.introduction}<br></p>
+		<p><br>{aboutMeData.introduction_continuation}</p>
 	</div>
-	<!-- skills -->
+
+
+
+
+	<!-- skills
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
@@ -40,14 +45,14 @@
 	</article>
 
 
-	<!-- interests -->
+	&lt;!&ndash; interests &ndash;&gt;
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
 		on:mouseleave={() => hoverOverSub = false}
 	>
 		<h2>interests</h2>
-	</article>
+	</article>-->
 <!--
 	&lt;!&ndash; work experience &ndash;&gt;
 	<article

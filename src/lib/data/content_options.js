@@ -9,7 +9,11 @@ const genericMetaData = {
 const aboutMeData = {
 	openBracket: '{', closedBracket: '}',
 	name: "name:   \'Jannes Veuger\',", psudo_name:"psudo_name: \'Temporarily Permanent\'",
-	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex",
+	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex. I often want to know how systems work interally and will take them apart to see how they work under the hood.",
+
+	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I                                   but I also value sharing knowledge and collaborating with others.",
+
+
 	avatar: undefined,
 	location: undefined,
 	interests: undefined,

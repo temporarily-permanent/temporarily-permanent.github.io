@@ -26,7 +26,7 @@
     <a>{genericMetaData.psudo_name}</a>
 </h2>
 <p class="text_centered">
-    i'm a 22 year old software developer who is interested in the computationally low-level and the technically complex
+    I'm a 22 year old software developer who is interested in the computationally low-level and the technically complex
    <!-- i'm a low level engineer and i like to figure stuff out.-->
 </p>
 <p class="text_centered">
