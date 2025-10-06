@@ -45,9 +45,11 @@
 
 
 
+<!--
 {#each Object.entries(projects) as [key, value]}
 	<p>{key}: {value}</p>
 {/each}
+-->
 
 <style>
 	.preview{

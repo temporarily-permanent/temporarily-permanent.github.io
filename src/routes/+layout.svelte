@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <link rel="icon" href="{dev ? '/faviconDEV.png' : 'favicon.png'}" />
+    <link rel="icon" href="{dev ? '/faviconDEV.png' : '/profile.png'}" />
 </svelte:head>
 
 <Header />
