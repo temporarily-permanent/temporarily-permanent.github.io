@@ -25,7 +25,7 @@
 	<!-- introduction -->
 	<div
 		class="base {hoverOverSub ? 'hidden' : ''}"
-		style="height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
+		style="min-height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
 		<h2> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h2><!--dont look at this war crime-->
 		<p><br>{aboutMeData.introduction}<br></p>
@@ -95,6 +95,7 @@
         color: var(--dark-red-4);
 				border: 30px var(--dark-red) solid;
         transition: height 2s;
+        overflow: auto;
     }
 
 		/*.base *{
