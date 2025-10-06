@@ -13,7 +13,7 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d build --cname temporarily-permanent.dev"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "3.0.8",

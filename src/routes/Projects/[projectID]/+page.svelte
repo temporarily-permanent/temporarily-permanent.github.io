@@ -48,10 +48,22 @@
 			referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	{/if}
 
+	<!--link-->
+	{#if contentItem.type === 4}
+		<a class="link" href="{contentItem.url}" target="_blank">{contentItem.content}</a>
+	{/if}
+
 {/each}
 
 
 <style>
+		.link{
+				color: var(--dark-red-14);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-14);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2rem;
+		}
 	width-100 {
 		width: 100%;
 	}

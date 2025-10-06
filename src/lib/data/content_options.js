@@ -30,7 +30,7 @@ const headerMetaData = [
 ];
 
 // portfolio
-// content type - 0 means headerText, 1 means normalText, 2 means image, 3 means  (one day rider, 2 means video, 3 means audio)
+// content type - 0 means headerText, 1 means normalText, 2 means image, 3 means video embed, 4 means link
 const portfolioData = {
 	projects: [{
 		title: 'vertical slice - game sclice - hollow knight',
@@ -67,13 +67,13 @@ const portfolioData = {
 			{ type: 2, content: 'Game Sclice - Hollow Knight/hide_GO_and_children.png' },
 		]
 	}, {
-		title: 'textBasedAdventureGameFramework',
+		title: 'Hashing ',
 		description: 'This is the second project.',
 		url: 'https://example.com/project-two',
 		image: '/images/project-two.jpg',
 		content: [
-			{ type: 0, content: 'aaa' },
-			{ type: 1, content: 'bbb' },
+			{ type: 0, content: 'hashing' },
+			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
 			{ type: 1, content: 'ccc' },
 			{ type: 1, content: 'ddd' }
 		]
@@ -83,10 +83,8 @@ const portfolioData = {
 		url: 'https://github.com/temporarily-permanent/portfolio',
 		image: '/images/project-two.jpg',
 		content: [
-			{ type: 0, content: 'aaa' },
-			{ type: 1, content: 'bbb' },
-			{ type: 1, content: 'ccc' },
-			{ type: 1, content: 'ddd' }
+			{ type: 0, content: 'this portfolio website' },
+			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
 		]
 	}]
 };

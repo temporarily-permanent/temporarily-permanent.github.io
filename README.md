@@ -10,8 +10,8 @@
 
 ## Items in portfolio
 - textBasedAdventureGame
-- vertical sclice(hollow knight)
-- HLO (UE5.5 Boss fight)
+- game sclice(hollow knight)
+- ~~HLO (UE5.5 Boss fight)~~
 - ~~TowerDefense~~ Conway's Game of Life
 
 ## personal projects?

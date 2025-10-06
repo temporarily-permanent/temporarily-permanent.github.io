@@ -115,3 +115,5 @@ md
 			{/if}
 
 currently studying applied computer science at the htw saar university of applied sciences in saarbrücken, germany.
+
+HashiCorp - Terraform - Azure DevOps - CICD
