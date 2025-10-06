@@ -91,7 +91,7 @@
 		}
 
     .base {
-        height: var(--normal-size);
+        min-height: var(--normal-size);
         color: var(--dark-red-4);
 				border: 30px var(--dark-red) solid;
         transition: height 2s;
