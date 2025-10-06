@@ -39,6 +39,7 @@ const portfolioData = {
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
 			{ type: 0, autoplay: true, content: 'vertical slice - Game Sclice' },
+			{ type: 4, url: '', content: 'GITHUB' },
 			//leader role, recreation of hk
 			{ type: 1, content: 'In the second semester of my second year I got a group assignment for school where we got a 10 sec clip of hollow knight\n' +
 					'and had to rebuilt as much as possible in about 8-9 weeks. we were with two developers and five artists at MBO-4 Media College Amsterdam' },
@@ -68,14 +69,14 @@ const portfolioData = {
 		]
 	}, {
 		title: 'Hashing ',
-		description: 'This is the second project.',
+		description: 'Implementation of various SHA algorithms.',
 		url: 'https://example.com/project-two',
 		image: '/images/project-two.jpg',
 		content: [
 			{ type: 0, content: 'hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
-			{ type: 1, content: 'ccc' },
-			{ type: 1, content: 'ddd' }
+			{ type: 1, content: 'Implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce' },
+			{ type: 1, content: '' }
 		]
 	}, {
 		title: 'portfolio',
