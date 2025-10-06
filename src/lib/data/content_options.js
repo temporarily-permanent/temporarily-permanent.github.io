@@ -76,7 +76,12 @@ const portfolioData = {
 			{ type: 0, content: 'hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
 			{ type: 1, content: 'Implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce' },
-			{ type: 1, content: '' }
+			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
+			{ type: 0, content: 'fase 0 - research' },
+			{ type: 0, content: 'fase 1 - implementation, preprocessing' },
+			{ type: 0, content: 'fase 2 - implementation, computation' },
+			{ type: 0, content: 'fase 3 - application' },
+			{}
 		]
 	}, {
 		title: 'portfolio',
