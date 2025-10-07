@@ -38,7 +38,7 @@ const portfolioData = {
 		url: 'https://example.com/project-one',
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
-			{ type: 0, autoplay: true, content: 'vertical slice - Game Sclice' },
+			{ type: 0, content: 'vertical slice - Game Sclice' },
 			{ type: 4, url: 'https://github.com/Interis-mk/Game-Sclice', content: 'GITHUB' },
 			//leader role, recreation of hk
 			{ type: 1, content: 'In the second semester of my second year I got a group assignment for school where we got a 10 sec clip of hollow knight\n' +
