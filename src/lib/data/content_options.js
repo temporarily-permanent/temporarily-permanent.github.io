@@ -78,6 +78,8 @@ const portfolioData = {
 			{ type: 1, content: 'Implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce' },
 			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
 			{ type: 0, content: 'fase 0 - research' },
+			{ type: 1, content: 'the biggest challenge here was that everything i had read became foundational knowledge for the rest of the paper' },
+			{ type: 1, content: 'this wasn\'t anything difficult for me and found this part to be the most interesting and enjoyable so far ' },
 			{ type: 0, content: 'fase 1 - implementation, preprocessing' },
 			{ type: 0, content: 'fase 2 - implementation, computation' },
 			{ type: 0, content: 'fase 3 - application' },

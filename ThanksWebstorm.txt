@@ -1,3 +1,6 @@
+// these are snippets created by webstorm, where the ai completely misunderstood what i wanted
+// they are not useful at all, but i keep them here cause funny
+
 
 	let data = [
 		{ type : 0, ref: 'AboutMe', text: 'About Me' },
@@ -117,3 +120,14 @@ md
 currently studying applied computer science at the htw saar university of applied sciences in saarbrücken, germany.
 
 HashiCorp - Terraform - Azure DevOps - CICD
+
+next step, so i had to make sure i understood everything before moving on. this meant a lot of back and forth between reading the specification and reading up on concepts i didn't understand yet.
+i am currently working on a project that involves creating a web application using svelte and tailwindcss. the application is a simple t odo list that allows users to add, edit, and delete tasks. i am also using firebase for authentication and data storage.
+i am also working on a project that involves creating a game using phaser.js. the game is a simple platformer that allows players to navigate through levels and collect items. i am also using tiled for level design and photoshop for creating assets.
+i am currently working on a project that involves creating a web application using svelte and tailwindcss. the application is a simple t odo list that allows users to add, edit, and delete tasks. i am also using firebase for authentication and data storage.
+i am also working on a project that involves creating a game using phaser.js. the game is a simple platformer that allows players to navigate through levels and collect items. i am also using tiled for level design and photoshop for creating assets.
+i am currently working on a project that involves creating a web application using svelte and tailwindcss. the application is a simple t odo list that allows users to add, edit, and delete tasks. i am also using firebase for authentication and data storage.
+i am also working on a project that involves creating a game using phaser.js. the game is a simple platformer that allows players to navigate through levels and collect items. i am also using tiled for level design and photoshop for creating assets.
+
+a linear read, i had to jump back and forth a lot to understand the concepts
+i am currently working on a project that involves creating a web application using svelte and tailwindcss. the application is a simple t odo list that allows users to add, edit, and delete tasks. i am also using firebase for authentication and data storage.
