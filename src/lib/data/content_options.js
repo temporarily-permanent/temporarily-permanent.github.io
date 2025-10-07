@@ -85,7 +85,7 @@ const portfolioData = {
 			{ type: 0, content: 'fase 1 - implementation, preprocessing' },
 			{ type: 1, content: 'NUnit was used for testing. I learnt NUnit     even though in hindsight i didnt use testing that much, but it was worth learning for the few times i did use it, namely for validation of my work.  ' },
 			{ type: 0, content: 'fase 2 - implementation, computation' },
-			{ type: 0, content: 'fase 3 - application' },
+			{ type: 0, content: 'fase 3 - application, hash table' },
 			{}
 		]
 	}, {
@@ -96,6 +96,10 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
+			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
+			{ type: 1, content: 'This website is built using SvelteKit and vite and is hosted on GitHub pages. '},
+			{ type: 1, content: 'Porkbun was used as the domain regstrar mainly because i liked their marketing. '},
+					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]
 	}]
 };
