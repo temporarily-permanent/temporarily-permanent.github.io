@@ -18,7 +18,7 @@
 
 
 <!--use bootstrap to loop through list of projects-->
-<Container>
+<Container class="max-width-70vw">
 	<h2>Projects</h2>
 	<Row>
 		{#each portfolioData.projects as projectItem, i}

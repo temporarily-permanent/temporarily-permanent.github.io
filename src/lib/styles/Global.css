@@ -25,6 +25,7 @@
     --dark-gray: #404040;
 
     --dark-blue-0: #000c1f;
+    --dark-blue-: #1f1f1f;
     --dark-blue-1: #001f3f;
     --dark-blue: #012547;
     --dark-blue-2: #013a6f;
@@ -62,4 +63,13 @@ a:link {
 
 p{
     line-height: 1.3;
-    margin-bottom: 1rem;}
+    margin-bottom: 1rem;
+}
+/*h1, h2, h3, h4, h5, h6{
+    margin: 1rem 0 0.5rem 0;
+    line-height: 1.1;
+}thanksWebstorm*/
+
+.max-width-70vw{
+    max-width: 25vw;
+}
