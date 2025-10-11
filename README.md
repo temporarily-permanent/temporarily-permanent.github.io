@@ -7,6 +7,9 @@
 - decorate homepage 
   - ~~transitions joke~~
   - add typewriter effect
+- decorate projects page
+  - source images
+  - fix css -> ai?
 
 ## Items in portfolio
 - textBasedAdventureGame

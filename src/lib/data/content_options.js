@@ -35,7 +35,7 @@ const portfolioData = {
 	projects: [{
 		title: 'vertical slice - game sclice - hollow knight',
 		description: ' a recreation from a 10 sec clip of a game, in my case Hollow Knight.',
-		url: 'https://example.com/project-one',
+		url: undefined,
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
 			{ type: 0, content: 'vertical slice - Game Sclice' },
@@ -70,8 +70,8 @@ const portfolioData = {
 	}, {
 		title: 'Hashing ',
 		description: 'Implementation of various SHA algorithms.',
-		url: 'https://example.com/project-two',
-		image: '/images/project-two.jpg',
+		url: undefined,
+		image: undefined,
 		content: [
 			{ type: 0, content: 'Hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
@@ -89,10 +89,38 @@ const portfolioData = {
 			{}
 		]
 	}, {
+		title: 'open toren dag',
+		description: 'VR project for Amsterdams 750th birthday',
+		url: undefined,
+		image: undefined,
+		content: [
+			{type: 1, content: 'under construction'},
+			{type: 0, content: 'open toren dag'},
+			{type: 1, content: 'open toren dag'},
+		]
+	},{
+		title: 'Conway\'s game of life',
+		description: 'a quick warmup to unity/C#',
+		url: undefined,
+		image: undefined,
+		content: [
+			{type: 1, content: 'under construction'},
+			{type: 0, content: 'Conway\'s game of life'},
+		]
+	},{
+		title: 'textBasedAdventureGameFramework',
+		description: 'a showcase of data/logic separation',
+		url: undefined,
+		image: undefined,
+		content: [
+			{type: 1, content: 'under construction'},
+			{type: 0, content: 'textBasedAdventureGameFramework'},
+		]
+	},{
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
-		image: '/images/project-two.jpg',
+		image: undefined, //todo add svelte logo
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
