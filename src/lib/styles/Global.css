@@ -24,14 +24,17 @@
     --gray: #808080;
     --dark-gray: #404040;
 
+    --color: #1b1030;
+
     --dark-blue-0: #000c1f;
-    --dark-blue-new: #32857e;
+
+    --dark-blue-old: #32857e;
     --dark-blue-1: #001f3f;
     --dark-blue: #012547;
     --dark-blue-2: #013a6f;
     --dark-blue-3: #014a9f;
 
-    background-color: var(--dark-blue-1);
+    background-color: var(--color);
     color: var(--dark-red-8);
     font-family: Arial, sans-serif;
 }
@@ -73,3 +76,5 @@ p{
 .max-width-70vw{
     max-width: 25vw;
 }
+
+
