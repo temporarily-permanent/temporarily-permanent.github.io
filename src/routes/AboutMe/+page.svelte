@@ -41,7 +41,7 @@
 		class="base {hoverOverSub ? 'hidden' : ''}"
 		style="min-height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
-		<h2> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h2><!--dont look at this war crime-->
+		<h3> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h3><!--dont look at this war crime-->
 		<p><br>{aboutMeData.introduction}<br></p>
 		<p><br>{aboutMeData.introduction_continuation}</p>
 	</article>
@@ -76,9 +76,12 @@
 
 
 <style>
+		h3{
+				font-size: 1.4em;
+		}
     .container {
 				margin: auto;
-				width: 75%;
+				width: 70%;
 				background: var(--dark-blue-1);
 
 				--normal-size: 400px;
