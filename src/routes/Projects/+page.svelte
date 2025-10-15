@@ -1,58 +1,69 @@
 <script>
 	import {page} from '$app/state';
-	import projects from '$lib/data/projects.json'
 	// import bootstrap
 	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
 	// find list of all projects
 	import {portfolioData, archiveMetaData} from '$lib/data/content_options.js'
-	import ProjectPreview from '$lib/components/ProjectPreview.svelte';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
 </script>
-
-<!--make accordion style showcase-->
-<!--make details uncover on hover-->
 
 <svelte:head>
 	<title>overview - temporarily permanent</title>
 </svelte:head>
 
-
-<!--use bootstrap to loop through list of projects-->
-<Container class="max-width-70vw">
+<div class="projects-container">
 	<h2>Projects</h2>
-	<Row>
+
+	<div class="projects-grid">
 		{#each portfolioData.projects as projectItem, i}
-			<Col>
-				<ProjectPreview
-					title 			= {projectItem.title}
-					description = {projectItem.description}
-					image 			=	{projectItem.image}
-					path 				=	{page.url.toString() + "/" + i}
-				/>
-			</Col>
+			<ProjectCard
+				title={projectItem.title}
+				description={projectItem.description}
+				image={projectItem.image}
+				path={page.url.toString() + "/" + i}
+			/>
 		{/each}
-	</Row>
-</Container>
+	</div>
+</div>
 
-
-
-<!--use article component to show project -->
 <h2>things i wrote down during dev process of site</h2>
 <p>This site uses youtube embed, i haven't so far been able to prevent error code 153. <br/>Any help would be appreciated</p>
 {#each Object.entries(archiveMetaData) as [key, value]}
 	<a href="{value}">{key}<br/></a>
 {/each}
 
-
-
-<!--
-{#each Object.entries(projects) as [key, value]}
-	<p>{key}: {value}</p>
-{/each}
--->
-
 <style>
-	.preview{
+	.projects-container {
+		width: 100%;
+		max-width: 1400px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
 
+	h2 {
+		margin-bottom: 2rem;
+		font-size: 2rem;
+	}
+
+	.projects-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+		margin-bottom: 4rem;
+	}
+
+	/* Tablet: 2 columns */
+	@media (max-width: 1199px) {
+		.projects-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	/* Mobile: 1 column */
+	@media (max-width: 767px) {
+		.projects-grid {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>

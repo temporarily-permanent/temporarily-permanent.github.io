@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080">
+  <defs>
+    <style>
+      .bg { fill: #f6f6f9; }
+      .panel { fill: #ffffff; stroke: #bfc1d8; stroke-width: 2; }
+      .title { font: 700 28px Arial, sans-serif; fill: #3a2f6e; }
+      .subtitle { font: 700 18px Arial, sans-serif; fill: #3a2f6e; }
+      .label { font: 400 14px Arial, sans-serif; fill: #444; }
+      .muted { font: 400 12px Arial, sans-serif; fill: #666; }
+      .nav { fill: #f0f1f7; stroke: #cfd2e6; }
+      .footer { fill: #f0f1f7; stroke: #cfd2e6; }
+      .card { fill: #fafbff; stroke: #c9cbe0; }
+      .thumb { fill: #e9ebf7; stroke: #c9cbe0; }
+      .chip { fill: #eee9f9; stroke: #c9cbe0; }
+      .chip-active { fill: #dcd2fb; stroke: #a59fd8; }
+      .accent { fill: none; stroke: #7b61ff; stroke-width: 2; }
+      .overlay { fill: rgba(123, 97, 255, 0.07); stroke: #7b61ff; stroke-dasharray: 6 6; }
+      .focus { fill: none; stroke: #7b61ff; stroke-width: 3; stroke-dasharray: 2 4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1800" height="1080"/>
+  <text x="36" y="56" class="title">Projects Page Wireframe (Desktop • Tablet • Mobile)</text>
+  <text x="36" y="84" class="muted">Keeps your expand-on-hover interaction on desktop, tap-to-expand on mobile. Neutral tone so you can layer visual design later.</text>
+
+  <!-- Panels -->
+  <!-- Desktop panel -->
+  <g transform="translate(24, 110)">
+    <rect class="panel" x="0" y="0" width="560" height="920" rx="10"/>
+    <text x="20" y="36" class="subtitle">Desktop (≥1200px) — 3-column grid</text>
+
+    <!-- Nav -->
+    <rect class="nav" x="16" y="56" width="528" height="48" rx="8"/>
+    <text x="28" y="86" class="label">[Logo/Name]           [About] [Projects] [Contact]</text>
+
+    <!-- Section Title and Filters -->
+    <text x="20" y="132" class="subtitle">Projects</text>
+    <text x="20" y="154" class="muted">Short intro copy (1–2 lines).</text>
+
+    <g transform="translate(16, 168)">
+      <rect class="chip-active" x="0" y="0" width="54" height="24" rx="12"/>
+      <text x="12" y="16" class="muted">All</text>
+      <rect class="chip" x="62" y="0" width="62" height="24" rx="12"/>
+      <text x="74" y="16" class="muted">Web</text>
+      <rect class="chip" x="128" y="0" width="74" height="24" rx="12"/>
+      <text x="140" y="16" class="muted">Games</text>
+      <rect class="chip" x="206" y="0" width="114" height="24" rx="12"/>
+      <text x="218" y="16" class="muted">Experiments</text>
+    </g>
+
+    <!-- Grid (3 columns) -->
+    <g transform="translate(16, 204)">
+      <!-- Row 1 -->
+      <g>
+        <rect class="card" x="0" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="10" y="10" width="146" height="82" rx="6"/>
+        <text x="14" y="110" class="label">Project Title</text>
+        <text x="14" y="130" class="muted">[tag] [tag]</text>
+      </g>
+      <g>
+        <rect class="card" x="180" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="190" y="10" width="146" height="82" rx="6"/>
+        <text x="194" y="110" class="label">Project Title</text>
+        <text x="194" y="130" class="muted">[tag] [tag]</text>
+      </g>
+      <g>
+        <rect class="card" x="360" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="370" y="10" width="146" height="82" rx="6"/>
+        <text x="374" y="110" class="label">Project Title</text>
+        <text x="374" y="130" class="muted">[tag] [tag]</text>
+      </g>
+
+      <!-- Row 2 (with hover overlay demo on middle card) -->
+      <g transform="translate(0, 208)">
+        <rect class="card" x="0" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="10" y="10" width="146" height="82" rx="6"/>
+        <text x="14" y="110" class="label">Project Title</text>
+        <text x="14" y="130" class="muted">[tag] [tag]</text>
+      </g>
+      <g transform="translate(0, 208)">
+        <rect class="card" x="180" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="190" y="10" width="146" height="82" rx="6"/>
+        <text x="194" y="110" class="label">Project Title</text>
+        <text x="194" y="130" class="muted">[tag] [tag]</text>
+        <!-- Hover overlay demonstration -->
+        <rect class="overlay" x="186" y="6" width="154" height="180" rx="8"/>
+        <text x="194" y="156" class="muted">Expanded overlay on hover</text>
+      </g>
+      <g transform="translate(0, 208)">
+        <rect class="card" x="360" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="370" y="10" width="146" height="82" rx="6"/>
+        <text x="374" y="110" class="label">Project Title</text>
+        <text x="374" y="130" class="muted">[tag] [tag]</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 416)">
+        <rect class="card" x="0" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="10" y="10" width="146" height="82" rx="6"/>
+        <text x="14" y="110" class="label">Project Title</text>
+        <text x="14" y="130" class="muted">[tag] [tag]</text>
+      </g>
+      <g transform="translate(0, 416)">
+        <rect class="card" x="180" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="190" y="10" width="146" height="82" rx="6"/>
+        <text x="194" y="110" class="label">Project Title</text>
+        <text x="194" y="130" class="muted">[tag] [tag]</text>
+      </g>
+      <g transform="translate(0, 416)">
+        <rect class="card" x="360" y="0" width="166" height="192" rx="10"/>
+        <rect class="thumb" x="370" y="10" width="146" height="82" rx="6"/>
+        <text x="374" y="110" class="label">Project Title</text>
+        <text x="374" y="130" class="muted">[tag] [tag]</text>
+      </g>
+    </g>
+
+    <!-- Footer -->
+    <rect class="footer" x="16" y="860" width="528" height="44" rx="8"/>
+    <text x="28" y="888" class="muted">Footer</text>
+  </g>
+
+  <!-- Tablet panel -->
+  <g transform="translate(620, 110)">
+    <rect class="panel" x="0" y="0" width="560" height="920" rx="10"/>
+    <text x="20" y="36" class="subtitle">Tablet (768–1199px) — 2-column grid</text>
+
+    <rect class="nav" x="16" y="56" width="528" height="48" rx="8"/>
+    <text x="28" y="86" class="label">[Logo]   [About] [Projects] [Contact]</text>
+
+    <text x="20" y="132" class="subtitle">Projects</text>
+    <g transform="translate(16, 146)">
+      <rect class="chip-active" x="0" y="0" width="54" height="24" rx="12"/>
+      <text x="12" y="16" class="muted">All</text>
+      <rect class="chip" x="62" y="0" width="62" height="24" rx="12"/>
+      <text x="74" y="16" class="muted">Web</text>
+      <rect class="chip" x="128" y="0" width="74" height="24" rx="12"/>
+      <text x="140" y="16" class="muted">Games</text>
+    </g>
+
+    <!-- Grid (2 columns) -->
+    <g transform="translate(16, 188)">
+      <!-- Row 1 -->
+      <g>
+        <rect class="card" x="0" y="0" width="250" height="206" rx="10"/>
+        <rect class="thumb" x="12" y="12" width="226" height="100" rx="8"/>
+        <text x="16" y="134" class="label">Project Title</text>
+        <text x="16" y="154" class="muted">[tag] [tag]</text>
+      </g>
+      <g>
+        <rect class="card" x="266" y="0" width="250" height="206" rx="10"/>
+        <rect class="thumb" x="278" y="12" width="226" height="100" rx="8"/>
+        <text x="282" y="134" class="label">Project Title</text>
+        <text x="282" y="154" class="muted">[tag] [tag]</text>
+      </g>
+
+      <!-- Row 2 (overlay demo on right card) -->
+      <g transform="translate(0, 222)">
+        <rect class="card" x="0" y="0" width="250" height="206" rx="10"/>
+        <rect class="thumb" x="12" y="12" width="226" height="100" rx="8"/>
+        <text x="16" y="134" class="label">Project Title</text>
+        <text x="16" y="154" class="muted">[tag] [tag]</text>
+      </g>
+      <g transform="translate(0, 222)">
+        <rect class="card" x="266" y="0" width="250" height="206" rx="10"/>
+        <rect class="thumb" x="278" y="12" width="226" height="100" rx="8"/>
+        <text x="282" y="134" class="label">Project Title</text>
+        <text x="282" y="154" class="muted">[tag] [tag]</text>
+        <rect class="overlay" x="272" y="6" width="238" height="194" rx="8"/>
+        <text x="282" y="188" class="muted">Expanded overlay</text>
+      </g>
+    </g>
+
+    <rect class="footer" x="16" y="860" width="528" height="44" rx="8"/>
+    <text x="28" y="888" class="muted">Footer</text>
+  </g>
+
+  <!-- Mobile panel -->
+  <g transform="translate(1216, 110)">
+    <rect class="panel" x="0" y="0" width="560" height="920" rx="10"/>
+    <text x="20" y="36" class="subtitle">Mobile (&lt;768px) — 1-column, tap-to-expand</text>
+
+    <rect class="nav" x="16" y="56" width="528" height="48" rx="8"/>
+    <text x="28" y="86" class="label">[Logo]                               [≡]</text>
+
+    <text x="20" y="132" class="subtitle">Projects</text>
+    <g transform="translate(16, 146)">
+      <rect class="chip-active" x="0" y="0" width="54" height="24" rx="12"/>
+      <text x="12" y="16" class="muted">All</text>
+      <rect class="chip" x="62" y="0" width="62" height="24" rx="12"/>
+      <text x="74" y="16" class="muted">Web</text>
+      <rect class="chip" x="128" y="0" width="84" height="24" rx="12"/>
+      <text x="140" y="16" class="muted">Games</text>
+    </g>
+
+    <!-- Single column list -->
+    <g transform="translate(16, 188)">
+      <!-- Card 1 -->
+      <rect class="card" x="0" y="0" width="528" height="220" rx="10"/>
+      <rect class="thumb" x="12" y="12" width="504" height="120" rx="8"/>
+      <text x="16" y="152" class="label">Project Title</text>
+      <text x="16" y="174" class="muted">[tag] [tag]</text>
+
+      <!-- Tap-to-expand region -->
+      <rect class="overlay" x="6" y="112" width="516" height="96" rx="8"/>
+      <text x="16" y="198" class="muted">Tap expands below: summary + actions</text>
+
+      <!-- Card 2 -->
+      <rect class="card" x="0" y="236" width="528" height="220" rx="10"/>
+      <rect class="thumb" x="12" y="248" width="504" height="120" rx="8"/>
+      <text x="16" y="388" class="label">Project Title</text>
+      <text x="16" y="410" class="muted">[tag] [tag]</text>
+    </g>
+
+    <rect class="footer" x="16" y="860" width="528" height="44" rx="8"/>
+    <text x="28" y="888" class="muted">Footer</text>
+
+    <!-- Notes -->
+    <text x="20" y="836" class="muted">Keyboard: focus ring, Enter/Space toggles; Escape closes.</text>
+    <text x="20" y="854" class="muted">Images lazy-load; fixed aspect ratios avoid layout shift.</text>
+  </g>
+</svg>

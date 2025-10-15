@@ -36,15 +36,25 @@
         bottom: 1vh;
         left: 50%;
         transform: translate(-50%, -5%);
-				border-radius: 5vh;
+				border-radius: 6vh;
 				/*border-radius: 110px 110px 0 0;*/
-        outline: 2px solid black;
+        outline: 4px solid black;
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
         align-items: center;
 				gap: 25px;
 				font-size: 1vh;
+				background: var(--dark-blue-1);
+				box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+				/*backdrop-filter: blur(10px);*/
+				/*background-color: rgba(255, 255, 255, 0.8);*/
+				/*background-color: rgba(0, 0, 0, 0.5);*/
+				/*background-color: rgba(30, 30, 30, 0.5);*/
+				/*background-color: rgba(20, 20, 30, 0.5);*/
+				/*background-color: rgba(20, 20, 40, 0.5);*/
+				/*background-color: rgba(20, 20, 50, 0.5);*/
+				/*background-color: rgba(20, 20, 60, 0.5);*/
 		}
 
 		.item{

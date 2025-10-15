@@ -42,29 +42,27 @@ const portfolioData = {
 			{ type: 4, url: 'https://github.com/Interis-mk/Game-Sclice', content: 'GITHUB' },
 			//leader role, recreation of hk
 			{ type: 1, content: 'In the second semester of my second year I got a group assignment for school where we got a 10 sec clip of hollow knight\n' +
-					'and had to rebuilt as much as possible in about 8-9 weeks. we were with two developers and five artists at MBO-4 Media College Amsterdam' },
+					'and had to rebuilt as much as possible in about 8-9 weeks. we were with two developers and five artists at MBO-4 Media College Amsterdam.' },
 			{ type: 3, autoplay: true, video_id: 'cKpQSh_Vh0A' },
 			{ type: 3, autoplay: true, video_id: 'vFjJT4PXc5Y' },
-			{ type: 1, content: 'in this project i was assigned to the product owner role\n' +
-					'which was the first time i had a leader role in a bigger team' },
+			{ type: 1, content: 'In this project i was assigned to the product owner role,\n' +
+					'which was the first time i had a leader role in a bigger team.' },
 
-			{ type: 1, content: 'being product owner meant i divided work among me and my co-programmer and made sure every artist had a section of work to work on. So while one artist worked on the main character, another artist worked on background assets. During this process i kept an eye on their progress over time, trying to motivate them and unblock them when they encountered any issues along the way ' },
-
-			{type: 1, content: 'i also had to make sure everyone was on the same page and that we were all working towards the same goal'},
+			{ type: 1, content: 'Being product owner meant i divided work among me and my co-programmer and made sure every artist had a section of work to work on. ' +
+					'So while one artist worked on the main character, another artist worked on background assets. During this process i kept an eye on their progress over time, trying to motivate them and unblock them when they encountered any issues along the way. ' },
+			{type: 1, content: 'I also had to make sure everyone was on the same page and that we were all working towards the same goal.'},
 //i like to figure out mathematically complex problems
 
-
-
 			{ type: 0, content: 'Problem - the right hitboxes' },
-			{ type: 1, content: 'during research i came across a video a hollow knight playthrough where all the textures were removed and all hitboxes were outlined' },
+			{ type: 1, content: 'During research I came across a video a Hollow Knight playthrough where all the textures were removed and all hitboxes were outlined.' },
 			{ type: 3, autoplay: false, video_id: 'DDKoy6XTfTA' },
-			{ type: 1, content: 'in its description it contained a link to the modification '},
-			{ type: 1, content: 'one quick rabbit hole later, i figured out how to get these screenshots.(i figured out how to run the mod and got these screenshots)'},
+			{ type: 1, content: 'In its description it contained a link to the modification.' },
+			{ type: 1, content: 'One quick rabbit hole later, I figured out how to get these screenshots. (I figured out how to run the mod and got these screenshots).' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision_upper(Small).png' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision(Small).png' },
-			{ type: 1, content: 'making hitboxes for a simple project like this is as easy as new GameObject > square, add Collider2D, copy/paste that everywhere till i had working collision' },
-			{ type: 2, content: 'Game Sclice - Hollow Knight/img(Small).png'},
-			{ type: 1, content: 'however, i don\'t want white boxes and a grey background in the final product, so i quickly wrote a utility to toggle the visibility of these elements' },
+			{ type: 1, content: 'Making hitboxes for a simple project like this is as easy as new GameObject > square, add a Collider2D component, copy/paste that everywhere till I had working collision.' },
+			{ type: 2, content: 'Game Sclice - Hollow Knight/img(Small).png' },
+			{ type: 1, content: 'However, I don\'t want white boxes and a grey background in the final product, so I quickly wrote a utility to toggle the visibility of these elements.' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/hide_GO_and_children.png' },
 		]
 	}, {
@@ -125,7 +123,7 @@ const portfolioData = {
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
 			{ type: 1, content: 'This website is built using SvelteKit and vite and is hosted on GitHub pages. '},
-			{ type: 1, content: 'Porkbun was used as the domain regstrar mainly because i liked their marketing. '},
+			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because i liked their marketing. '},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
 					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]

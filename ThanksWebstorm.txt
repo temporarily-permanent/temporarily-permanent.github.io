@@ -131,3 +131,21 @@ i am also working on a project that involves creating a game using phaser.js. th
 
 a linear read, i had to jump back and forth a lot to understand the concepts
 i am currently working on a project that involves creating a web application using svelte and tailwindcss. the application is a simple t odo list that allows users to add, edit, and delete tasks. i am also using firebase for authentication and data storage.
+	//thanks webstorm
+	/*onkeydown(event) {
+		if (event.key === 'Escape') {
+			window.history.back();
+		}
+	}*/
+	/*onMount(() => {
+        window.addEventListener('keydown', onkeydown);
+        return () => {
+            window.removeEventListener('keydown', onkeydown);
+        };
+    });*/
+
+
+			{ type: 1, content: 'This utility allows me to selectively hide or show debug elements during the development process, improving visual clarity.' },
+			{ type: 1, content: 'Using this utility, I can enhance my workflow and focus on the core gameplay mechanics without visual distractions.' },
+			{ type: 1, content: 'In addition, this approach minimizes cognitive overload, allowing for a better focus on problem-solving and creativity.' },
+			{ type: 1, content: 'By integrating these techniques, I can foster a more efficient and enjoyable development experience.' },

@@ -13,7 +13,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build --cname temporarily-permanent.dev"
+		"deploy": "gh-pages -d build --cname temporarily-permanent.dev",
+		"wireframe:png": "node render_wireframe_png.mjs"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "3.0.8",
@@ -22,6 +23,7 @@
 		"gh-pages": "^6.3.0",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
+		"sharp": "^0.34.4",
 		"svelte": "^5.34.3",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",

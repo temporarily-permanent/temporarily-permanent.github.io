@@ -1,19 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 	import { aboutMeData } from '$lib/data/content_options.js';
-/*
-	onMount(() => {
-		document.title = 'About Me';
-	});*/
-
+	let selected = 0;
 
 	let hoverOverSub = false;
-	//thanks webstorm
-	/*onkeydown(event) {
-		if (event.key === 'Escape') {
-			window.history.back();
-		}
-	}*/
+
 </script>
 
 <svelte:head>
@@ -22,20 +13,40 @@
 
 <div class="container">
 
+	<article>
+
+	</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<!-- introduction -->
-	<div
+	<article
 		class="base {hoverOverSub ? 'hidden' : ''}"
 		style="min-height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
 	>
 		<h2> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h2><!--dont look at this war crime-->
 		<p><br>{aboutMeData.introduction}<br></p>
 		<p><br>{aboutMeData.introduction_continuation}</p>
-	</div>
+	</article>
 
-
-
-
-	<!-- skills
+	 <!-- skills -->
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
@@ -45,31 +56,30 @@
 	</article>
 
 
-	&lt;!&ndash; interests &ndash;&gt;
+	<!-- interests -->
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
 		on:mouseleave={() => hoverOverSub = false}
 	>
 		<h2>interests</h2>
-	</article>-->
-<!--
-	&lt;!&ndash; work experience &ndash;&gt;
+	</article>
+	<!-- work experience -->
 	<article
 		class="sub"
 		on:mouseenter={() => hoverOverSub = true}
 		on:mouseleave={() => hoverOverSub = false}
 	>
 		<h2>work Experience</h2>
-	</article>-->
+	</article>
 </div>
 
 
 <style>
     .container {
 				margin: auto;
-				width: 66%;
-				background: var(--dark-gray);
+				width: 75%;
+				background: var(--dark-blue-1);
 
 				--normal-size: 400px;
 				--hidden-size: auto;
@@ -91,6 +101,7 @@
 		}
 
     .base {
+				padding: 20px;
         min-height: var(--normal-size);
         color: var(--dark-red-4);
 				border: 30px var(--dark-red) solid;
@@ -98,12 +109,18 @@
         overflow: auto;
     }
 
-		/*.base *{
-        color: var(--dark-red-5);
+		.selected {
+				border: 30px var(--dark-red) solid;
+				color: var(--dark-red-5);
+		}
 
-		}*/
-
-
+    .link{
+        color: var(--dark-red-14);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-14);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2rem;
+    }
 </style>
 
 

@@ -31,10 +31,19 @@
 </p>
 <p class="text_centered">
     and i like to figure out mathematically complex problems -->
-    <label>
+
     <input type="checkbox" bind:checked={visible} />
-</label>
+
+
+
 </p>
+<div class="checkbox-wrapper-22">
+    <label class="switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+    </label>
+</div>
+
 
 
 

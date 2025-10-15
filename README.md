@@ -9,7 +9,8 @@
   - add typewriter effect
 - decorate projects page
   - source images
-  - fix css -> ai?
+  - ~~fix css -> ai?~~
+    - add a bit of personalty back since ai cant do that
 
 ## Items in portfolio
 - textBasedAdventureGame
