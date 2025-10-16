@@ -48,7 +48,7 @@ const portfolioData = {
 			{ type: 1, content: 'In this project i was assigned to the product owner role,\n' +
 					'which was the first time i had a leader role in a bigger team.' },
 
-			{ type: 1, content: 'Being product owner meant i divided work among me and my co-programmer and made sure every artist had a section of work to work on. ' +
+			{ type: 1, content: 'Being product owner meant that i divided work among me and my co-programmer and made sure every artist had a section of work to work on. ' +
 					'So while one artist worked on the main character, another artist worked on background assets. During this process i kept an eye on their progress over time, trying to motivate them and unblock them when they encountered any issues along the way. ' },
 			{type: 1, content: 'I also had to make sure everyone was on the same page and that we were all working towards the same goal.'},
 //i like to figure out mathematically complex problems
@@ -123,7 +123,7 @@ const portfolioData = {
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
 			{ type: 1, content: 'This website is built using SvelteKit and vite and is hosted on GitHub pages. '},
-			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because i liked their marketing. '},
+			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
 					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]
