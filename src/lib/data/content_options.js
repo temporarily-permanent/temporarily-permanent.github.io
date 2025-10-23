@@ -8,12 +8,13 @@ const genericMetaData = {
 // about me
 const aboutMeData = {
 	openBracket: '{', closedBracket: '}',
-	name: "name:   \'Jannes Veuger\',", psudo_name:"psudo_name: \'Temporarily Permanent\'",
-	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex. I often want to know how systems work interally and will take them apart to see how they work under the hood.",
+	name: "  name:   \'Jannes Veuger\',", psudo_name:"  psudo_name: \'Temporarily Permanent\'",
+	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex. I often want to know how systems work internally and will take them apart to see how they work under the hood.",
 
 	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I                                   but I also value sharing knowledge and collaborating with others.",
 
-
+	//delivery driver thuisbezorgd, 3,5 years
+	//supermarket stocker, 2 years
 	avatar: undefined,
 	location: undefined,
 	interests: undefined,
@@ -94,7 +95,6 @@ const portfolioData = {
 		content: [
 			{type: 1, content: 'under construction'},
 			{type: 0, content: 'open toren dag'},
-			{type: 1, content: 'open toren dag'},
 		]
 	},{
 		title: 'Conway\'s game of life',
@@ -105,7 +105,7 @@ const portfolioData = {
 			{type: 1, content: 'under construction'},
 			{type: 0, content: 'Conway\'s game of life'},
 		]
-	},{
+	},/*{
 		title: 'textBasedAdventureGameFramework',
 		description: 'a showcase of data/logic separation',
 		url: undefined,
@@ -114,7 +114,7 @@ const portfolioData = {
 			{type: 1, content: 'under construction'},
 			{type: 0, content: 'textBasedAdventureGameFramework'},
 		]
-	},{
+	},*/{
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
@@ -122,9 +122,11 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
-			{ type: 1, content: 'This website is built using SvelteKit and vite and is hosted on GitHub pages. '},
+			{ type: 1, content: 'This website is built using SvelteKit and Vite and is hosted on GitHub pages. '},
 			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
+			{ type: 1, content: 'This website has a fun surprise if it is open for 10 minutes.'},
+			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: 'I DON\'T WANT TO WAIT' },
 					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]
 	}]

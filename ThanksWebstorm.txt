@@ -149,3 +149,5 @@ i am currently working on a project that involves creating a web application usi
 			{ type: 1, content: 'Using this utility, I can enhance my workflow and focus on the core gameplay mechanics without visual distractions.' },
 			{ type: 1, content: 'In addition, this approach minimizes cognitive overload, allowing for a better focus on problem-solving and creativity.' },
 			{ type: 1, content: 'By integrating these techniques, I can foster a more efficient and enjoyable development experience.' },
+
+			{type: 1, content: 'In the first semester of my second year at MBO-4 Media College Amsterdam, I worked on a VR project for the city of Amsterdam\'s 750th birthday. The project was called "Open Toren Dag" and aimed to give people a virtual tour of the city\'s landmarks.'},

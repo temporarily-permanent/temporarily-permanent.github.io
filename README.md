@@ -58,4 +58,11 @@ how to implement hashing
 - step five - implement the SHS specification, test against known values
 ### Conway's Game of Life
 - [ ] implementation of complex systems in a short timeframe
-- [ ] 
+- [ ] ℵ
+
+## shopping list
+
+### thumbnails
+- portfolio -> svelte logo
+- open toren dag -> hunt and find
+- conways game of life -> grid of cells

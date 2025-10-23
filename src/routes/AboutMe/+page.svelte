@@ -23,11 +23,12 @@
 		tabindex="0"
 		on:click={() => selected = 0}
 		on:keydown={(e) => activateByKey(e, 0)}
-		class="container {selected === 0 ? 'selected' : 'not-selected'}"
+		class=" {selected === 0 ? 'selected' : 'not-selected'} clickable"
 	>
-		<!-- content --><h2>test</h2>
-		<div class="{selected === 0 ? 'selected' : 'not-selected'}">
 			<h3>{aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h3>
+		<div class="hide {selected === 0 ? 'selected' : 'not-selected'}">
+			<p><br>{aboutMeData.introduction}<br></p>
+			<p><br>{aboutMeData.introduction_continuation}</p>
 		</div>
 	</article>
 
@@ -35,17 +36,19 @@
 	tabindex="0"
 	on:click={() => selected = 1}
 	on:keydown={(e) => activateByKey(e, 1)}
-	class="container {selected === 1 ? 'selected' : 'not-selected'}"
+	class=" {selected === 1 ? 'selected' : 'not-selected'} clickable"
 >
-	<!-- content --><h2>test</h2>
-	<div class="{selected === 1 ? 'selected' : 'not-selected'}"></div>
+	<!-- content --><h2 class="test_override_root_color">test</h2>
+	<div class=" {selected === 1 ? 'selected' : 'not-selected'}">
+		<p class="test_override_root_color">other</p>
+	</div>
 </article>
 
 <article
 	tabindex="0"
 	on:click={() => selected = 2}
 	on:keydown={(e) => activateByKey(e, 2)}
-	class="container {selected === 2 ? 'selected' : 'not-selected'}"
+	class=" {selected === 2 ? 'selected' : 'not-selected'} clickable"
 >
 	<!-- content --><h2>test</h2>
 	<div class="{selected === 2 ? 'selected' : 'not-selected'}"></div>
@@ -55,7 +58,7 @@
 	tabindex="0"
 	on:click={() => selected = 3}
 	on:keydown={(e) => activateByKey(e, 3)}
-	class="container {selected === 3 ? 'selected' : 'not-selected'}"
+	class=" {selected === 3 ? 'selected' : 'not-selected'} clickable"
 >
 	<!-- content --><h2>test</h2>
 	<div class="{selected === 3 ? 'selected' : 'not-selected'}"></div>
@@ -136,35 +139,77 @@ fun things and facts learnt during development of site'
 
 
 <style>
-		h3{
-				font-size: 1.4em;
-		}
+		.test_override_root_color {
+				color : var(--dev-pink);
+    }
 
-    :focus { outline: 3px solid Highlight; outline-offset: 2px; }
-    .selected { border-color: var(--dark-red-5); }
-
-		.selected {
-				border: 30px var(--dark-red) solid;
-				color: var(--dark-red-5);
+    * {
+        text-align: justify;
 		}
 
     .container {
-				margin: auto;
-				width: 70%;
-				background: var(--dark-blue-1);
+        margin: auto;
+        width: 70%;
+        background: var(--dark-blue-1);
 
-				--normal-size: 400px;
-				--hidden-size: auto;
+        --normal-size: 400px;
+        --hidden-size: auto;
     }
 
-		.container * {
-				margin: 0;
+    .container * {
+        margin: 0;
+    }
+
+    h3{
+				font-size: 1.4em;
+				white-space: pre;
 		}
+
+    :focus { outline: 3px solid Highlight; outline-offset: 2px; }
+		/*
+    .selected { border-color: var(--dark-red-5); }*/
+
+		.selected {/*
+				color: var(--dark-red-5);*/
+		}
+
+    article.selected {
+        padding: 20px;
+
+        border: 30px var(--dark-red) solid;
+    }
+		article.not-selected {
+				padding: 10px;
+				border: 30px var(--dark-red-2) solid;
+    }
+		article.not-selected:hover {
+				border: 30px var(--dark-red-5) solid;
+				color: var(--dark-red-5);
+		}
+		.hide.not-selected {
+				pointer-events: none;
+				font-size: 0px;
+				height: 0px;
+				width: 0px;
+				opacity: 0;
+		}
+		.hide.selected {
+				opacity: 1;
+				transition: opacity .5s ease;
+		}
+		/*.clickable.not-selected {
+				cursor: pointer;
+        color: var(--dark-red-14) !important;
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-14);
+        text-underline-offset: 0.2rem;
+		}*/
 
     .sub{
         height: var(--hidden-size);
         color: var(--dark-red-8);
         border: 30px var(--dark-red-2) solid;
+        padding: 20px;
 				transition: height 2s ease;
     }
 
@@ -180,11 +225,6 @@ fun things and facts learnt during development of site'
         transition: height 2s;
         overflow: auto;
     }
-
-		.selected {
-				border: 30px var(--dark-red) solid;
-				color: var(--dark-red-5);
-		}
 
     .link{
         color: var(--dark-red-14);
