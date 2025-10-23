@@ -61,8 +61,12 @@ how to implement hashing
 - [ ] ℵ
 
 ## shopping list
-
 ### thumbnails
 - portfolio -> svelte logo
 - open toren dag -> hunt and find
 - conways game of life -> grid of cells
+
+
+
+
+https://www.iamsterdam.com/uit/agenda/festivals/events/open-toren-dag-amsterdam

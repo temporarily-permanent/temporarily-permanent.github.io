@@ -118,7 +118,7 @@ const portfolioData = {
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
-		image: undefined, //todo add svelte logo
+		image: '/svelte-logo-square.svg', //todo add svelte logo
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
