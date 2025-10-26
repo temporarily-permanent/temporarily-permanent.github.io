@@ -13,8 +13,13 @@ const aboutMeData = {
 
 	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I                                   but I also value sharing knowledge and collaborating with others.",
 
-	//delivery driver thuisbezorgd, 3,5 years
-	//supermarket stocker, 2 years
+	items: [
+		'Skills',
+		'Interests',
+		'Work Experience',
+		'Education',
+	],
+	//description: 'A passionate delivery driver thuisbezorgd, 3.5 years\nsupermarket stocker, 2 years',
 	avatar: undefined,
 	location: undefined,
 	interests: undefined,
@@ -45,6 +50,7 @@ const portfolioData = {
 			{ type: 1, content: 'In the second semester of my second year I got a group assignment for school where we got a 10 sec clip of hollow knight\n' +
 					'and had to rebuilt as much as possible in about 8-9 weeks. we were with two developers and five artists at MBO-4 Media College Amsterdam.' },
 			{ type: 3, autoplay: true, video_id: 'cKpQSh_Vh0A' },
+
 			{ type: 3, autoplay: true, video_id: 'vFjJT4PXc5Y' },
 			{ type: 1, content: 'In this project i was assigned to the product owner role,\n' +
 					'which was the first time i had a leader role in a bigger team.' },
@@ -91,7 +97,7 @@ const portfolioData = {
 		title: 'open toren dag',
 		description: 'VR project for Amsterdams 750th birthday',
 		url: undefined,
-		image: undefined,
+		image: '/open-toren-dag-thumbnail.jpg',
 		content: [
 			{type: 1, content: 'under construction'},
 			{type: 0, content: 'open toren dag'},
@@ -100,7 +106,7 @@ const portfolioData = {
 		title: 'Conway\'s game of life',
 		description: 'a quick warmup to unity/C#',
 		url: undefined,
-		image: undefined,
+		image: '/conway-game-of-life.png',
 		content: [
 			{type: 1, content: 'under construction'},
 			{type: 0, content: 'Conway\'s game of life'},

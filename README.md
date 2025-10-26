@@ -1,14 +1,16 @@
 # portfolio
 ## TODOS
+- svelte mcp
 - add more projects and finish all writing tasks (i hate writing)
 - fix padding on bottom of base page based on window sizing
 - ~~implement autoplay option for youtube embeds~~
 - limit image sizing -> contentItemType 5, contained image
-- decorate homepage 
+- ~~decorate homepage~~ 
   - ~~transitions joke~~
   - add typewriter effect
 - decorate projects page
   - source images
+  - remove post scriptum 
   - ~~fix css -> ai?~~
     - add a bit of personalty back since ai cant do that
 
@@ -68,5 +70,7 @@ how to implement hashing
 
 
 
+c#
+ik beheers de basisvaardigheden om o.a. te werken met c# c javascript linux,. Ik heb de ambitie om later te werken met c++ rust etc.
 
 https://www.iamsterdam.com/uit/agenda/festivals/events/open-toren-dag-amsterdam

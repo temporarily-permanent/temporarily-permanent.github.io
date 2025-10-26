@@ -38,9 +38,9 @@
 	on:keydown={(e) => activateByKey(e, 1)}
 	class=" {selected === 1 ? 'selected' : 'not-selected'} clickable"
 >
-	<!-- content --><h2 class="test_override_root_color">test</h2>
+	<!-- content --><h2 class="clickable {selected === 1 ? 'selected' : 'not-selected'}">{aboutMeData.items[0]}</h2>
 	<div class=" {selected === 1 ? 'selected' : 'not-selected'}">
-		<p class="test_override_root_color">other</p>
+		<p class="">other</p>
 	</div>
 </article>
 
@@ -50,7 +50,7 @@
 	on:keydown={(e) => activateByKey(e, 2)}
 	class=" {selected === 2 ? 'selected' : 'not-selected'} clickable"
 >
-	<!-- content --><h2>test</h2>
+	<!-- content --><h2 class="test_override_root_color">test</h2>
 	<div class="{selected === 2 ? 'selected' : 'not-selected'}"></div>
 </article>
 
@@ -171,6 +171,14 @@ fun things and facts learnt during development of site'
 
 		.selected {/*
 				color: var(--dark-red-5);*/
+		}
+
+		.not-selected.clickable {
+        color: var(--dark-red-14);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-14);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2rem;
 		}
 
     article.selected {
