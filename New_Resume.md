@@ -49,6 +49,7 @@ Software Developement
     <u>Haha Ha</u>, San Zhang, Si Li, Wu Wang
 
     *Culinary Visualization and Potato Roasting Conference (CVPR), 2077 **(Best Paper Honorable Mention)***
+    /Things I want to learn during my Internship
 -->
 
 ## Experience / College projects
@@ -56,7 +57,7 @@ Software Developement
 **HASHING**
 ~ own research
 ~ 5 weeks
-- comprehended the SHS specification and implemented the hashing algoritm "SHA-1"
+- studied the SHS specification and implemented the SHA-1 hashing algoritm
 - created a practical implementation in the form of a hash table
 
 
@@ -65,31 +66,32 @@ Software Developement
 ~ 6 weeks
 
 - developed relations with external parties
-- designed and developed two vr experience for visitors of the open toren dag
+- designed and developed two VR experiences for visitors to Open Toren Dag
 
 **GAME SCLICE**
 ~ school project
-~ 25 working days
+~ 6 weeks
 - recreated a vertical slice from an existing game
-- managed a small team of 7 people
+- reverse-engineered the game out of curiosity
+- managed a small team of seven people
 
-## Ambition/Things I want to learn during my Internship
+## Ambitions
 
 **Technical**
-- getting experience in architecting large code bases
-- deepen knowledge of low‑level programming languages (C, C++, Rust, Assembly)
-- getting experience with running a home server (proxmox, plex/jellyfin, torrenting)
+- gain experience in architecting large code bases
+- deepen knowledge of low‑level programming languages (C, C++, Rust, etc)
+- gain experience with running a home server (Proxmox, Plex/Jellyfin, torrenting)
 
 **Interpersonal**
 - conference speaking
 - team leadership
 
 
-## work Experience
+## Work Experience
 **DELIVERY DRIVER**
 ~ Amsterdam, NL
 
-thuisbezorgd
+Thuisbezorgd
 ~ January 2022 - now
 
 **STORE CLERK**
@@ -117,16 +119,16 @@ Jumbo Supermarkten B.V.
 **Programming Languages:**
 <span class="iconify" data-icon="skill-icons:cs"></span> C#,
 <span class="iconify" data-icon="vscode-icons:file-type-c"></span> C,
-<span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> Javascript
+<span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript
 
 **Tools and Frameworks:** <span class="iconify" data-icon="vscode-icons:file-type-git"></span> Github,
 <span class="iconify" data-icon="skill-icons:unity-light"></span> Unity,
-<span class="iconify" data-icon="vscode-icons:file-type-svelte"></span> Svelte
+<span class="iconify" data-icon="vscode-icons:file-type-svelte"></span> Svelte,
 <span class="iconify" data-icon="devicon:neovim"></span> Neovim,
-<span class="iconify" data-icon="devicon:rider"></span> JB Rider,
+<span class="iconify" data-icon="devicon:rider"></span> JB Rider
 
 **Languages:** Dutch (native), English (native)
 
-**Interests:** inline skating (the non ice variant), cycling, gaming
+**Interests:** inline skating (non-ice), cycling, gaming
 
 **Personal qualities:** self-directed learner, enthusiastic, research‑oriented
