@@ -1,5 +1,5 @@
 <script>
-	import { aboutMeData } from '$lib/data/content_options.js';
+	import { aboutMeData, socialsData } from '$lib/data/content_options.js';
 
 	let selected = 0;
 
@@ -33,11 +33,12 @@
 	</article>
 
 	<article
-	tabindex="0"
-	on:click={() => selected = 1}
-	on:keydown={(e) => activateByKey(e, 1)}
-	class=" {selected === 1 ? 'selected' : 'not-selected'} clickable"
->
+		role="button"
+		tabindex="0"
+		on:click={() => selected = 1}
+		on:keydown={(e) => activateByKey(e, 1)}
+		class=" {selected === 1 ? 'selected' : 'not-selected'} clickable"
+	>
 	<!-- content --><h2 class="clickable {selected === 1 ? 'selected' : 'not-selected'}">{aboutMeData.items[0]}</h2>
 	<div class=" {selected === 1 ? 'selected' : 'not-selected'}">
 		<p class="">other</p>
@@ -45,6 +46,7 @@
 </article>
 
 <article
+	role="button"
 	tabindex="0"
 	on:click={() => selected = 2}
 	on:keydown={(e) => activateByKey(e, 2)}
@@ -55,6 +57,7 @@
 </article>
 
 <article
+	role="button"
 	tabindex="0"
 	on:click={() => selected = 3}
 	on:keydown={(e) => activateByKey(e, 3)}
@@ -118,7 +121,6 @@ fun things and facts learnt during development of site'
 		<h2>skills</h2>
 	</article>
 
-
 	<!-- interests -->
 	<article
 		class="sub"
@@ -135,8 +137,8 @@ fun things and facts learnt during development of site'
 	>
 		<h2>work Experience</h2>
 	</article>
-</div>
 
+</div>
 
 <style>
 		.test_override_root_color {

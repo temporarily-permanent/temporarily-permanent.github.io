@@ -1,0 +1,1 @@
+consolidate all reocuring css rules into Global.css
