@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { aboutMeData, socialsData } from '$lib/data/content_options.js';
+	import Icon from "@iconify/svelte";
 
 	let selected = 0;
 
