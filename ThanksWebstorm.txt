@@ -210,3 +210,38 @@ i am currently working on a project that involves creating a web application usi
 					{/each}
 				</div>
 			{/if}
+
+			{#if aboutMeData.socials && aboutMeData.socials.length}
+                <div class="socials socials-under-toucan">
+                    {#each aboutMeData.socials as social}
+                        <a
+                            class="social-button link"
+                            href={social.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={"Open " + social.name}
+                        >
+                            {social.name}
+                        </a>
+                    {/each}
+                </div>
+            {/if}
+
+<!--
+fun things and facts learnt during development of site'
+
+ thanks copilot, but you're getting in the way
+- svelte transitions can be customized with css function that takes in time and progress
+- svelte transitions can be used in if blocks
+- svelte stores can be used to share state between components
+- sveltekit routing is file based and dynamic routes can be made with [param]
+- sveltekit has a built in way to handle 404 errors with the error function from @sveltejs/kit
+- sveltekit has a built in way to handle metadata with the svelte:head tag
+- sveltekit has a built in way to handle paths with the $app/paths module
+- sveltekit has a built in way to handle state with the $app/state module
+- sveltekit has a built in way to handle server side rendering with the load function in +page.js files
+- sveltekit has a built in way to handle actions with the actions function in +page.js files
+- sveltekit has a built in way to handle forms with the form action in +page.js files
+- sveltekit has a built in way to handle cookies with the cookies function in +page.js files
+- sveltekit has a built in way to handle sessions with the session function in +page.js files
+- sveltekit has a built in way to handle authentication with the hooks function in +layout.js <files></files>-->

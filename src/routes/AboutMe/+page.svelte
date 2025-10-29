@@ -52,108 +52,36 @@
 		class="{selected === 1 ? 'selected' : 'not-selected'} clickable"
 	>
 	<!-- content --><h2 class="clickable {selected === 1 ? 'selected' : 'not-selected'}">{aboutMeData.items[0]}</h2>
-	<div class="hide {selected === 1 ? 'selected' : 'not-selected'}">
-		<p class="">{aboutMeData.skills_text}</p>
-	</div>
-</article>
-
-<article
-	role="button"
-	tabindex="0"
-	on:click={() => selected = 2}
-	on:keydown={(e) => activateByKey(e, 2)}
-	class="{selected === 2 ? 'selected' : 'not-selected'} clickable"
->
-	<!-- content --><h2 class="clickable {selected === 2 ? 'selected' : 'not-selected'}">{aboutMeData.items[1]}</h2>
-	<div class="hide {selected === 2 ? 'selected' : 'not-selected'}">
-		<p>{aboutMeData.skills_text}</p>
-	</div>
-</article>
-
-<article
-	role="button"
-	tabindex="0"
-	on:click={() => selected = 3}
-	on:keydown={(e) => activateByKey(e, 3)}
-	class="{selected === 3 ? 'selected' : 'not-selected'} clickable"
->
-	<!-- content --><h2 class="clickable {selected === 3 ? 'selected' : 'not-selected'}">{aboutMeData.items[2]}</h2>
-	<div class="hide {selected === 3 ? 'selected' : 'not-selected'}">
-		<p>{aboutMeData.work_experience_text}</p>
-	</div>
-</article>
-
-
-
-
-<!--
-fun things and facts learnt during development of site'
-
- thanks copilot, but you're getting in the way
-- svelte transitions can be customized with css function that takes in time and progress
-- svelte transitions can be used in if blocks
-- svelte stores can be used to share state between components
-- sveltekit routing is file based and dynamic routes can be made with [param]
-- sveltekit has a built in way to handle 404 errors with the error function from @sveltejs/kit
-- sveltekit has a built in way to handle metadata with the svelte:head tag
-- sveltekit has a built in way to handle paths with the $app/paths module
-- sveltekit has a built in way to handle state with the $app/state module
-- sveltekit has a built in way to handle server side rendering with the load function in +page.js files
-- sveltekit has a built in way to handle actions with the actions function in +page.js files
-- sveltekit has a built in way to handle forms with the form action in +page.js files
-- sveltekit has a built in way to handle cookies with the cookies function in +page.js files
-- sveltekit has a built in way to handle sessions with the session function in +page.js files
-- sveltekit has a built in way to handle authentication with the hooks function in +layout.js <files></files>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- introduction -->
-	<article
-		class="base {hoverOverSub ? 'hidden' : ''}"
-		style="min-height: {hoverOverSub ? 'var(--hidden-size)':'var(--normal-size)'}"
-	>
-		<h3> {aboutMeData.openBracket}<br>{aboutMeData.name}<br>{aboutMeData.psudo_name}<br>{aboutMeData.closedBracket}</h3><!--dont look at this war crime-->
-		<p><br>{aboutMeData.introduction}<br></p>
-		<p><br>{aboutMeData.introduction_continuation}</p>
+		<div class="hide {selected === 1 ? 'selected' : 'not-selected'}">
+			<p class="">{aboutMeData.skills_text}</p>
+		</div>
 	</article>
 
-	 <!-- skills -->
 	<article
-		class="sub"
-		on:mouseenter={() => hoverOverSub = true}
-		on:mouseleave={() => hoverOverSub = false}
+		role="button"
+		tabindex="0"
+		on:click={() => selected = 2}
+		on:keydown={(e) => activateByKey(e, 2)}
+		class="{selected === 2 ? 'selected' : 'not-selected'} clickable"
 	>
-		<h2>skills</h2>
+		<!-- content --><h2 class="clickable {selected === 2 ? 'selected' : 'not-selected'}">{aboutMeData.items[1]}</h2>
+		<div class="hide {selected === 2 ? 'selected' : 'not-selected'}">
+			<p>{aboutMeData.skills_text}</p>
+		</div>
 	</article>
 
-	<!-- interests -->
 	<article
-		class="sub"
-		on:mouseenter={() => hoverOverSub = true}
-		on:mouseleave={() => hoverOverSub = false}
+		role="button"
+		tabindex="0"
+		on:click={() => selected = 3}
+		on:keydown={(e) => activateByKey(e, 3)}
+		class="{selected === 3 ? 'selected' : 'not-selected'} clickable"
 	>
-		<h2>interests</h2>
+		<!-- content --><h2 class="clickable {selected === 3 ? 'selected' : 'not-selected'}">{aboutMeData.items[2]}</h2>
+		<div class="hide {selected === 3 ? 'selected' : 'not-selected'}">
+			<p>{aboutMeData.work_experience_text}</p>
+		</div>
 	</article>
-	<!-- work experience -->
-	<article
-		class="sub"
-		on:mouseenter={() => hoverOverSub = true}
-		on:mouseleave={() => hoverOverSub = false}
-	>
-		<h2>work Experience</h2>
-	</article>
-
 </div>
 
 <style>
