@@ -11,7 +11,7 @@ const aboutMeData = {
 	name: "  name:   \'Jannes Veuger\',", psudo_name:"  psudo_name: \'Temporarily Permanent\'",
 	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex. I often want to know how systems work internally and will take them apart to see how they work under the hood.",
 
-	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I contribute to and take part in the .iterative, hands-on co-creation of engineering culture and technical infrastructure — improving systems' reliability, clarity, and capability while sharing discoveries with the broader community.                           " /*+
+	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I contribute to and take part in the iterative, hands-on co-creation of engineering culture and infrastructure — improving systems' reliability and clarity while sharing discoveries with the team I work with or the community I'm part of." /*+
 		/*"        but I also value sharing knowledge and collaborating with others."*/,
 
 	items: [
