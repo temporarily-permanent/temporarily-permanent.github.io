@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
 	import { aboutMeData, socialsData } from '$lib/data/content_options.js';
 
 	let selected = 0;
 
 	let hoverOverSub = false;
-	function activateByKey(event, idx) {
+	function activateByKey(event: KeyboardEvent, idx: number) {
 		if (event.key === 'Enter' || event.key === ' ') {
 			event.preventDefault();
 			selected = idx;
@@ -20,6 +20,7 @@
 <div class="container">
 
 	<article
+		role="button"
 		tabindex="0"
 		on:click={() => selected = 0}
 		on:keydown={(e) => activateByKey(e, 0)}
@@ -29,6 +30,14 @@
 		<div class="hide {selected === 0 ? 'selected' : 'not-selected'}">
 			<p><br>{aboutMeData.introduction}<br></p>
 			<p><br>{aboutMeData.introduction_continuation}</p>
+<div class="centered">
+			<a href="{socialsData.github.url}"><img src="git-icon-link-aboutme.png" class="icon" alt="Icon 1"></a>
+
+			<a href="{socialsData.linkedin.url}"><img src="linkedin-icon-link-aboutme.png" class="icon" alt="Icon 2"></a>
+
+			<a href="mailto:37171"><img src="mailto-icon.png" class="icon" alt="Icon 3"></a>
+			<a href="/New_Resume.pdf" target="_blank" rel="noopener"><img src="cv-icon-link-aboutme.png" class="icon" alt="Icon 3"></a>
+		</div>
 		</div>
 	</article>
 

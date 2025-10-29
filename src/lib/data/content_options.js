@@ -11,14 +11,20 @@ const aboutMeData = {
 	name: "  name:   \'Jannes Veuger\',", psudo_name:"  psudo_name: \'Temporarily Permanent\'",
 	introduction:"i'm a 22 year old software developer and interested in the computationally low-level and the technically complex. I often want to know how systems work internally and will take them apart to see how they work under the hood.",
 
-	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I                                   but I also value sharing knowledge and collaborating with others.",
+	introduction_continuation: "I tend to think independently and take initiative when/as needed, even if my approach isn't very conventional. In this way I contribute to and take part in the .iterative, hands-on co-creation of engineering culture and technical infrastructure — improving systems' reliability, clarity, and capability while sharing discoveries with the broader community.                           " /*+
+		/*"        but I also value sharing knowledge and collaborating with others."*/,
 
 	items: [
 		'Skills',
 		'Interests',
 		'Work Experience',
-		'Education',
+		//'Education',
 	],
+	skills_text:'aaaaa',
+	//interests_text:'bbbbb',
+	work_experience_text:
+		'- Delivery Driver at Thuisbezorgd.nl (3.5 years)\n' +
+		'- Supermarket Stocker at Albert Heijn (2 years)',
 	//description: 'A passionate delivery driver thuisbezorgd, 3.5 years\nsupermarket stocker, 2 years',
 	avatar: undefined,
 	location: undefined,
@@ -109,7 +115,17 @@ const portfolioData = {
 		image: '/conway-game-of-life.png',
 		content: [
 			{type: 1, content: 'under construction'},
+			{ type: 4, url:'https://github.com/temporarily-permanent/Conways-Game-of-Life', content: 'GITHUB' },
 			{type: 0, content: 'Conway\'s game of life'},
+			// at the ending
+			//
+			//{ type: 1, content: 'A quick warmup project to get familiar with Unity and C#.'},
+			{ type: 1, content:'Conway\'s game of life (CGOL) is a zero-player cellular automaton on a 2D grid invented by John Conway; each cell is either alive or dead and evolves according to the game’s rules in discrete time steps.'},
+			// image of conway's game of life in action
+			{ type:1, content:'The rules that are applied to each cell per step are as follows:'},
+			{type:1, content:' * If a living cell has two or three living neighbouring cells, the cell stays alive in the next iteration, otherwise it dies.'},
+			{type:1, content:' * If a dead cell has exactly three living neighbouring cells, the cell becomes alive in the next iteration, otherwise it stays dead.'},
+
 		]
 	},/*{
 		title: 'textBasedAdventureGameFramework',
@@ -128,8 +144,17 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
+
+			// the styling choices i made for this website
+			// when stying this website i wanted the website to stand out in a personal way
+			// when one styles a website with ai tools it often ends up looking generic and bland
+			// so i decided to handcraft the styling of this website
+			// the color palette is inspired by vaporwave aesthetics and synthwave art styles
+
 			{ type: 1, content: 'This website is built using SvelteKit and Vite and is hosted on GitHub pages. '},
 			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
+			// if youre a programmer i want to divert your attention to content_options.js
+			{ type: 1, content: 'If you are a programmer, I encourage you to check out the source code of this website, which is available on my GitHub.'},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
 			{ type: 1, content: 'This website has a fun surprise if it is open for 10 minutes.'},
 			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: 'I DON\'T WANT TO WAIT' },
@@ -157,7 +182,7 @@ const archiveMetaData = {
 // socials
 const socialsData = {
 	github: { text: 'Github', url: 'https://github.com/temporarily-permanent' },
-	linkedin: { text: 'Linkedin', url: 'https://linkedin.com/in/temporarily-permanent' }
+	linkedin: { text: 'Linkedin', url: 'https://www.linkedin.com/in/jannes-veuger-4b2918312/' }
 
 };
 

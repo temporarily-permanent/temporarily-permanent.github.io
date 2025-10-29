@@ -2,6 +2,9 @@
 ## TODOS
 - svelte mcp
 - add more projects and finish all writing tasks (i hate writing)
+  - CGOL -> implement writing blob into project page
+  - open toren dag -> make coherent story from writing blob and implement into project page
+  - 
 - fix padding on bottom of base page based on window sizing
 - ~~implement autoplay option for youtube embeds~~
 - limit image sizing -> contentItemType 5, contained image
@@ -15,10 +18,12 @@
     - add a bit of personalty back since ai cant do that
 
 ## Items in portfolio
-- textBasedAdventureGame
+- ~~textBasedAdventureGame~~
+- cryptography (hashing)
+- open toren dag
 - game sclice(hollow knight)
 - ~~HLO (UE5.5 Boss fight)~~
-- ~~TowerDefense~~ Conway's Game of Life
+- ~~TowerDefense~~ Conway's Game of Life (CGOL)
 
 ## personal projects?
 - youtube music to spotify converter

@@ -182,3 +182,31 @@ i am currently working on a project that involves creating a web application usi
 </div>
 	 </article>
 	 {/if}
+
+
+			// the color palette is inspired by vaporwave aesthetics and synthwave art styles
+			// the colors are bright and vibrant, with a lot of pinks, purples and blues
+			// i wanted to create a website that is visually appealing and stands out from the crowd
+			// at the same time i wanted to keep the website simple and easy to navigate
+			// so i opted for a clean layout with a lot of white space
+			// overall i am very happy with how the website turned out and i hope you like it too!
+
+
+
+
+
+			{#if socialsData}
+				<div class="socials socials-under-toucan">
+					{#each Object.values(socialsData) as social}
+						<a
+							class="social-button link"
+							href={social.url}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={"Open " + social.text}
+						>
+							{social.text}
+						</a>
+					{/each}
+				</div>
+			{/if}

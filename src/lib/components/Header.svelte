@@ -44,7 +44,7 @@
         flex-flow: row wrap;
         align-items: center;
 				gap: 25px;
-				font-size: 1vh;
+				font-size: calc(1vw + 1vh);
 				background: var(--dark-blue-1);
 				box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 				/*backdrop-filter: blur(10px);*/
