@@ -245,3 +245,6 @@ fun things and facts learnt during development of site'
 - sveltekit has a built in way to handle cookies with the cookies function in +page.js files
 - sveltekit has a built in way to handle sessions with the session function in +page.js files
 - sveltekit has a built in way to handle authentication with the hooks function in +layout.js <files></files>-->
+
+
+cpu architecture for someone who learned it in a single semester. I have implemented a small operating system kernel in c as a school project.
