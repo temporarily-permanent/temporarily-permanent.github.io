@@ -51,9 +51,15 @@
 		on:keydown={(e) => activateByKey(e, 1)}
 		class="{selected === 1 ? 'selected' : 'not-selected'} clickable"
 	>
-	<!-- content --><h2 class="clickable {selected === 1 ? 'selected' : 'not-selected'}">{aboutMeData.items[0]}</h2>
+	<h2 class="clickable {selected === 1 ? 'selected' : 'not-selected'}">{aboutMeData.items[0]}</h2>
 		<div class="hide {selected === 1 ? 'selected' : 'not-selected'}">
-			<p class="">{aboutMeData.skills_text}</p>
+			{#each aboutMeData.skills as item}
+				<h4 class="test-border-bottom">{item.title}</h4>
+				<p>{item.description}</p>
+			{/each}
+			<!--<ul>
+					<li>{item.title} - {item.description}</li>
+			</ul>-->
 		</div>
 	</article>
 
@@ -66,7 +72,10 @@
 	>
 		<!-- content --><h2 class="clickable {selected === 2 ? 'selected' : 'not-selected'}">{aboutMeData.items[1]}</h2>
 		<div class="hide {selected === 2 ? 'selected' : 'not-selected'}">
-			<p>{aboutMeData.skills_text}</p>
+			{#each aboutMeData.interests as interest}
+				<h4 class="test-border-bottom">{interest.title}</h4>
+				<p>{interest.description}</p>
+			{/each}
 		</div>
 	</article>
 
@@ -79,7 +88,10 @@
 	>
 		<!-- content --><h2 class="clickable {selected === 3 ? 'selected' : 'not-selected'}">{aboutMeData.items[2]}</h2>
 		<div class="hide {selected === 3 ? 'selected' : 'not-selected'}">
-			<p>{aboutMeData.work_experience_text}</p>
+			{#each aboutMeData.work_experience as work}
+				<h4 class="test-border-bottom">{work.title} - {work.time}</h4>
+				<p>{work.description}</p>
+			{/each}
 		</div>
 	</article>
 </div>
@@ -88,6 +100,12 @@
 		.test_override_root_color {
 				color : var(--dev-pink);
     }
+
+		.test-border-bottom {
+        padding-top: 25px;
+				border-bottom: g5px solid var(--dev-pink);
+				
+		}
 
     * {
         text-align: justify;
@@ -115,9 +133,9 @@
 		/*
     .selected { border-color: var(--dark-red-5); }*/
 
-		.selected {/*
-				color: var(--dark-red-5);*/
-		}
+		/*.selected {!*
+				color: var(--dark-red-5);*!
+		}*/
 
 		.not-selected.clickable {
         color: var(--dark-red-14);
@@ -188,13 +206,3 @@
         text-underline-offset: 0.2rem;
     }
 </style>
-
-
-<!--
-<h1>skills</h1>
-<div>
-
-</div>
-<h1>Welcome to AboutMe</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
--->

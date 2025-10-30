@@ -16,3 +16,11 @@
 <div class="page-content">
 {@render children()}
 </div>
+
+<style>
+    /*.page-content{
+        max-height: 80vh;
+        overflow-y: auto;
+        overflow-x: visible;
+    }*/
+</style>

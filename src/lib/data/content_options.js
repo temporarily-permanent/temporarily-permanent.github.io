@@ -21,15 +21,21 @@ const aboutMeData = {
 		//'Education',
 	],
 	skills_text:'aaaaa',
-	//interests_text:'bbbbb',
+	skills: [
+		{title:'C#', description:'this is my current goto programming language'},
+		{title: 'JavaScript', description:'I am learning JavaScript and exploring its frameworks'}
+	],
+	interests: [
+		{title: 'gaming', description:'puzzzle games like The Witness and The Looker'},
+		{title: 'skating', description: 'I like skating because when done well it feels like a superpower'},
+		{title: 'AA', description: 'BB'}],
+	work_experience:[{title: 'delivery driver', description: 'Thuisbezorgd B.V.', time: '3.5 years'},{title: 'supermarket stocker', description: 'Jumbo Supermarkten B.V.', time: '2 years'}],
 	work_experience_text:
 		'- Delivery Driver at Thuisbezorgd.nl (3.5 years)\n' +
 		'- Supermarket Stocker at Albert Heijn (2 years)',
 	//description: 'A passionate delivery driver thuisbezorgd, 3.5 years\nsupermarket stocker, 2 years',
 	avatar: undefined,
 	location: undefined,
-	interests: undefined,
-	skills: ['JavaScript', 'Svelte', 'Node.js']
 }
 
 //header meta data
