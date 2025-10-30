@@ -17,12 +17,14 @@
 
 	<div class="projects-grid">
 		{#each portfolioData.projects as projectItem, i}
+			{#if projectItem.publish}
 			<ProjectCard
-				title={projectItem.title}
-				description={projectItem.description}
-				image={projectItem.image}
-				path={page.url.toString() + "/" + i}
-			/>
+					title={projectItem.title}
+					description={projectItem.description}
+					image={projectItem.image}
+					path={page.url.toString() + "/" + i}
+				/>
+			{/if}
 		{/each}
 	</div>
 </div>

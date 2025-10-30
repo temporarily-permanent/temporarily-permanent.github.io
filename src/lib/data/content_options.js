@@ -23,9 +23,9 @@ const aboutMeData = {
 	skills_text:'aaaaa',
 	skills: [
 		{title:'C#', description:'this is my current goto programming language'},
-		{title: 'unity', description: 'my understanding of unity is great enough to no longer have to watch tutorials'},
-		{title: 'git', description: 'my understanding of git is great enough to no longer accidentally revert three months of commits. My preferred git interface is github desktop.',},
-		{title: 'c', description: 'I know a surprising amount about c, pointers, and cpu architecture for someone who has never worked in this domain ever. i learnt c mostly through youtube, for anyone seeking more knowledge, i recommend Low Level Learning and core dumped.'},
+		{title: 'Unity', description: 'my understanding of unity is great enough to no longer have to watch tutorials'},
+		{title: 'Git', description: 'my understanding of git is great enough to no longer accidentally revert three months of commits. My preferred git interface is github desktop.',},
+		{title: 'C', description: 'I know a surprising amount about c, pointers, and cpu architecture for someone who has never worked in this domain ever. i learnt c mostly through youtube, for anyone seeking more knowledge, i recommend Low Level Learning and core dumped.'},
 		{title: 'JavaScript', description:'I am learning JavaScript and exploring its frameworks like SvelteKit, Im comfortable with JS as its a simple scripting language, in larger code bases I will advocate for TypeScript'},
 		{title: 'HTML/CSS + markdown', description: 'anyone calling themselves a software developer has to understand these basics'},
 	],
@@ -55,6 +55,7 @@ const headerMetaData = [
 // content type - 0 means headerText, 1 means normalText, 2 means image, 3 means video embed, 4 means link
 const portfolioData = {
 	projects: [{
+		publish: true,
 		title: 'vertical slice - game sclice - hollow knight',
 		description: ' a recreation from a 10 sec clip of a game, in my case Hollow Knight.',
 		url: undefined,
@@ -89,6 +90,7 @@ const portfolioData = {
 			{ type: 2, content: 'Game Sclice - Hollow Knight/hide_GO_and_children.png' },
 		]
 	}, {
+		publish: true,
 		title: 'Hashing ',
 		description: 'Implementation of various SHA algorithms.',
 		url: undefined,
@@ -110,6 +112,7 @@ const portfolioData = {
 			{}
 		]
 	}, {
+		publish: false,
 		title: 'open toren dag',
 		description: 'VR project for Amsterdams 750th birthday',
 		url: undefined,
@@ -119,6 +122,7 @@ const portfolioData = {
 			{type: 0, content: 'open toren dag'},
 		]
 	},{
+		publish: true,
 		title: 'Conway\'s game of life',
 		description: 'a quick warmup to unity/C#',
 		url: undefined,
@@ -147,6 +151,7 @@ const portfolioData = {
 			{type: 0, content: 'textBasedAdventureGameFramework'},
 		]
 	},*/{
+		publish: true,
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
@@ -161,13 +166,15 @@ const portfolioData = {
 			// so i decided to handcraft the styling of this website
 			// the color palette is inspired by vaporwave aesthetics and synthwave art styles
 
+			{ type: 1, content: 'THIS WEBSITE IS STILL UNDER CONSTRUCTION'},
+
 			{ type: 1, content: 'This website is built using SvelteKit and Vite and is hosted on GitHub pages. '},
 			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
 			// if youre a programmer i want to divert your attention to content_options.js
 			{ type: 1, content: 'If you are a programmer, I encourage you to check out the source code of this website, which is available on my GitHub.'},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
-			{ type: 1, content: 'This website has a fun surprise if it is open for 10 minutes.'},
-			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: 'I DON\'T WANT TO WAIT' },
+			{ type: 1, content: 'This website had a fun surprise if it was open for 20 minutes.'},
+			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: '' },
 					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]
 	}]
