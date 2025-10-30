@@ -23,6 +23,9 @@ const aboutMeData = {
 	skills_text:'aaaaa',
 	skills: [
 		{title:'C#', description:'this is my current goto programming language'},
+		{title: 'unity', description: ''},
+		{title: 'git', description: 'i use git ',},
+		{title: '', description: ''},
 		{title: 'JavaScript', description:'I am learning JavaScript and exploring its frameworks'}
 	],
 	interests: [

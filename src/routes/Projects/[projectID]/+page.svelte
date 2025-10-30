@@ -59,7 +59,7 @@
 			<img class="width-100" src={'/' + contentItem.content[1]} alt="second of two side by side images" />
 		</div>
 	{/if}
-	
+
 {/each}
 
 
