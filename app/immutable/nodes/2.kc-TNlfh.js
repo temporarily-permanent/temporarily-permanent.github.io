@@ -1,7 +1,0 @@
-import"../chunks/CWj6FrbW.js";import{p as $,f as _,a as q,t as M,j as f,b as u,c as j,s as o,d as i,r as c,aq as D,m as I}from"../chunks/NyC1HPSX.js";import{s as O}from"../chunks/-ForSKsc.js";import{i as z}from"../chunks/CIgnlloa.js";import{r as A}from"../chunks/Bh8Q0xLA.js";import{b as B,t as b,e as C}from"../chunks/D3nrugsE.js";import{g as E}from"../chunks/C7bL2BV_.js";var F=_('<div class="centered svelte-12gbqy"><span class="svelte-12gbqy">transitions!</span></div>'),G=_(`<h2 class="svelte-12gbqy"><a> </a></h2> <p class="text_centered">I'm a 22 year old software developer who is interested in the computationally low-level and the technically complex</p> <p class="text_centered">and i like to figure out mathematically complex problems --> <input type="checkbox"/></p> <div class="checkbox-wrapper-22"><label class="switch" for="checkbox"><input type="checkbox" id="checkbox"/> <div class="slider round"></div></label></div> <!>`,1);function R(x,g){$(g,!0);let t=D(!1);function l(e,{duration:a}){return{duration:a,css:(m,v)=>{const h=C(m);return`
-					transform: scale(${h}) rotate(${h*3*1080}deg);
-					color: hsl(
-						${Math.trunc(m*360)},
-						${Math.min(100,1e3*v)}%,
-						${Math.min(50,500*v)}%
-					);`}}}var n=G(),s=q(n),p=i(s),y=i(p,!0);c(p),c(s);var r=o(s,4),d=o(i(r));A(d),c(r);var k=o(r,4);{var w=e=>{var a=F();b(1,a,()=>l,()=>({duration:8e3})),b(2,a,()=>l,()=>({duration:8e3})),u(e,a)};z(k,e=>{f(t)&&e(w)})}M(()=>O(y,E.psudo_name)),B(d,()=>f(t),e=>I(t,e)),u(x,n),j()}export{R as component};
