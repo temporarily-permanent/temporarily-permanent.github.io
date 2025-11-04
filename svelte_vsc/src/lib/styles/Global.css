@@ -37,8 +37,8 @@
 
 /*this class should only apply to a wrapper for all rendered content, living in routes/+layout.svelte*/
 .page-content {
-    width: 100%;
-    max-width: 960px;
+    width: 100%;/*
+    max-width: 1400px;*/
     margin: 0 auto 12% auto;
 }
 

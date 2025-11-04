@@ -7,6 +7,8 @@
     let index = [0, 1];
     let showcaseProjects = [portfolioData.projects[index[0]], portfolioData.projects[index[1]]];
 
+    console.log(showcaseProjects[1]);
+
     let visible = $state(false);
 
     function spin(node, { duration }) {
@@ -52,12 +54,12 @@
 
 
 <div class="centered flex-row">
-    <ProjectCard>
+    <ProjectCard
         title={showcaseProjects[0].title}
         description={showcaseProjects[0].description}
         image={showcaseProjects[0].image}
-        path={page.url.toString() + '/' + index[0]}
-    </ProjectCard>
+        path={page.url.toString() + 'Projects/' + index[0]}
+    />
     {#if visible}
         <div
             class="centered-spinning"
@@ -67,12 +69,12 @@
             <span>transitions!</span>
         </div>
     {/if}
-    <ProjectCard>
-        title={showcaseProjects[0].title}
-        description={showcaseProjects[0].description}
-        image={showcaseProjects[0].image}
-        path={page.url.toString() + '/' + index[0]}
-    </ProjectCard>
+    <ProjectCard
+        title={showcaseProjects[1].title}
+        description={showcaseProjects[1].description}
+        image={showcaseProjects[1].image}
+        path={page.url.toString() + '/' + index[1]}
+    />
 </div>
 
 <style>
@@ -94,13 +96,14 @@
     }
 
     .centered-spinning{
+        position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
 
-    span {
-        position: absolute;
+    span {/*
+        position: absolute;*/
         transform: translate(-50%, -50%);
         font-size: 4em;
         color: unset;
