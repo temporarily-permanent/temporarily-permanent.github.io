@@ -37,26 +37,26 @@
    <!-- i'm a low level engineer and i like to figure stuff out.-->
 </p>
 <p class="text_centered">
-    and i like to figure out mathematically complex problems -->
+    and i like to figure out mathematically complex problems <br>
 
-    <input type="checkbox" bind:checked={visible} />
 
     <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" bind:checked={visible}>
         <span class="slider"></span>
     </label>
 
 
 
 </p>
+
+<!--
 <div class="checkbox-wrapper-22">
     <label class="switch" for="checkbox">
         <input type="checkbox" id="checkbox" />
         <div class="slider round"></div>
     </label>
 </div>
-
-
+-->
 
 <div class="centered flex-row">
     <ProjectCard
@@ -146,6 +146,7 @@
     }
 
     .slider:before {
+        font-size: .25em !important;
         position: absolute;
         content: "";
         display: flex;
