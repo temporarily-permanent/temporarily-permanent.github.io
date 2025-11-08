@@ -1,3 +1,12 @@
+# MY PORTFOLIO IS STILL UNDER CONSTRUCTION AND IS SUBJECT TO CHANGE
+## temp-perm's portfolio
+
+this public repository contains the source code for my portfolio and any adjacent work
+
+My portfolio is built using svelte because this is what I have had some previous experience in and I wanted to familiarize myself with framework/component based workflows
+
+# The following, till the end of this document, are my own lists and notes. They only make sense to me.
+
 # portfolio
 ## TODOS
 - svelte mcp

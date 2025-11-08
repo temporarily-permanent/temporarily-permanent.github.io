@@ -77,6 +77,7 @@
         letter-spacing: 15px;
     }
     .flex-row{
+        max-height: 40vh;
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -86,7 +87,7 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -40%);
     }
 
     .centered-spinning{
@@ -97,11 +98,10 @@
     span {/*
         position: absolute;*//*
         transform: translate(-50%, -50%);*/
-        font-size: 4em;
+        --span-font-size: 4em;
+        font-size: var(--span-font-size);
         color: unset;
     }
-
-
 
 
     /*begin uiverse toggle*/

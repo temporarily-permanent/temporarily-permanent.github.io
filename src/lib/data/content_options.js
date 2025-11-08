@@ -26,7 +26,7 @@ const aboutMeData = {
 		{title: 'Unity', description: 'my understanding of unity is great enough to no longer have to watch tutorials'},
 		{title: 'Git', description: 'my understanding of git is great enough to no longer accidentally revert three months of commits. My preferred git interface is github desktop.',},
 		{title: 'C', description: 'I know a surprising amount about c, pointers, and cpu architecture for someone who has never worked in this domain ever. i learnt c mostly through youtube, for anyone seeking more knowledge, i recommend Low Level Learning and core dumped.'},
-		{title: 'JavaScript', description:'I am learning JavaScript and exploring its frameworks like SvelteKit, Im comfortable with JS as its a simple scripting language, in larger code bases I will advocate for TypeScript'},
+		{title: 'JavaScript', description:'I\'m comfortable with JS as it\'s a simple scripting language, in larger code bases I will advocate for TypeScript'},
 		{title: 'HTML/CSS + markdown', description: 'anyone calling themselves a software developer has to understand these basics'},
 	],
 	interests: [
@@ -94,7 +94,7 @@ const portfolioData = {
 		title: 'Hashing ',
 		description: 'Implementation of various SHA algorithms.',
 		url: undefined,
-		image: undefined,
+		image: '/hashing-thumbnail.png',
 		content: [
 			{ type: 0, content: 'Hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
@@ -107,6 +107,7 @@ const portfolioData = {
 			{ type: 1, content: 'An example for how concepts learnt in one section can be used to understand another.'},
 			{ type: 0, content: 'fase 1 - implementation, preprocessing' },
 			{ type: 1, content: 'NUnit was used for testing. I learnt NUnit     even though in hindsight i didnt use testing that much, but it was worth learning for the few times i did use it, namely for validation of my work.  ' },
+			{ type: 1, content: 'preprocessing  , in this fase the function modifies the message to be a multiple of 512 in length'},
 			{ type: 0, content: 'fase 2 - implementation, computation' },
 			{ type: 0, content: 'fase 3 - application, hash table' },
 			{}
@@ -155,7 +156,7 @@ const portfolioData = {
 		title: 'portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
-		image: '/svelte-logo-square.svg', //todo add svelte logo
+		image: '/svelte-logo-square.svg',
 		content: [
 			{ type: 0, content: 'this portfolio website' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
@@ -171,10 +172,10 @@ const portfolioData = {
 			{ type: 1, content: 'This website is built using SvelteKit and Vite and is hosted on GitHub pages. '},
 			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
 			// if youre a programmer i want to divert your attention to content_options.js
-			{ type: 1, content: 'If you are a programmer, I encourage you to check out the source code of this website, which is available on my GitHub.'},
+			{ type: 1, content: 'If you are a programmer, I want to divert your attention to content_options.js, to see how all the writing data is consolidated.'},
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
 			{ type: 1, content: 'This website had a fun surprise if it was open for 20 minutes.'},
-			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: '' },
+			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: 'i still want to what this surprise was' },
 					//{'I built this website from scratch}, including the design and layout. I wanted to create a simple and clean website that showcases my work and skills.'},
 		]
 	}]

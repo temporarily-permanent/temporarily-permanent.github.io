@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Only Responsive Font Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+      /*
+				Adjust the values below to control min/max and scaling:
+				- Min is 8px, max is 32px, base at 2vw + 8px
+				- 2vw means: at 1000px width, 2vw = 20px so 28px font
+				- At 600px width, 2vw = 12px so 20px font
+				- At 2400px width, 2vw = 48px so 56px font, but max gets clamped to 32px
+				Adjust as needed for your desired scaling
+			*/
+      html {
+          font-size: clamp(8px, 2vw + 8px, 32px);
+          transition: font-size 0.3s;
+      }
+      body {
+          font-family: Arial, sans-serif;
+          margin: 40px;
+      }
+      h1 {
+          font-size: 2em;
+      }
+      p {
+          font-size: 1em;
+      }
+      .info {
+          margin-top: 24px;
+          font-size: 0.8em;
+          color: #444;
+          background: #f5f5f5;
+          padding: 12px;
+          border-radius: 8px;
+      }
+	</style>
+</head>
+<body>
+<h1>Responsive Font Demo (CSS Only)</h1>
+<p>
+	All text scales based on viewport width using only CSS!<br>
+	This is "global" scaling: all font sizes keep their relative proportions.<br>
+	You can tweak the clamp() formula for your preferred scaling.
+</p>
+<div class="info">
+	Try resizing the browser to see the font adjust smoothly!
+</div>
+</body>
+</html>

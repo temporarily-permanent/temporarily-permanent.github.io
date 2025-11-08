@@ -39,6 +39,8 @@
 
 /* Set global background via variable without styling every element */
 html, body {
+    font-size: clamp(8px, 1vw + 8px, 24px);
+    transition: font-size 0.3s;
     background-color: var(--color);
     min-height: 100%;
 }

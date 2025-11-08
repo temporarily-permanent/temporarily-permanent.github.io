@@ -66,7 +66,7 @@
 
 	.card-image {
 		width: 100%;
-		aspect-ratio: 16 / 11;
+		aspect-ratio: 3 / 2;
 		overflow: hidden;
 		background: rgba(0, 0, 0, 0.3);
 		position: relative;
