@@ -98,7 +98,17 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'Hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
-			{ type: 1, content: 'Implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce' },
+
+			//{ type: 0},
+			// todo leid het onderwerp in
+			// ik kwam een video tegen
+
+			// nic barker hashmaps and dictionaries
+			// het onderliggende technologie hashing niet goed uitgelegd, wou weten hoe het werkt, dus zelf een implementatie from scratch gemaakt 
+
+			// I wanted to know hashing worked, so i made my own implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce
+
+			{ type: 1, content: 'I wanted to know hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
 			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
 			{ type: 0, content: 'fase 0 - research' },
 			{ type: 1, content: 'The biggest challenge here was that everything I had read became foundational knowledge for the rest of the paper.' },
