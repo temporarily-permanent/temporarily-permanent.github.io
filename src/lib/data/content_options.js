@@ -104,12 +104,16 @@ const portfolioData = {
 			// ik kwam een video tegen
 
 			// nic barker hashmaps and dictionaries
-			// het onderliggende technologie hashing niet goed uitgelegd, wou weten hoe het werkt, dus zelf een implementatie from scratch gemaakt 
+			// het onderliggende technologie hashing niet goed uitgelegd, wou weten hoe het werkt, dus zelf een implementatie from scratch gemaakt
 
 			// I wanted to know hashing worked, so i made my own implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce
 
 			{ type: 1, content: 'I wanted to know hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
 			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
+
+			{ type: 1, content: 'I came across a video about hashmaps and dictionaries by nic barker, and wanted to know more about hashing itself, but the video never went there. Being left unsatisfied, i decided to research hashing for myself '},
+			{ type: 1, content: 'this public writing serves as a summary of what I have remembered.'},
+
 			{ type: 0, content: 'fase 0 - research' },
 			{ type: 1, content: 'The biggest challenge here was that everything I had read became foundational knowledge for the rest of the paper.' },
 			{ type: 1, content: 'This wasn\'t anything difficult for me and found this part to be the most interesting and enjoyable so far. ' },
