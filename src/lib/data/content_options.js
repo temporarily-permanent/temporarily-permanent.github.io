@@ -126,17 +126,19 @@ const portfolioData = {
 			{ type: 0, content: 'fase 3 - application, hash table' },
 			{}
 		]
-	}, {
+	},
+	{
 		publish: false,
 		title: 'open toren dag',
 		description: 'VR project for Amsterdams 750th birthday',
 		url: undefined,
 		image: '/open-toren-dag-thumbnail.jpg',
 		content: [
-			{type: 1, content: 'under construction'},
-			{type: 0, content: 'open toren dag'},
+			{ type: 1, content: 'under construction' },
+			{ type: 0, content: 'open toren dag' },
 		]
-	},{
+	},
+	{
 		publish: true,
 		title: 'Conway\'s game of life',
 		description: 'a quick warmup to unity/C#',
@@ -145,16 +147,23 @@ const portfolioData = {
 		content: [
 			{type: 1, content: 'under construction'},
 			{ type: 4, url:'https://github.com/temporarily-permanent/Conways-Game-of-Life', content: 'GITHUB' },
-			{type: 0, content: 'Conway\'s game of life'},
+			{ type: 0, content: 'Conway\'s game of life' },
+			{ type: 1, content: 'The goal of this project was to derust my c# from 100 days of summer vacation before school began again'},
 			// at the ending
 			//
 			//{ type: 1, content: 'A quick warmup project to get familiar with Unity and C#.'},
-			{ type: 1, content:'Conway\'s game of life (CGOL) is a zero-player cellular automaton on a 2D grid invented by John Conway; each cell is either alive or dead and evolves according to the game’s rules in discrete time steps.'},
+			{ type: 1, content:'Conway\'s game of life (CGOL) is a zero-player cellular automaton on a 2D grid invented by John Conway; each cell is either alive or dead and evolves according to the game’s rules in discrete time steps.' },
 			// image of conway's game of life in action
-			{ type:1, content:'The rules that are applied to each cell per step are as follows:'},
-			{type:1, content:' * If a living cell has two or three living neighbouring cells, the cell stays alive in the next iteration, otherwise it dies.'},
-			{type:1, content:' * If a dead cell has exactly three living neighbouring cells, the cell becomes alive in the next iteration, otherwise it stays dead.'},
+			{ type: 1, content:'The rules that are applied to each cell per step are as follows:'},
+			{ type: 1, content:' 1. If a living cell has two or three living neighbouring cells, the cell stays alive in the next iteration, otherwise it dies.' },
+			{ type: 1, content:' 2. If a dead cell has exactly three living neighbouring cells, the cell becomes alive in the next iteration, otherwise it stays dead.' },
 
+			// core logic   ajdfj
+			//
+			{ type: 1, content: 'the core logic as explained above' },
+			// todo add screenshot of core buinses logic
+
+			
 		]
 	},/*{
 		title: 'textBasedAdventureGameFramework',
