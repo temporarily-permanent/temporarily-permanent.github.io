@@ -148,10 +148,13 @@ const portfolioData = {
 			{type: 1, content: 'under construction'},
 			{ type: 4, url:'https://github.com/temporarily-permanent/Conways-Game-of-Life', content: 'GITHUB' },
 			{ type: 0, content: 'Conway\'s game of life' },
-			{ type: 1, content: 'The goal of this project was to derust my c# from 100 days of summer vacation before school began again'},
+
+			// todo think of better word for 'retrospective'
+			{ type: 1, content: 'The goal of this project was to derust my c# from 104 days of summer vacation before school began again, this public writing serves as a retrospective.'},
 			// at the ending
 			//
-			//{ type: 1, content: 'A quick warmup project to get familiar with Unity and C#.'},
+
+			{ type: 0, content: 'Explanation'},
 			{ type: 1, content:'Conway\'s game of life (CGOL) is a zero-player cellular automaton on a 2D grid invented by John Conway; each cell is either alive or dead and evolves according to the game’s rules in discrete time steps.' },
 			// image of conway's game of life in action
 			{ type: 1, content:'The rules that are applied to each cell per step are as follows:'},
@@ -160,6 +163,8 @@ const portfolioData = {
 
 			// core logic   ajdfj
 			//
+			{ type: 0, content: 'Implementation'},
+
 			{ type: 1, content: 'the core logic as explained above' },
 			// todo add screenshot of core buinses logic
 
