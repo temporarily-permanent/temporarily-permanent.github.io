@@ -30,9 +30,9 @@ const aboutMeData = {
 		{title: 'HTML/CSS + markdown', description: 'anyone calling themselves a software developer has to understand these basics'},
 	],
 	interests: [
-		{title: 'gaming', description:'puzzle games like The Witness and The Looker'},
+		{title: 'gaming', description:'I like puzzle games like The Witness and The Looker, I enjoy metroidvania'},
 		{title: 'skating', description: 'I like skating because when done well it feels like a superpower'},
-		{title: 'AA', description: 'BB'}],
+		{title: 'cycling', description: ''}],
 	work_experience:[{title: 'delivery driver', description: 'Thuisbezorgd B.V.', time: '3.5 years'},{title: 'supermarket stocker', description: 'Jumbo Supermarkten B.V.', time: '2 years'}],
 	work_experience_text:
 		'- Delivery Driver at Thuisbezorgd.nl (3.5 years)\n' +
@@ -108,13 +108,16 @@ const portfolioData = {
 
 			// I wanted to know hashing worked, so i made my own implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce
 
-			{ type: 1, content: 'I wanted to know hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
+			{ type: 1, content: 'I wanted to know how hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
 			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
 
 			{ type: 1, content: 'I came across a video about hashmaps and dictionaries by nic barker, and wanted to know more about hashing itself, but the video never went there. Being left unsatisfied, i decided to research hashing for myself '},
-			{ type: 1, content: 'this public writing serves as a summary of what I have remembered.'},
+			{ type: 1, content: 'the goal of this project was to learn hashing and cryptography, this public writing serves as a summary of what I have remembered.'},
+
+			// this fase consisted of fully reading through the document provided by the USA, department of commerce (see hyperlink above)
 
 			{ type: 0, content: 'fase 0 - research' },
+			{ type: 1, content: 'This fase consisted of fully reading through the document provided by the USA, department of commerce (see hyperlink above)' },
 			{ type: 1, content: 'The biggest challenge here was that everything I had read became foundational knowledge for the rest of the paper.' },
 			{ type: 1, content: 'This wasn\'t anything difficult for me and found this part to be the most interesting and enjoyable so far. ' },
 			{ type: 2, content: 'Hashing/a_foundational_for_b.png' },
@@ -165,7 +168,8 @@ const portfolioData = {
 			//
 			{ type: 0, content: 'Implementation'},
 
-			{ type: 1, content: 'the core logic as explained above' },
+			{ type: 4, url: 'https://github.com/temporarily-permanent/ConwayGameOfLife/blob/main/Assets/Scripts/GameManager.cs', content: 'GITHUB' },
+			{ type: 1, content: 'the core logic as explained above, ' },
 			// todo add screenshot of core buinses logic
 
 			
@@ -201,6 +205,9 @@ const portfolioData = {
 			{ type: 1, content: 'Porkbun was used as the domain registrar mainly because I liked their marketing. '},
 			// if youre a programmer i want to divert your attention to content_options.js
 			{ type: 1, content: 'If you are a programmer, I want to divert your attention to content_options.js, to see how all the writing data is consolidated.'},
+			{ type: 4, url: 'https://github.com/temporarily-permanent/temporarily-permanent.github.io/blob/main/src/lib/data/content_options.js', content: 'CONTENT_OPTIONS' },
+			// when looking at induvidual article, article is rendered in one big switch case statement
+			//{ type:  },
 			{ type: 1, content: 'It has taken me upwards of 40 working hours to learn and build everything and was done over lots of little bite sized pieces of time to pace myself and burn out creatively.'},
 			{ type: 1, content: 'This website had a fun surprise if it was open for 20 minutes.'},
 			{ type: 4, url:'https://youtu.be/dQw4w9WgXcQ', content: 'i still want to what this surprise was' },
