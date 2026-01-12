@@ -1,0 +1,22 @@
+Mijn naam is Jannes Veuger, derde jaar student software-development aan het Media College Amsterdam (MA). 
+Ik ben een gedreven en ervaren softwareontwikkelaar met een interesse in de werking van systemen op laag niveau en in technische complexiteit.
+Ik specialiseer in  C#/Unity  en heb de ambitie om meer “low-level” programmeertalen te leren zoals Rust en C++.  
+Ik ben zeer autodidact en kan core-concepten zoals OOP en data/logic separatie overbrengen naar nieuwe omgevingen, zo kom ik gemakkelijk op snelheid in nieuwe omgevingen en met nieuwe technieken.  
+Ik kan comfortabel groepen aanspreken en heb ervaring  met het representeren op publieke evenementen, zo ben ik aanwezig bij de meerderheid van de open dagen van MA en heb ik in de leerlingenraad gezeten tijdens mijn tijd op mijn middelbare school. 
+In de toekomst  wil ik meer ervaring opdoen in project leiderschap en talks kunnen houden.
+
+al van kinds af aan vind ik het leuk om dingen uit elkaar te halen. ik vind het ook leuk om op technische details in te gaan en onder de motorkap te werken. 
+
+
+
+happening  als aanleiding 
+
+introductie van mezelf
+
+benoeming van tools
+
+benoeming van projecten
+
+call to action
+
+Mvg, Jannes Veuger
