@@ -5,10 +5,10 @@ header:
       <span style="font-size: 1.2em; font-weight: bold;">Applying for:  (Template)</span>
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+31)6 4481 6686
     newLine: true
-  - text: <span class="iconify" data-icon="tabler:mail"></span> jannesveuger@xs4all.nl
-    link: mailto:jannesveuger@xs4all.nl
+  - text: <span class="iconify" data-icon="tabler:mail"></span> work@temp-perm.dev
+    link: mailto:work@temp-perm.dev
   - text: <span class="iconify" data-icon="tabler:brand-github"></span> temporarily-permanent
-    link: https://github.com/temporarily-permanent
+    link: https://github.com/temporarily-permanent/temporarily-permanent.github.io
   - text: <span class="iconify" data-icon="charm:person"></span> jannesveuger.dev
     link: https://jannesveuger.dev
 
@@ -24,16 +24,16 @@ header:
 ## Education
 
 Altra College Bleichroth
-~ Amsterdam, NL
+  ~ Amsterdam, NL
 
 Atheneum/HAVO
-~ September 2016 - August 2022
+  ~ September 2016 - August 2022
 
 Media College Amsterdam
-~ Amsterdam, NL
+  ~ Amsterdam, NL
 
 Software Developement
-~ September 2023 - now
+  ~ September 2023 - now
 
 
 <!--## Publications
@@ -55,50 +55,50 @@ Software Developement
 ## Experience / College projects
 
 **HASHING**
-~ own research
-~ 5 weeks
-- studied the SHS specification and implemented the SHA-1 hashing algoritm
-- created a practical implementation in the form of a hash table
+  ~ own research
+  ~ 5 weeks
+ - studied the SHS specification and implemented the SHA-1 hashing algoritm 
+ - created a practical implementation in the form of a hash table 
 
 
 **OPEN TOREN DAG**
-~ Gemeente Amsterdam
-~ 6 weeks
+  ~ Gemeente Amsterdam
+  ~ 6 weeks
 
 - developed relations with external parties
 - designed and developed two VR experiences for visitors to Open Toren Dag
 
 **GAME SCLICE**
-~ school project
-~ 6 weeks
-- recreated a vertical slice from an existing game
-- reverse-engineered the game out of curiosity
-- managed a small team of seven people
+  ~ school project
+  ~ 6 weeks
+ - recreated a vertical slice from an existing game
+ - reverse-engineered the game out of curiosity
+ - managed a small team of seven people
 
 ## Ambitions
 
 **Technical**
-- gain experience in architecting large code bases
-- deepen knowledge of low‑level programming languages (C, C++, Rust, etc)
-- gain experience with running a home server (Proxmox, Plex/Jellyfin, torrenting)
+ - gain experience in architecting large code bases
+ - deepen knowledge of low‑level programming languages (C, C++, Rust, etc)
+ - gain experience with running a home server (Proxmox, Plex/Jellyfin, torrenting)
 
 **Interpersonal**
-- conference speaking
-- team leadership
+ - conference speaking
+ - team leadership
 
 
 ## Work Experience
 **DELIVERY DRIVER**
-~ Amsterdam, NL
+  ~ Amsterdam, NL
 
 Thuisbezorgd
-~ January 2022 - now
+  ~ January 2022 - now
 
-**STORE CLERK**
-~ Amsterdam, NL
+**STORE CLERK** 
+  ~ Amsterdam, NL
 
 Jumbo Supermarkten B.V.
-~ mei 2019 - november 2021
+  ~ mei 2019 - november 2021
 
 ` `
 
@@ -116,10 +116,10 @@ Jumbo Supermarkten B.V.
 
 ## Skills
 
-**Programming Languages:**
-<span class="iconify" data-icon="skill-icons:cs"></span> C#,
-<span class="iconify" data-icon="vscode-icons:file-type-c"></span> C,
-<span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript
+**Programming Languages:** 
+<span class="iconify" data-icon="skill-icons:cs"></span> C#, 
+<span class="iconify" data-icon="vscode-icons:file-type-c"></span> C, 
+<span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript 
 
 **Tools and Frameworks:** <span class="iconify" data-icon="vscode-icons:file-type-git"></span> Github,
 <span class="iconify" data-icon="skill-icons:unity-light"></span> Unity,
