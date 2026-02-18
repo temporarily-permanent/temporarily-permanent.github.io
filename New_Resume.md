@@ -2,7 +2,7 @@
 name: Jannes Veuger
 header:
   - text: |
-      <span style="font-size: 1.2em; font-weight: bold;">Applying for:  (Template)</span>
+      <span style="font-size: 1.2em; font-weight: bold;">Applying for: (template)</span>
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+31)6 4481 6686
     newLine: true
   - text: <span class="iconify" data-icon="tabler:mail"></span> work@temp-perm.dev
@@ -23,18 +23,21 @@ header:
 
 ## Education
 
-Altra College Bleichroth
+__Altra College Bleichroth__
   ~ Amsterdam, NL
 
 Atheneum/HAVO
   ~ September 2016 - August 2022
 
-Media College Amsterdam
+<br>
+
+__Media College Amsterdam__
   ~ Amsterdam, NL
 
 Software Developement
   ~ September 2023 - now
 
+<br>
 
 <!--## Publications
 
@@ -60,6 +63,7 @@ Software Developement
  - studied the SHS specification and implemented the SHA-1 hashing algoritm 
  - created a practical implementation in the form of a hash table 
 
+<br>
 
 **OPEN TOREN DAG**
   ~ Gemeente Amsterdam
@@ -67,6 +71,8 @@ Software Developement
 
 - developed relations with external parties
 - designed and developed two VR experiences for visitors to Open Toren Dag
+
+<br>
 
 **GAME SCLICE**
   ~ school project
@@ -82,9 +88,12 @@ Software Developement
  - deepen knowledge of low‑level programming languages (C, C++, Rust, etc)
  - gain experience with running a home server (Proxmox, Plex/Jellyfin, torrenting)
 
+ <br>
+
 **Interpersonal**
  - conference speaking
  - team leadership
+
 
 
 ## Work Experience
