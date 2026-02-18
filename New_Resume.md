@@ -24,7 +24,7 @@ header:
 ## Education
 
 __Altra College Bleichroth__
-  ~ Amsterdam, NL
+  ~ **Graduated**
 
 Atheneum/HAVO
   ~ September 2016 - August 2022
@@ -32,7 +32,7 @@ Atheneum/HAVO
 <br>
 
 __Media College Amsterdam__
-  ~ Amsterdam, NL
+  ~ **Currently Studying**
 
 Software Developement
   ~ September 2023 - now
