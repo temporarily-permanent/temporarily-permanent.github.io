@@ -1,9 +1,14 @@
 // all non-specific data (means it's needed by all pages on the site)
 const genericMetaData = {
 	name: "Jannes Veuger",
-	psudo_name:"temporarily \npermanent",
+	psudo_name:"Temporarily \nPermanent",
 
 }
+
+const homePageData = {
+	intro: "I'm a 22 year old software developer who is interested in the computationally low-level and the technically complex",
+	intro_two: "and i like to figure out mathematically complex problems"
+};
 
 // about me
 const aboutMeData = {
@@ -269,5 +274,6 @@ export {
 	aboutMeData,
 	headerMetaData,
 	archiveMetaData,
-	genericMetaData
+	genericMetaData,
+	homePageData
 };

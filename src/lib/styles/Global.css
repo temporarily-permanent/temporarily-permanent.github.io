@@ -45,7 +45,7 @@ img{
 
 /* Set global background via variable without styling every element */
 html, body {
-    font-size: clamp(8px, 1vw + 8px, 24px);
+    font-size: clamp(8px, 1vw + 8px, 22px);
     transition: font-size 0.3s;
     background-color: var(--color);
     min-height: 100%;
@@ -63,7 +63,7 @@ html, body {
 }
 .page-content {
     width: 100%;
-    max-width: 960px;
+    max-width: 1160px;
     margin: 0 auto 12% auto;
 }
 

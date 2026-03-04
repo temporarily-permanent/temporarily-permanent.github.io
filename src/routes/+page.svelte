@@ -1,13 +1,12 @@
 <script>
-    import {genericMetaData, portfolioData} from "$lib/data/content_options.js";
+    import {genericMetaData, homePageData, portfolioData} from "$lib/data/content_options.js";
     import { elasticOut } from 'svelte/easing';
     import ProjectCard from '$lib/components/ProjectCard.svelte';
     import {page} from '$app/state'
 
+    // select what projects are shown on the home page
     let index = [0, 1, 4];
     let showcaseProjects = [portfolioData.projects[index[0]], portfolioData.projects[index[1]], portfolioData.projects[index[2]]];
-
-    console.log(showcaseProjects[1]);
 
     let visible = $state(false);
     let currentlyOnScreen = $state(false);
@@ -22,7 +21,6 @@
             duration,
             css: (t, u) => {
                 const eased = elasticOut(t);
-
                 return `
 					transform: scale(${eased}) rotate(${eased * 3 * 1080}deg);
 					color: hsl(
@@ -39,11 +37,10 @@
     <a>{genericMetaData.psudo_name}</a>
 </h2>
 <p class="text_centered">
-    I'm a 22 year old software developer who is interested in the computationally low-level and the technically complex
-   <!-- i'm a low level engineer and i like to figure stuff out.-->
+    {homePageData.intro}
 </p>
 <p class="text_centered">
-    and i like to figure out mathematically complex problems
+    {homePageData.intro_two}
 </p>
 <p class="text_centered">
     <label class="switch">
@@ -105,7 +102,7 @@
         position: absolute;
         left: 50%;
         top: 55%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -50%);
     }
 
     .centered-spinning{
