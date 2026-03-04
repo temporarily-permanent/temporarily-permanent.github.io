@@ -76,7 +76,7 @@
 		}
 
     .divider{
-        width: 2px;
+        width: 10px;
         height: 10vh;
         background-color: black;
         color: white;

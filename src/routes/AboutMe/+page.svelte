@@ -111,6 +111,10 @@
         text-align: justify;
 		}
 
+		img {
+				width: unset;
+		}
+
     .container {
         margin: auto;
         width: 70%;
@@ -125,7 +129,7 @@
     }
 
     h3{
-				font-size: 1.4em;
+				font-size: 1.3em;
 				white-space: pre;
 		}
 

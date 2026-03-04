@@ -4,14 +4,20 @@
     import ProjectCard from '$lib/components/ProjectCard.svelte';
     import {page} from '$app/state'
 
-    let index = [0, 1];
-    let showcaseProjects = [portfolioData.projects[index[0]], portfolioData.projects[index[1]]];
+    let index = [0, 1, 4];
+    let showcaseProjects = [portfolioData.projects[index[0]], portfolioData.projects[index[1]], portfolioData.projects[index[2]]];
 
     console.log(showcaseProjects[1]);
 
     let visible = $state(false);
+    let currentlyOnScreen = $state(false);
+
+    function handleOutroEnd(){
+        currentlyOnScreen = false;
+    }
 
     function spin(node, { duration }) {
+        currentlyOnScreen = true;
         return {
             duration,
             css: (t, u) => {
@@ -58,6 +64,7 @@
             class="centered-spinning"
             in:spin={{ duration: 8000 }}
             out:spin={{ duration: 8000 }}
+            on:outroend={handleOutroEnd}
         >
             <span>transitions!</span>
         </div>
@@ -68,6 +75,14 @@
         image={showcaseProjects[1].image}
         path={page.url.toString() + 'Projects/' + index[1]}
     />
+    {#if !currentlyOnScreen}
+        <ProjectCard
+            title={showcaseProjects[2].title}
+            description={showcaseProjects[2].description}
+            image={showcaseProjects[2].image}
+            path={page.url.toString() + 'Projects/' + index[2]}
+        />
+    {/if}
 </div>
 
 <style>
@@ -84,6 +99,9 @@
     }
 
     .centered {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
         position: absolute;
         left: 50%;
         top: 55%;

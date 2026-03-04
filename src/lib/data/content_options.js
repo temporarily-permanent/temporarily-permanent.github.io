@@ -56,8 +56,10 @@ const headerMetaData = [
 const portfolioData = {
 	projects: [{
 		publish: true,
-		title: 'vertical slice - game sclice - hollow knight',
-		description: ' a recreation from a 10 sec clip of a game, in my case Hollow Knight.',
+		// 'vertical slice - game sclice - hollow knight'
+		title: "Game Sclice",
+		//' a recreation from a 10 sec clip of a game, in my case Hollow Knight.'
+		description: 'a recreation of a vertical slice of a game, in my case Hollow Knight.',
 		url: undefined,
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
@@ -131,14 +133,36 @@ const portfolioData = {
 		]
 	},
 	{
-		publish: false,
-		title: 'open toren dag',
+		publish: true,
+		title: 'Open Toren Dag',
 		description: 'VR project for Amsterdams 750th birthday',
 		url: undefined,
 		image: '/open-toren-dag-thumbnail.jpg',
 		content: [
 			{ type: 1, content: 'under construction' },
 			{ type: 0, content: 'open toren dag' },
+			{ type: 0, content: '' },
+			//foto 1
+			{ type: 2, content: 'opentorendag/opentoren1.png' },
+			//foto 2
+			{ type: 2, content: 'opentorendag/opentoren2.png' },
+			//foto 3
+			{ type: 2, content: 'opentorendag/opentoren3(Small).png' },
+			//link opentorendag.nl
+			//link mbohub
+			{ type: 1, content: 'For Amsterdam\'s 750th anniversary, Kevin, Gideon, and I created a VR experience about the future of Amsterdam. We presented this experience to people on the top floor of a tower on the Zuidas business district. A video is available on the MBO-HUB Amsterdam website. ' +
+					'The Open Tower Day can be viewed on their website. See the link.' },
+			{ type: 4, url: "opentorendag.nl", content: "organisation" },
+			{ type: 4, url: "https://mbo-hub.amsterdam/project/open-toren-dag/", content: "external article" },
+
+			// my role in this project
+			{ type: 1, content: "My roles in this project"},
+			// project lead
+			{ type: 0, content: "project lead"},
+			// content curator
+			{ type: 0, content: "content curator"},
+			// relations manager
+			{ type: 0, content: "relations manager"},
 		]
 	},
 	{
@@ -185,7 +209,7 @@ const portfolioData = {
 		]
 	},*/{
 		publish: true,
-		title: 'portfolio',
+		title: 'Portfolio',
 		description: '`the public repo for this website`.',
 		url: 'https://github.com/temporarily-permanent/portfolio',
 		image: '/svelte-logo-square.svg',

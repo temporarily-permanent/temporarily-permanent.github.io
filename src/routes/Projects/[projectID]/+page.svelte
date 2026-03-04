@@ -72,7 +72,7 @@
         text-underline-offset: 0.2rem;
 		}
 	width-100 {
-		width: 100%;
+		/*width: 100%;*/
 	}
 	p{
 
