@@ -117,7 +117,7 @@
 
     .container {
         margin: auto;
-        width: 70%;
+        width: 82%;
         background: var(--dark-blue-1);
 
         --normal-size: 400px;
