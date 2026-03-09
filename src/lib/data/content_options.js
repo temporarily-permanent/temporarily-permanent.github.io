@@ -27,24 +27,18 @@ const aboutMeData = {
 	],
 	skills_text:'aaaaa',
 	skills: [
-		{title:'C#', description:'this is my current goto programming language'},
-		{title: 'Unity', description: 'my understanding of unity is great enough to no longer have to watch tutorials'},
+		{title:'C#', description:'this is my current goto programming language.'},
+		{title: 'Unity', description: 'my understanding of unity is great enough to no longer have to watch tutorials.'},
 		{title: 'Git', description: 'my understanding of git is great enough to no longer accidentally revert three months of commits. My preferred git interface is github desktop.',},
 		{title: 'C', description: 'I know a surprising amount about c, pointers, and cpu architecture for someone who has never worked in this domain ever. i learnt C mostly through youtube, for anyone seeking more knowledge, i recommend Low Level Learning and core dumped.'},
-		{title: 'JavaScript', description:'I\'m comfortable with JS as it\'s a simple scripting language, in larger code bases I will advocate for TypeScript'},
-		{title: 'HTML/CSS + markdown', description: 'anyone calling themselves a software developer has to understand these basics'},
+		{title: 'JavaScript', description:'I\'m comfortable with JS as it\'s a simple scripting language, in larger code bases I will advocate for TypeScript.'},
+		{title: 'HTML/CSS + markdown', description: 'anyone calling themselves a software developer has to understand these basics.'},
 	],
 	interests: [
 		{title: 'gaming', description:'I like puzzle games like The Witness and The Looker, I enjoy metroidvanias like Hollow Knight and platformers like clustertruck and fallstruktur'},
 		{title: 'skating', description: 'I like skating because when done well it feels like a superpower. It\'s also a great teacher of vectors and forces.'},
-		{title: 'cycling', description: ''}],
+		{title: 'cycling', description: 'The combination of a bike and our train network makes it possible for me to not have to own a car. For this i\'m very greatful to live in the netherlands.'}],
 	work_experience:[{title: 'delivery driver', description: 'Thuisbezorgd B.V.', time: '3.5 years'},{title: 'supermarket stocker', description: 'Jumbo Supermarkten B.V.', time: '2 years'}],
-	work_experience_text:
-		'- Delivery Driver at Thuisbezorgd.nl (3.5 years)\n' +
-		'- Supermarket Stocker at Jumbo Supermarkten B.V. (2 years)',
-	//description: 'A passionate delivery driver thuisbezorgd, 3.5 years\nsupermarket stocker, 2 years',
-	avatar: undefined,
-	location: undefined,
 }
 
 //header meta data
