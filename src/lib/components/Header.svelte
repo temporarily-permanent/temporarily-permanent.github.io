@@ -1,6 +1,5 @@
 <script lang="js">
-	//import CustomSelect from '$lib/components/CustomSelect.svelte';
-	import {headerMetaData} from '$lib/data/content_options.js';
+	import { headerMetaData } from '$lib/data/content_options.js';
 	import { base } from '$app/paths';
 	console.log(base)
 

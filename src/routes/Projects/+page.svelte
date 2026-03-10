@@ -1,10 +1,10 @@
 <script>
-	import {page} from '$app/state';
+	import { page } from '$app/state';
 	// import bootstrap
 	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 	// import all assets
 	// find list of all projects
-	import {portfolioData, archiveMetaData} from '$lib/data/content_options.js'
+	import { portfolioData, archiveMetaData } from '$lib/data/content_options.js'
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 </script>
 

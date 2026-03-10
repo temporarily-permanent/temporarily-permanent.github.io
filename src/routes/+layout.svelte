@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '$lib/styles/Global.css';
 	import Header from "$lib/components/Header.svelte";
-    import {dev} from "$app/environment";
+  import { dev } from "$app/environment";
 
 	let { children } = $props();
 

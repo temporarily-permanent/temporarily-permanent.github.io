@@ -1,8 +1,8 @@
 <script>
-    import {genericMetaData, homePageData, portfolioData} from "$lib/data/content_options.js";
+    import { genericMetaData, homePageData, portfolioData } from "$lib/data/content_options.js";
     import { elasticOut } from 'svelte/easing';
     import ProjectCard from '$lib/components/ProjectCard.svelte';
-    import {page} from '$app/state'
+    import { page } from '$app/state'
 
     // select what projects are shown on the home page
     let index = [0, 1, 4];
