@@ -38,7 +38,7 @@
         transform: translate(-50%, -5%);
 				border-radius: 6vh;
 				/*border-radius: 110px 110px 0 0;*/
-        outline: 4px solid var(--dark-blue-2);
+       /* outline: 4px solid var(--dark-blue-3);*/
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;

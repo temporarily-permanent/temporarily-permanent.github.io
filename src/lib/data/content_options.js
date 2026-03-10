@@ -62,7 +62,8 @@ const portfolioData = {
 		url: undefined,
 		image: 'https://i.pinimg.com/474x/3a/63/54/3a63544cab1e6926dcb7f02c384be94d.jpg',
 		content: [
-			{ type: 0, content: 'vertical slice - Game Sclice' },
+			{ type: 0, content: 'Vertical slice - Game Sclice' },
+			{ type: 2, content: 'Game Sclice - Hollow Knight/img(Small).png' },
 			{ type: 4, url: 'https://github.com/Interis-mk/Game-Sclice', content: 'GITHUB' },
 			//leader role, recreation of hk
 			{ type: 1, content: 'In the second semester of my second year I got a group assignment for school where we got a 10 sec clip of hollow knight\n' +
@@ -81,12 +82,10 @@ const portfolioData = {
 			{ type: 0, content: 'Problem - the right hitboxes' },
 			{ type: 1, content: 'During research I came across a video a Hollow Knight playthrough where all the textures were removed and all hitboxes were outlined.' },
 			{ type: 3, autoplay: false, video_id: 'DDKoy6XTfTA' },
-			{ type: 1, content: 'In its description it contained a link to the modification.' },
-			{ type: 1, content: 'One quick rabbit hole later, I figured out how to get these screenshots. (I figured out how to run the mod and got these screenshots).' },
+			{ type: 1, content: 'In its description it contained a link to the modification. One quick rabbit hole later, I figured out how to get these screenshots. (I figured out how to run the mod and got these screenshots).' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision_upper(Small).png' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/accurate_collision(Small).png' },
 			{ type: 1, content: 'Making hitboxes for a simple project like this is as easy as new GameObject > square, add a Collider2D component, copy/paste that everywhere till I had working collision.' },
-			{ type: 2, content: 'Game Sclice - Hollow Knight/img(Small).png' },
 			{ type: 1, content: 'However, I don\'t want white boxes and a grey background in the final product, so I quickly wrote a utility to toggle the visibility of these elements.' },
 			{ type: 2, content: 'Game Sclice - Hollow Knight/hide_GO_and_children.png' },
 		]
@@ -99,6 +98,8 @@ const portfolioData = {
 		content: [
 			{ type: 0, content: 'Hashing' },
 			{ type: 4, url:'https://github.com/temporarily-permanent/crytpography', content: 'GITHUB' },
+			{ type: 2, content: 'Hashing/a_foundational_for_b.png' },
+			{ type: 1, content: 'An example for how concepts learnt in one section can be used to understand another.'},
 
 			//{ type: 0},
 			// todo leid het onderwerp in
@@ -109,11 +110,11 @@ const portfolioData = {
 
 			// I wanted to know hashing worked, so i made my own implementation of various SHA algorithms, based on specifications provided by the US Department of Commerce
 
-			{ type: 1, content: 'I wanted to know how hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
+			{ type: 0, content: 'I wanted to know how hashing worked, so i made my own implementation of various SHS algorithms, based on specifications provided by the US Department of Commerce' },
 			{ type: 4, url: 'https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf', content: 'SPECIFICATION' },
 
-			{ type: 1, content: 'I came across a video about hashmaps and dictionaries by nic barker, and wanted to know more about hashing itself, but the video never went there. Being left unsatisfied, i decided to research hashing for myself '},
-			{ type: 1, content: 'the goal of this project was to learn hashing and cryptography, this public writing serves as a summary of what I have remembered.'},
+			{ type: 1, content: 'I came across a video about hashmaps and dictionaries by nic barker, and wanted to know more about hashing itself, but the video never went there. Being left unsatisfied, i decided to research hashing for myself.' +
+					' The goal of this project was to learn hashing and cryptography, this public writing serves as a summary of what I have remembered. '},
 
 			// this fase consisted of fully reading through the document provided by the USA, department of commerce (see hyperlink above)
 
@@ -121,11 +122,9 @@ const portfolioData = {
 			{ type: 1, content: 'This fase consisted of fully reading through the document provided by the USA, department of commerce (see hyperlink above)' },
 			{ type: 1, content: 'The biggest challenge here was that everything I had read became foundational knowledge for the rest of the paper.' },
 			{ type: 1, content: 'This wasn\'t anything difficult for me and found this part to be the most interesting and enjoyable so far. ' },
-			{ type: 2, content: 'Hashing/a_foundational_for_b.png' },
-			{ type: 1, content: 'An example for how concepts learnt in one section can be used to understand another.'},
 			{ type: 0, content: 'fase 1 - implementation, preprocessing' },
 			{ type: 1, content: 'NUnit was used for testing. I learnt NUnit     even though in hindsight i didnt use testing that much, but it was worth learning for the few times i did use it, namely for validation of my work.  ' },
-			{ type: 1, content: 'preprocessing  , in this fase the function modifies the message to be a multiple of 512 in length'},
+			{ type: 1, content: 'Preprocessing  , in this fase the function modifies the message to be a multiple of 512 bits in length'},
 			{ type: 0, content: 'fase 2 - implementation, computation' },
 			{ type: 0, content: 'fase 3 - application, hash table' },
 			{}
@@ -171,8 +170,7 @@ const portfolioData = {
 		url: undefined,
 		image: '/conway-game-of-life.png',
 		content: [
-			{type: 1, content: 'under construction'},
-			{ type: 4, url:'https://github.com/temporarily-permanent/Conways-Game-of-Life', content: 'GITHUB' },
+			{ type: 1, content: 'under construction' },
 			{ type: 0, content: 'Conway\'s game of life' },
 
 			// todo think of better word for 'retrospective'
@@ -213,7 +211,8 @@ const portfolioData = {
 		url: 'https://github.com/temporarily-permanent/portfolio',
 		image: '/svelte-logo-square.svg',
 		content: [
-			{ type: 0, content: 'this portfolio website' },
+			{ type: 0, content: 'This portfolio website' },
+			{ type: 2, content: 'portfolio/inception.jpg'},
 			{ type: 4, url:'https://github.com/temporarily-permanent/temporarily-permanent.github.io', content: 'GITHUB' },
 
 			// the styling choices i made for this website
