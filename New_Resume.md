@@ -29,15 +29,12 @@ __Mediacollege Amsterdam__
 Software Developement
   ~ September 2023 - now
 
-<br>
 
 __Altra College Bleichroth__
   ~ **Graduated**
 
 Atheneum/HAVO
   ~ September 2016 - August 2022
-
-<br>
 
 <!--## Publications
 
@@ -58,32 +55,27 @@ Atheneum/HAVO
 ## Experience / College projects
 
 **INTERNSHIP**
-  ~ BGIN Studios
-  ~ 20 weeks
+  ~ BGIN Studios - 20 weeks
 - worked in a 6 person multidisciplinary team as Lead Developer 
 - as Lead Developer had responsablity for project technical architecture
 - worked with a game director to lead the team
 
-**HASHING**
-  ~ own research
-  ~ 5 weeks
+**HASHING** 
+  ~ own research - 5 weeks
  - studied the SHS specification and implemented the SHA-1 hashing algoritm 
  - created a practical implementation in the form of a hash table 
 
 
 
 **OPEN TOREN DAG**
-  ~ Gemeente Amsterdam
-  ~ 6 weeks
-
+  ~ Gemeente Amsterdam - 6 weeks
 - developed relations with external parties
 - designed and developed two VR experiences for visitors to Open Toren Dag
 
 
 
 **GAME SCLICE**
-  ~ school project
-  ~ 6 weeks
+  ~ school project - 6 weeks
  - recreated a vertical slice from an existing game
  - reverse-engineered the game out of curiosity
  - managed a small team of seven people
@@ -96,7 +88,6 @@ Atheneum/HAVO
  - deepen knowledge of low‑level programming languages (C, C++, Rust, etc)
  - gain experience with running a home server (Proxmox, Plex/Jellyfin, torrenting)
 
- <br>
 
 **Interpersonal**
  - conference speaking
