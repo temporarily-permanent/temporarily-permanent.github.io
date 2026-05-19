@@ -23,19 +23,19 @@ header:
 
 ## Education
 
+__Mediacollege Amsterdam__
+  ~ **Currently Studying**
+
+Software Developement
+  ~ September 2023 - now
+
+<br>
+
 __Altra College Bleichroth__
   ~ **Graduated**
 
 Atheneum/HAVO
   ~ September 2016 - August 2022
-
-<br>
-
-__Media College Amsterdam__
-  ~ **Currently Studying**
-
-Software Developement
-  ~ September 2023 - now
 
 <br>
 
@@ -57,13 +57,20 @@ Software Developement
 
 ## Experience / College projects
 
+**INTERNSHIP**
+  ~ BGIN Studios
+  ~ 20 weeks
+- worked in a 6 person multidisciplinary team as Lead Developer 
+- as Lead Developer had responsablity for project technical architecture
+- worked with a game director to lead the team
+
 **HASHING**
   ~ own research
   ~ 5 weeks
  - studied the SHS specification and implemented the SHA-1 hashing algoritm 
  - created a practical implementation in the form of a hash table 
 
-<br>
+
 
 **OPEN TOREN DAG**
   ~ Gemeente Amsterdam
@@ -72,7 +79,7 @@ Software Developement
 - developed relations with external parties
 - designed and developed two VR experiences for visitors to Open Toren Dag
 
-<br>
+
 
 **GAME SCLICE**
   ~ school project
@@ -80,6 +87,7 @@ Software Developement
  - recreated a vertical slice from an existing game
  - reverse-engineered the game out of curiosity
  - managed a small team of seven people
+
 
 ## Ambitions
 
@@ -97,17 +105,18 @@ Software Developement
 
 
 ## Work Experience
+
 **DELIVERY DRIVER**
-  ~ Amsterdam, NL
+ 
 
 Thuisbezorgd
   ~ January 2022 - now
 
 **STORE CLERK** 
-  ~ Amsterdam, NL
+
 
 Jumbo Supermarkten B.V.
-  ~ mei 2019 - november 2021
+  ~ May 2019 - November 2021
 
 ` `
 
